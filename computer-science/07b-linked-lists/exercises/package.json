@@ -1,0 +1,15 @@
+{
+  "name": "linkedlists",
+  "version": "1.0.0",
+  "description": "Linked List exercises with tests",
+  "main": "LinkedList.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

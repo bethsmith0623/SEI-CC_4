@@ -1,0 +1,15 @@
+.game-row div {
+    width: 40px;
+    height: 40px;
+    margin-bottom: -4px;
+    display: inline-block;
+}
+div[num="0"] {
+    background: red;
+}
+div[num="1"] {
+    background: green;
+}
+div[num="2"] {
+    background: blue;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "wordtrie-challenge",
+  "version": "1.0.0",
+  "description": "Challenge to create and use a Trie for English words",
+  "main": "Trie.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "word-list": "^2.0.0"
+  }
+}

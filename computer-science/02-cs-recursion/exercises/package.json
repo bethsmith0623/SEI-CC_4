@@ -1,0 +1,15 @@
+{
+  "name": "recursion",
+  "version": "1.0.0",
+  "description": "Recursion exercises and tests",
+  "main": "recursion.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

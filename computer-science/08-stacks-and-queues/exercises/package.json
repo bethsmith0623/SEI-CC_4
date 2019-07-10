@@ -1,0 +1,15 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "Exercises for stacks and queues",
+  "main": "stacksAndQueues.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

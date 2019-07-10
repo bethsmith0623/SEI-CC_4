@@ -1,0 +1,16 @@
+{
+  "name": "Sets",
+  "version": "1.0.0",
+  "description": "Exercise for Set lesson",
+  "main": "Set.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

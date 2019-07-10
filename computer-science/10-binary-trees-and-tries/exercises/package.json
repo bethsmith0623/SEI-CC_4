@@ -1,0 +1,18 @@
+{
+  "name": "trees",
+  "version": "1.0.0",
+  "description": "Lesson and exercises for tree data structures",
+  "main": "binaryTree.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

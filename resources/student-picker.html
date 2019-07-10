@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pick-A-Student</title>
+  <style>
+    body {
+      font-family: Helvetica;
+      font-weight: lighter;
+      font-size: 20px;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #container {
+      text-align: center;
+    }
+    ul li:first-child {
+      font-size: 50px;
+      color: green;
+      margin-bottom: 15px;
+    }
+    li {
+      list-style: none;
+      animation: twirl 1s;
+    }
+    @keyframes twirl {
+      0% {
+        transform-origin: center;
+        transform: rotate3d(0,0,1,-200deg);
+        opacity: 0;
+      }
+      100% {
+        transform-origin: center;
+        transform: none;
+        opacity: 1;
+      }
+    }
+    button {
+      position: fixed;
+      top: 15px;
+      left: 15px;
+      font-size: 20px;
+      padding: 20px;
+    }
+    select {
+      margin-top: 5px;
+      margin-left: 5px;
+      font-size: 20px;
+    }
+    label {
+      position: fixed;
+      top: 10px;
+      right: 15px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  </style>
+</head>
+
+<body>
+  <button id="pick">Next SEI<br>Contestant</button>
+  <label>Campus <select></select></label>
+  <div id="container">
+    <ul id="picked"></ul>
+  </div>
+
+  <script type="text/javascript">
+    const re = /\((.+)\)/;
+
+    const students = [
+      // 'Aaron (ATX)',
+    ];
+
+    let first, filteredStudents;
+
+    const pickedList = document.getElementById('picked');
+    const selectEl = document.querySelector('select');
+
+    document.getElementById('pick').addEventListener('click', function () {
+      if (filteredStudents.length) {
+        let contestant = filteredStudents.splice(Math.floor(Math.random() * filteredStudents.length), 1);
+        let li = document.createElement('li');
+        li.innerHTML = contestant;
+        if (first) {
+          pickedList.firstElementChild.remove();
+          pickedList.appendChild(li);
+          first = false;
+        } else {
+          pickedList.insertBefore(li, pickedList.firstElementChild);
+        }
+      } else {
+        refreshStudents();
+      }
+    });
+
+    selectEl.addEventListener('change', refreshStudents);
+
+    function refreshStudents() {
+      let campus = selectEl.value;
+      filteredStudents =  campus === 'ALL' ?
+        students.slice() : students.filter(s => s.includes(`(${campus})`));
+      pickedList.innerHTML = "<li>Who's First?</li>";
+      first = true;
+    }
+
+    function init() {
+      let campuses = Object.keys(students.reduce(function (obj, s) {
+        obj[re.exec(s)[1]] = true;
+        return obj;
+      }, {}));
+      selectEl.innerHTML = '<option value="ALL">-ALL-</option>';
+      campuses.forEach(function (c) {
+        selectEl.innerHTML += `<option value="${c}">${c}</option>`;
+      });
+      refreshStudents();
+    }
+
+    init();
+
+  </script>
+</body>
+
+</html>
