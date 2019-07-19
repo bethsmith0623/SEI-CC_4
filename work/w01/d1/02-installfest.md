@@ -225,7 +225,7 @@ npm install -g nodemon
 
 ## PostgreSQL
 
-Install the **PostgreSQL** database mangement system (DBMS) using Homebrew with this command:
+Install the **PostgreSQL** database management system (DBMS) using Homebrew with this command:
 
 ```
 brew install postgresql
@@ -269,6 +269,10 @@ Grant permission to your data directory:
 
 ```
 sudo chown -R <your username here> /data/db
+```
+Or
+```
+sudo chown -R $(whoami) /data/db
 ```
 
 ### Testing the MongoDB server
