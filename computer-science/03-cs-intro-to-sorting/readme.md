@@ -7,7 +7,7 @@ This lesson is an introduction to the concept of sorting in computer science, in
 
 There are two components to this lesson:
 1. [myGA module: Intro to Sorting Algorithms](https://my.generalassemb.ly/activities/818)
-2. [In-Class Exercise: My First Sort](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/algorithms/intro-to-sorting/exercises/MyFirstSort.md)
+2. [In-Class Exercise: My First Sort](exercises/MyFirstSort.md)
 
 ## Learning Objectives
 By the end of this lesson, you will be able to:

@@ -10,9 +10,9 @@ This lesson covers three similar, tree-based data structures:
 
 There are four components to this lesson. We recommend tackling them in the order below:
 1. [myGA Module 1: Binary Trees and Tries](https://my.generalassemb.ly/activities/8)
-2. [In-Class Exercise: Implementing a Binary Tree](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/data-structures/binary-trees-and-tries/exercises/binaryTree.js)
+2. [In-Class Exercise: Implementing a Binary Tree](exercises/binaryTree.js)
 3. [myGA Module 2: Balancing a Binary Tree](https://my.generalassemb.ly/activities/263)
-4. [In-Class Exercise: Implementing an AVL Tree](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/data-structures/binary-trees-and-tries/exercises/AVLTree.js)
+4. [In-Class Exercise: Implementing an AVL Tree](exercises/AVLTree.js)
 
 > The myGA modules contain a link to an exercise in CodePen. **The code in CodePen is the exact same as the code in the in-class exercises.** Try out the exercise in CodePen and see how far you can get with it. Stop when you get stuck and we'll review the solution in class.
 

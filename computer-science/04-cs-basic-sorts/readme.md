@@ -7,8 +7,8 @@ This lesson covers two foundational sorting algorithms: bubble sort and insertio
 
 There are three components to this lesson:
 1. [myGA module: Basic Sorting Algorithms](https://my.generalassemb.ly/activities/778)
-2. [In-Class Exercise: Implementing Bubble Sort](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/algorithms/basic-sorts/exercises/BubbleSort.js)
-3. [In-Class Exercise: Implementing Insertion Sort](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/algorithms/basic-sorts/exercises/InsertionSort.js)
+2. [In-Class Exercise: Implementing Bubble Sort](exercises/BubbleSort.js)
+3. [In-Class Exercise: Implementing Insertion Sort](exercises/InsertionSort.js)
 
 > **Note**: The myGA module contains a link to an exercise in CodePen. **The code in CodePen is the exact same as the code for the in-class exercises.** Try out the exercise in CodePen and see how far you can get with it. Leave off where you get stuck and we'll review the solution in class.
 

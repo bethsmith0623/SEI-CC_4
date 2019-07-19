@@ -7,7 +7,7 @@ Peanut butter and jelly, Batman and Robin, Rick and Morty... stacks and queues a
 
 There are two components to this lesson:
 1. [myGA module: Stacks and Queues](https://my.generalassemb.ly/activities/803)
-2. [In-Class Exercise: Bracket Matching](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/data-structures/stacks-and-queues/exercises/stacksAndQueues.js)
+2. [In-Class Exercise: Bracket Matching](exercises/stacksAndQueues.js)
 
 
 ## Learning Objectives

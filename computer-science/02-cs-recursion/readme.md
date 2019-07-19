@@ -7,7 +7,7 @@ This lesson introduces the wonders of recursion.
 
 There are two components to this lesson:
 1. [myGA module: Recursion](https://my.generalassemb.ly/activities/773)
-2. [In-Class Exercise: Writing Recursive Functions](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/algorithms/recursion/exercises/recursion.js)
+2. [In-Class Exercise: Writing Recursive Functions](exercises/recursion.js)
 
 > **Note**: The myGA module contains a link to an exercise in CodePen. **The code in CodePen is the exact same as the code for the in-class exercises.** Try out the exercise in CodePen and see how far you can get with it. Leave off where you get stuck and we'll review the solution in class.
 

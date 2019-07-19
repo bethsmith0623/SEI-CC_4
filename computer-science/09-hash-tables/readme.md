@@ -8,7 +8,7 @@ The Hash Tables lesson has two related myGA modules. The first module introduces
 There are three components to this lesson:
 1. [myGA Module 1: Introduction to Hash Tables](https://my.generalassemb.ly/activities/512)
 2. [myGA Module 2: Hash Tables Deep Dive](https://my.generalassemb.ly/activities/761) 
-3. [In-Class Exercise: Implementing a Hash Table](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/data-structures/hash-tables/exercises/HashTable.js)
+3. [In-Class Exercise: Implementing a Hash Table](exercises/HashTable.js)
 
 > The second myGA module contains a link to an exercise in CodePen. **The code in CodePen is the exact same as the code for the in-class exercises.** Try out the exercise in CodePen and see how far you can get with it. Leave off where you get stuck and we'll review the solution in class.
 

@@ -7,8 +7,8 @@ This lesson covers two sorting algorithms that use the "divide-and-conquer" meth
 
 There are three components to this lesson:
 1. [myGA module: Divide-and-Conquer Sorting Algorithms](https://my.generalassemb.ly/activities/882)
-2. [In-Class Exercise: Implementing Merge Sort](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/algorithms/divide-and-conquer-sorts/exercises/MergeSort.js)
-3. [In-Class Exercise: Implementing Quick Sort](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/algorithms/divide-and-conquer-sorts/exercises/QuickSort.js)
+2. [In-Class Exercise: Implementing Merge Sort](exercises/MergeSort.js)
+3. [In-Class Exercise: Implementing Quick Sort](exercises/QuickSort.js)
 
 > **Note**: The myGA module contains a link to an exercise in CodePen. **The code in CodePen is the exact same as the code for the in-class exercises.** Try out the exercise in CodePen and see how far you can get with it. Leave off where you get stuck and we'll review the solution in class.
 

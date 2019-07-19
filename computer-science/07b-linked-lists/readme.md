@@ -6,7 +6,7 @@ Linked lists are a foundational data structure that many other, more complex str
 
 There are two components to this lesson:
 1. myGA module: [Linked Lists](https://my.generalassemb.ly/activities/397)
-2. [In-Class Exercise: Implementing a Linked List](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/data-structures/linked-lists/exercises/LinkedList.js)
+2. [In-Class Exercise: Implementing a Linked List](exercises/LinkedList.js)
 
 > The myGA module contains a link to an exercise in CodePen. **The code in CodePen is the exact same as the code in the in-class exercises.** Try out the exercise in CodePen and see how far you can get with it. Leave off where you get stuck and we'll review the solution in class.
 

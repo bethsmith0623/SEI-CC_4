@@ -7,7 +7,7 @@ In this lesson, we cover the basics of the node-based data structures known as g
 
 There are two components to this lesson:
 1. [myGA module: Graphs](https://my.generalassemb.ly/activities/403)
-2. [In-Class Exercise: Implementing a Graph](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/data-structures/graphs/exercises/Graph.js)
+2. [In-Class Exercise: Implementing a Graph](exercises/Graph.js)
 
 > The myGA module contains a link to an exercise in CodePen. **The code in CodePen is the exact same as the code in the in-class exercises.** Try out the exercise in CodePen and see how far you can get with it. Stop when you get stuck and we'll review the solution in class.
 

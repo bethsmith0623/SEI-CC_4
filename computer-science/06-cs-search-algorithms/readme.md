@@ -7,7 +7,7 @@ In this lesson, you'll learn how the binary search algorithm works to find infor
 
 There are two components to this lesson:
 1. [myGA module: Search Algorithms](https://my.generalassemb.ly/activities/633)
-2. [In-Class Exercise: Implementing Binary Search](https://git.generalassemb.ly/software-engineering-immersive/SEI-Course-Materials/blob/master/6_computer-science-materials/algorithms/search-algorithms/exercises/searches.js)
+2. [In-Class Exercise: Implementing Binary Search](exercises/searches.js)
 
 >**Note**: The myGA module contains a link to an exercise in CodePen. **The code in CodePen is the exact same as the code for the in-class exercises.** Try out the exercise in CodePen and see how far you can get with it. Leave off where you get stuck and we'll review the solution in class.
 
