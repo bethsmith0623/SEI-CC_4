@@ -56,7 +56,7 @@ You will want to save work that you've completed during code alongs, labs, etc.
 
 In fact, you may not be able to pull changes added to the class repo by your instructors until you save your work/changes by committing them.
 
-Do this by following the same instructions we just reviewed [here](../../../getting-changes-pushed-by-your-instructors).
+Do this by following the same instructions we just reviewed [here](../../getting-changes-pushed-by-your-instructors).
 
 ## Fork & Clone the Daily Code Challenges Repo
 
