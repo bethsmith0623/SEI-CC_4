@@ -61,9 +61,16 @@ Text editors are a personal choice. One of the most popular open source text edi
 
 Download and install VS Code from [https://code.visualstudio.com/](https://code.visualstudio.com/).
 
-Important: Be sure that VS Code is in your Mac's `Applications` folder.
+**Important**: Be sure that VS Code is in your Mac's `Applications` folder.
 
-Launch a terminal, and you should be able to open a folder to edit by typing `code .`
+#### Add Ability to Launch VS Code by typing `code`
+
+1. Launch VS Code using spotlight (`command + space` - then start typing `vs c` until you see the app, then press enter).
+2. Type `shift + command + P` to open the command palette.
+3. Start typing `shell command` and when you the<br>`Shell Command: Install 'code' command in PATH` command - click it!
+4. Quit VS Code and Terminal.
+5. Relaunch Terminal
+6. You should now be able to open a folder to edit by typing `code .`
 
 Check [this link](https://code.visualstudio.com/docs/setup/mac) for troubleshooting if you run into issues.
 
