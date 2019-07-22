@@ -83,7 +83,7 @@ brew install git
 
 [Github](https://github.com/) provides a way to host Git repos in the cloud.  It enables collaboration and is wildly popular.
 
-You should have already opened a personal Github account, however, you need to have a General Assembly Github Enterprise account as well.  You can get one by signing up here:  [https://git.generalassemb.ly/](https://git.generalassemb.ly/)
+You should have already opened a personal Github account, however, you need to have a General Assembly Github Enterprise account as well.  You can get one by signing up here:  [https://git.generalassemb.ly/join](https://git.generalassemb.ly/join)
 
 #### Configuring a Global git ignore
 
