@@ -1,6 +1,6 @@
 <img src="https://i.imgur.com/pF2sUV5.jpg">
 
-# WDI Installfest
+# SEI Installfest
 
 We'll be installing the following tools.
 
