@@ -199,7 +199,7 @@ There are 30 required code challenges that will help you get the necessary pract
 
 Just as with the class repo, you will fork & clone [the code challenges repo](https://git.generalassemb.ly/SEI-CC/daily-js-code-challenges).
 
-These coding challenges start with day 1 and will continue through week 8 (excluding project week).
+These coding challenges start with day 1 and will continue through week 8 (excluding project weeks).
 
 ### Videos of Lessons
 
