@@ -323,7 +323,7 @@ function getDevObject(name) {
 }
 ```
 
-> Note: We'll go into detail on arrays and objects tomorrow, so don't worry if the above code isn't very clear to you.
+> Note: We'll be covering objects later today, so don't worry if the above doesn't look familiar.
 
 Although the above function works, ES2015 delivered a better approach to working with extra arguments called **Rest Parameters**.
 
