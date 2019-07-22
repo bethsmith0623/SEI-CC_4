@@ -2,4 +2,4 @@
 
 |Student|Campus|Link|
 |---|---|---|
-| Aaron | ATX | [link](https://git.generalassemb.ly/AzStowe/daily-js-code-challenges) |
+| Marques | LA | [link](https://git.generalassemb.ly/marquesjs21/daily-js-code-challenges) |
