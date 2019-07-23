@@ -11,7 +11,7 @@ It is a requirement to complete at least **80%** of the following to to receive:
 |Date Assigned|Description|
 |---|---|
 |Ongoing|[Daily Code Challenges](https://git.generalassemb.ly/SEI-CC/daily-js-code-challenges)|
-|Wed 7/24|[JS Functions Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/blob/master/work/w01/d3/02-js-functions-lab.md)|
+|Tue 7/23|[JS Arrays Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/blob/master/work/w01/d2/04-js-arrays-lab.md)|
 |Wed 7/24|[JS Guess the Number Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/blob/master/work/w01/d3/04-js-objects-lab.md)|
 
 
