@@ -66,7 +66,7 @@ Why was `let` and `const` added to the language then?
 
 ##### scope
 
-The difference between `var` and `let`/`const` is what we call _scope_. We're going to cover scope later today, but basically, scope revolves around the accessibility of variables & functions at a given point in the code.
+The difference between `var` and `let`/`const` is what we call _scope_. We're going to cover scope tomorrow, but basically, scope revolves around the accessibility of variables & functions at a given point in the code.
 
 `var` has _function scope_ (also known as _local scope_) and `let`/`const` have more limited _block scope_, which in computer programming, is considered a better practice because it reduces the chance of accidentally changing a variable's value.
 
@@ -97,7 +97,7 @@ person = {name: 'Barney'}  // Uncaught TypeError: Assignment to constant variabl
 _Identifiers_ are used to name variables, as well as named functions:
 
 ```js
-let points;  // the identifier is "points" and refer to the variable as "points"
+let points;  // the identifier is "points" and names the variable "points"
 ```
 
 We can also assign a value to a variable at the time we declare it by using the `=` (assignment) operator:
@@ -165,7 +165,7 @@ int data = 123;
 data = "Hello";  // NOT ALLOWED
 ```
 
-> TypeScript is a superset of JavaScript that allows optional strong-typing of variables like the statically-typed languages require a little more effort to code in, however, many developers agree that it's worth it because it makes code less error prone. There is a newer language called _TypeScript_ you might hear about - this language is a superset of JS and adds strong typing to JS.
+> There is a newer language called _TypeScript_ you might hear about - this language is a superset of JS and adds strong typing to JS.  Many developers agree that strong typing makes code less error prone and is worth the extra effort to code in.
 
 #### Exploring JavaScript's Data Types
 
@@ -183,7 +183,7 @@ Note that an object can be one of JavaScript's [built-in object sub-types](https
 - Error
 - BigInt
 
-<img src="https://i.imgur.com/t2CvfSE.png">
+<img src="https://i.imgur.com/02XLHjQ.png">
 
 > **KEY POINT: If a variable does not hold one of the six primitive values, it is an object!**
  
