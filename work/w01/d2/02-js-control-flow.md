@@ -377,7 +377,7 @@ I'll give you a couple of minutes to review the following questions, meanwhile, 
 
 - **The three primary types of _control flow_ are:<br>1) Sequence<br>2) ___________<br>3) ___________**
 
-- **What does expression `'happy || 'sad'` return?**
+- **What does expression `'happy' || 'sad'` return?**
 
 ---
 
