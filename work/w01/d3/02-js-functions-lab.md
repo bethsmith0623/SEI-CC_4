@@ -16,7 +16,7 @@ Create a new HTML/CSS/JS repl in [repl.it](https://repl.it) for these exercises.
 
 Title your repl **JS Function Lab**.
 
-Slack your instructor the link to your repl when you are done.
+This lab is **not a deliverable**.
 
 #### Requirements
 
