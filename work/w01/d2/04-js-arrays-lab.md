@@ -16,7 +16,7 @@ Title your repl **JS Array Lab**.
 
 Copy the exercises below into the repl's **script.js** file and code away!
 
-This lab is **not a deliverable**.
+This lab is **a DELIVERABLE**. When completed, please slack the link to your repl to your instructors.
 
 ## Exercise
 
