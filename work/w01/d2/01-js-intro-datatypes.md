@@ -308,7 +308,7 @@ We will learn more about _objects_ in a later lesson.
 For now, let's just verify what `typeof` returns:
 
 ```
-> typeof {course: 'SEI', cohort: 2}
+> typeof {course: 'SEI', cohort: 4}
 < "object"
 > typeof []
 < "object"
