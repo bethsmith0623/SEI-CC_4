@@ -357,7 +357,7 @@ Students Will Be Able To:
 ### Iterating Over an Object's Properties
 <br>
 
-- Each of those methods mentioned returns an array that we can iterator over, for example:
+- Each of those methods mentioned returns an array that we can iterate over, for example:
 
 	```js
 	Object.values(game).forEach(function(val) {
