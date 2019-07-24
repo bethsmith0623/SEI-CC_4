@@ -189,7 +189,7 @@ Students Will Be Able To:
 ### Adding/Updating Properties<br>Practice (2 min)
 <br>
 
-- <p>Using _dot notation_ on the `game` object:</p>
+- <p>Using dot notation on the `game` object:</p>
 	- Add a property with a key of `numGuesses` set to a value of `0`.
 	- Update the `smallestNum` property's value to be `1`.
 
