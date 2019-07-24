@@ -59,7 +59,7 @@ Students Will Be Able To:
 ### What Are Objects?
 <br>
 
-- <p>In computer science, collections of key/value pairs are commonly referred to as _dictionaries_ - a good visualization of what an object is.</p>
+- <p>In computer science, collections of key/value pairs are commonly referred to as dictionaries - a good visualization of what an object is.</p>
 
 ---
 ### Why Objects?
