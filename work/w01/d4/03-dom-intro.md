@@ -46,7 +46,7 @@ View as a presentation by clicking [here](https://presentations.generalassemb.ly
 
 - It's a tree-like data structure with the top (root) being the `document` object.
 
-- Let's `console.log(document)` in DevTool's console and explore some of its properties.
+- Let's type `document` in DevTool's console and explore some of its properties.
 
 ---
 ### What's the DOM
