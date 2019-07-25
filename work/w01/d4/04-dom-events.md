@@ -14,6 +14,7 @@
 - Add event listeners for events such as `click`
 - Explore the event object
 - Explain event bubbling
+- Use event bubbling to implement event delegation
 - Stop an event from bubbling
 
 ---
@@ -22,8 +23,8 @@
 
 - What are DOM events?
 - Setup
-- What's an _event listener_?
-- Our first _event listener_
+- What's an **event listener**?
+- Our first **event listener**
 - The event object
 - Creating a new element
 - Event bubbling
@@ -36,17 +37,17 @@
 
 - DOM events are the bedrock of interactivity on web pages.
 
-- DOM events enable us as developers to implement _event-driven programming_. This programming paradigm is such that much of our code, written as _event listeners_, runs in response to events being triggered during run-time.
+- DOM events enable us as developers to implement **event-driven programming**. This programming paradigm is such that much of our code runs in response to events being triggered during run-time.
 
 ---
 ### What are DOM Events?
 <br>
 
 - Lots of events are being generated within the browser, for example, when:
-	-  a user moves or clicks the mouse
-	-  a user presses a key
-	-  when a form is submitted
-	-  when the page has finished loading or has been resized
+	-  A user moves or clicks the mouse
+	-  A user presses a key
+	-  When a form is submitted
+	-  When the page has finished loading or has been resized
 	-  etc.
 
 - Take a gander [here](https://developer.mozilla.org/en-US/docs/Web/Events) at the type and sheer number of events.
@@ -55,22 +56,21 @@
 ### What's an Event Listener?
 <br>
 
-- An _event listener_ is a function, more specifically, a _callback_ function, that is called when an event fires.
+- An **event listener** is a function, more specifically, a _callback function_, that is called when an event fires.
 
-- _Event listeners_ may also be referred to as _event handlers_ (depending upon how they are "registered" with the browser).
+- Event listeners may also be referred to as _event handlers_.
 
 - There are three different approaches for registering event listeners:
-	- In the HTML (inline) - `<button id="reset-btn" onclick="reset()">`
-	- Assigning to DOM elements' properties - `resetBtn.onclick = reset;` 
-	- Calling `addEventListener` on a DOM element
+	- In the HTML (inline):<br>`<button id="reset-btn" onclick="reset()">`
+	- Assigning to DOM elements' properties:<br>`resetBtn.onclick = reset;` 
+	- Calling `addEventListener()` on a DOM element
 
 ---
 ### What's an Event Listener?
-<br>
 
-- Using the HTML approach (`onclick="reset()"`) is typically frowned upon because it requires that the function be in the global scope! In addition, this, like inline styling, kind of breaks the _separation of concerns_ design principle.
+- Using the HTML approach (`onclick="reset()"`) is typically frowned upon because it requires that the function be in the global scope. In addition, this, like inline styling, kind of breaks the **separation of concerns** design principle.
 
-- The DOM element (`resetBtn.onclick = reset;`) approach is better because the function does not have to be in global scope, however...
+- The DOM element approach (`resetBtn.onclick = reset;`) is better because the function does not have to be in global scope, however...
 
 - The `addEventListener` approach is widely considered to be the best practice because it has the flexibility of adding multiple listener functions!
 
@@ -78,7 +78,7 @@
 ### What's an Event Listener?
 <br>
 
-- Here is the common syntax for _registering_ an event listener for a given event:<br>`element.addEventListener(\<event-name>, \<callback>, \<use-capture>);`<br>
+- Here is the common syntax for _registering_ an event listener for a given event:<br>`element.addEventListener(<event-name>, <callback>, <use-capture>);`<br>
 
 	- **event-name** is the name of the event (string)
 	- **callback** is the function we want executed when the event happens.  When called by the JS engine, it will be passed an _event object_ as an argument.
@@ -133,9 +133,9 @@
 ### Our first Event Listener
 <br>
 
-- When we click the _Add Comment_ button, we want to create a new comment with the text entered in the input and then clear the input.
+- When we click the **Add Comment** button, we want to create a new comment with the text entered in the input and then clear the input.
 
-- We can add a **`click`** event listener to pretty much any element - not just buttons.  However, buttons come pre-styled to look and act clickable :)
+- We can add a `click` event listener to pretty much any element - not just buttons.  However, buttons are pre-styled to look and act clickable :)
 
 ---
 ### Our first Event Listener
@@ -155,30 +155,30 @@
 ### Our first Event Listener
 <br>
 
-- If all goes well, clicking the button should log out the _event object_.
+- If all goes well, clicking the button should log out the **event object**.
 
-- Congrats, hooking up an event listener is that easy!
+- Congrats, registering an event listener is that easy!
 
 ---
 ### Review Questions
 <br>
 
-- **What is the name of the method used to attach event listeners to elements?**
+1. **What is the name of the method used to attach event listeners to elements?**
 
-- **What is that method's _signature_ (a method's name, the number & type of arguments it takes, and what it returns)?**
+2. **What is that method's _signature_ (a method's name, the number & type of arguments it takes, and what it returns)?**
 
-- **Name three events that might be triggered in the browser.**
+3. **Name three events that might be triggered in the browser.**
 
 ---
 ### The _event object_
 <br>
 
-- Examining the _event object_ that was provided as an argument to our event listener reveals lots of useful information.
+- Examining the **event object** that was provided as an argument to our event listener reveals lots of useful information about the event!
 
 - Of special interest are:
-	- Several _...X_ and _...Y_ properties that provide where the click occurred.
-	- The _target_ property, which holds a reference to the DOM element that triggered (dispatched) the event.
-	- Note that JS's _this_ keyword within the listener function will be set to the DOM element that `addEventListener` was called on.
+	- Several `...X` and `...Y` properties that provide where the click occurred.
+	- The `target` property, which holds a reference to the DOM element that triggered (dispatched) the event.
+	- Note that JS's `this` keyword within the listener function will be set to the DOM element that `addEventListener` was called on.
 
 ---
 ### Creating a new _\<<span style="text-transform:lowercase">li</span>>_ element
@@ -194,11 +194,10 @@
 	  console.log(li)
 	});
 	```
-	> Note: At this point, the element is "in memory" only and is not part of the DOM (yet)
+	> Note: At this point, the element is "in memory" only and is not part of the DOM (yet).
 
 ---
 ### Creating a new Comment
-<br>
 
 - Okay, we have a new `<li>` element created and assigned to a variable named `li`, but it has no content.
 
@@ -208,7 +207,7 @@
 
 - Hint: "Select" the `<input>`, `console.dir` it out and explore!
 
-- When you find the property - yell it out!
+- When you find the property - reply to my message in slack!
 
 ---
 ### Creating a new Comment
@@ -223,8 +222,6 @@
 	  li.textContent = inp.value;
 	});
 	```
-	
-- If you wish to include HTML markup within the contents of a DOM element, use `innerHTML` instead of `textContent`.
 
 ---
 ### Creating a new Comment
@@ -272,7 +269,7 @@
 ### Event bubbling
 <br>
 
-- All event listeners registered for the same event, such as `click`, will be invoked along the path to the `document` element - unless one of those listeners calls the _event object_'s `stopPropagation` method.
+- All event listeners registered for the same event, such as `click`, will be invoked along the path to the `document` element - unless one of those listeners calls the **event object**'s `stopPropagation` method.
 
 - Why does JS bubble up (propagate) its events?...
 
@@ -284,11 +281,13 @@
 
 - That would be a lot of listeners, wouldn't it - not very efficient at all.
 
+- Plus, every time a new element is added, the event listener would also have to be registered!
+
 ---
 ### Event Delegation
 <br>
 
-- Event bubbling allows us to implement what's known as **_event delegation_**.
+- Event bubbling allows us to implement what's known as **event delegation**.
 
 - Event delegation allows us to register a **single** event listener that can respond to events triggered by any of its **descendants**.  Much more efficient!
 
@@ -307,15 +306,15 @@
 	}
 	```
 
-- Notice that the event object's _target_ property is correctly set to the **actual** element that was clicked.
+- Importantly, the event object's `target` property is set to the **actual** element that was clicked!
 
 ---
 ### Event Delegation
 <br>
 
-- Not only is _event delegation_ more efficient, by it's very design, it's dynamic - as descendants are added, they too will be listened to!
+- Not only is event delegation more efficient, by it's very design, it's dynamic - as descendants are added, they too will be listened to!
 
-- Without _event delegation_, you would have to register a listener every time a new element, such as our comment `<li>` is added. 
+- Without event delegation, you would have to register a listener every time a new element, such as our comment `<li>` is added. 
 
 ---
 ### Event Delegation (Practice)
@@ -341,11 +340,11 @@
 ### Essential Questions
 <br>
 
-- **What is the argument that JS passes to an event listener when it calls it?**
+1. **What is the argument that JS passes to an event listener when it calls it?**
 
-- **What is the name of the property on the above argument that represents the DOM element that dispatched the event?**
+2. **What is the name of the property on the above argument that represents the DOM element that dispatched the event?**
 
-- **Let's say you needed to have an event listener respond to a `click` event on the `<td>`s within a `<table>` - would you have to add event listeners to each `<td>`?  Support your answer.**
+3. **Let's say you needed to have an event listener respond to a `click` event on the `<td>`s within a `<table>` - would you have to add event listeners to each `<td>`?  Support your answer.**
 
 ---
 ## References
