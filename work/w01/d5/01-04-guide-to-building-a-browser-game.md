@@ -119,7 +119,7 @@ The following diagram denotes one approach to structuring your code:
 
 The following approach has been proven to help students write complex front-end web apps, such as games.
 
-If you're concerned that using the following approach will result in you and your fellow students having code that is structured similarly - don't be!  **What matters is when prospective employers think what they look at your projects's code structure in GitHub!**
+If you're concerned that using the following approach will result in you and your fellow students having code that is structured similarly - don't be!  **What matters is what prospective employers think when they look at your projects's code structure in GitHub!**
 
 1. **Analyze the app's functionality**
 	- The app's features, from the user's point of view, should be described using _User Stories_.  User stories follow this template: **As a [role], I want [feature] because [reason]**.  Example user story: _As a player, I want to see a list of high-scores so that I know what I have to score to make the list_.
@@ -140,7 +140,7 @@ If you're concerned that using the following approach will result in you and you
 5. **Analyze the application's state (data)**
 	- What does the application need to "remember" throughout its execution?
 	- Use the wireframe(s), user stories and pseudocode to help determine what state needs to be tracked.
-	- Note that in an application with a database, we would analyze the database design during this state.
+	- Note that in an application with a database, we would analyze the database design during this step.
 
 6. **Set up the project**
 	- Create project directory OUTSIDE of any existing git repo (nested repos cause problems).
