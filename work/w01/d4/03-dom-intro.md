@@ -42,12 +42,20 @@ View as a presentation by clicking [here](https://presentations.generalassemb.ly
 ### What's the DOM
 <br>
 
-- The **DOM (Document Object Model)** is the in-memory representation of a browser's web document.
+- The [DOM (Document Object Model)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is the in-memory representation of a browser's web document.
 
-- The **DOM** enables developers to make the UI dynamic by using JavaScript to:
-	-  Adding & removing elements to the document
-	-  Changing the content of elements
-	-  Changing the style properties of elements
+- It's a tree-like data structure with the top (root) being the `document` object.
+
+- Let's `console.log(document)` in DevTool's console and explore some of its properties.
+
+---
+### What's the DOM
+<br>
+
+- The DOM's application programming interface ([API](https://en.wikipedia.org/wiki/Application_programming_interface)) enables developers to make the UI dynamic by using JavaScript to:
+	-  Add/remove elements to/from the document
+	-  Change the content of elements
+	-  Change the style properties of elements
 
 ---
 ### Setup
@@ -138,7 +146,7 @@ View as a presentation by clicking [here](https://presentations.generalassemb.ly
 	-  Attach an event listener to the button element
 	-  Grab the text entered from the `input` element
 	-  Create a new element, e.g. an `li`, and set it's content
-	-  Append that new element to parent of that element
+	-  Append the new element to its parent element
 
 - Devs must use JS to select DOM elements so that the above steps can be performed!
 
@@ -197,7 +205,7 @@ View as a presentation by clicking [here](https://presentations.generalassemb.ly
 
 - Now that we're able to select an element of our choosing, let's see how we can change the content of that element.
 
-- By inspecting the properties of a DOM element in the console, we will find a couple of properties that we can use to read and set content:
+- By inspecting the properties of a DOM element in the console, we will find a couple of properties that we can use to read and set its content:
 	- **`innerHTML`** - Used to retrieve/set content as HTML
 	- **`textContent`** - Used to retrieve/set content as plain text
 
@@ -250,7 +258,7 @@ View as a presentation by clicking [here](https://presentations.generalassemb.ly
 
 - You may need to get, set, or check if an element has a certain _attribute_.
 
-- Here are a few of the methods that the [Element API](https://developer.mozilla.org/en-US/docs/Web/API/element) (Application Programming Interface) has for working with attributes:
+- Here are a few of the methods that the [Element API](https://developer.mozilla.org/en-US/docs/Web/API/element) (Application Programming Interface) has for working with an element's attributes:
 	- `getAttribute(name)`
 	- `setAttribute(name, value)`
 	- `hasAttribute(name)`
@@ -354,7 +362,7 @@ View as a presentation by clicking [here](https://presentations.generalassemb.ly
 - There are three approaches we can use to iterate over the elements in a _NodeList_ :
 	- A regular **`for`** loop - works, but is not as readable or elegant...
 	- The **`forEach`** method. A good option when you want to iterate through _all_ elements and also want to access the **index** of the iteration.
-	- A **`for of`** loop - elegant and allows early exit of the loop with the `break` statement, however, does not have access to an **index**.
+	- A **`for of`** loop - elegant and allows early exit of the loop with the `break` statement, however, does not have access to an **index** (although you could track indexes manually by initializing a separate variable before the loop and incrementing it within the loop).
 
 ---
 ### Iterating over a collection of elements
@@ -370,19 +378,18 @@ View as a presentation by clicking [here](https://presentations.generalassemb.ly
 
 - **You Do:** Add a `for...of` loop to `main.js` that changes the font size all of the comment elements to 30px.
 
-- Hint: You must use a string like `'30px'`, the number `30` and the string of `'30'` do not work. 
+- Hint: You must use a string like `'30px'` (just the number `30` or the string of `'30'` will not work). 
 
 ---
 ### Final Questions
-<br>
 
-- **What method is the most efficient for selecting an element that has an `id`?**
+1. **What method is the most efficient for selecting an element that has an `id`?**
 
-- **If we wanted to grab all of the content (including its nested elements) of an element, what property on that element would we use?**
+2. **If we wanted to grab all of the content (including its nested elements) of an element, what property on that element would we use?**
 
-- **If you had to pick only one method to select DOM elements with during your career as a developer, which one should you choose?**
+3. **If you had to pick only one method to select DOM elements with during your career as a developer, which one should you choose?**
 
-- **Which property on DOM elements is used to set the CSS properties for that element?**
+4. **Which property on DOM elements is used to set the CSS properties for that element?**
 
 ---
 ## References
