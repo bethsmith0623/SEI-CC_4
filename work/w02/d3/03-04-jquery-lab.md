@@ -6,7 +6,7 @@
 
 This lab provides an opportunity to practice working with jQuery.
 
-This lab is **not a deliverable**.
+This lab **is a deliverable**.
 
 > **Note:** This can be a pair programming activity or done independently.
 
@@ -56,6 +56,10 @@ This lab is **not a deliverable**.
 	- AAU, I want to be able to type in a skill and have it added to my list of skills by clicking a button.
 
 	- AAU, I want to be able to remove an individual skill one at a time in case I make a mistake.
+
+## Deliverable
+
+When completed, please slack the link to your GitHub repo to your instructors. 
 
 ## Bonus
 
