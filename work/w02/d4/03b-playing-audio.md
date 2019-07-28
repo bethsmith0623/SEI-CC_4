@@ -12,11 +12,10 @@ Playing audio in the browser is straightforward thanks to:
 
 ### Example
 
-Here's the [link to the repl below](https://repl.it/@jim_clark/Playing-Audio-in-the-Browser):
+Here's the [link to the repl shown below](https://repl.it/@jim_clark/Playing-Audio-in-the-Browser):
 
+<img src="https://i.imgur.com/MI0yTHs.png">
 
-
-<iframe height="400px" width="100%" src="https://repl.it/@jim_clark/Playing-Audio-in-the-Browser?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 ### The `<audio>` element
 
