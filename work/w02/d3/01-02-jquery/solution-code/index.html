@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Back to jQuery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+</head>
+<body class="container">
+
+  <h1 class="jumbotron">Lake Arrowhead Homes For Sale</h1>
+
+  <table id="homes" class="table">
+    <thead>
+      <tr>
+        <th>Address</th>
+        <th>Sq. Ft.</th>
+        <th>Bedrooms</th>
+        <th>Baths</th>
+        <th>Price</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>27374 Matterhorn Drive</td>
+        <td>1,664</td>
+        <td>3</td>
+        <td>2</td>
+        <td>$279,500</td>
+        <td><button class="btn btn-xs btn-danger">Remove</button></td>
+      </tr>
+      <tr>
+        <td>243 El Dorado</td>
+        <td>4,900</td>
+        <td>6</td>
+        <td>6.5</td>
+        <td>$990,000</td>
+        <td><button class="btn btn-xs btn-danger">Remove</button></td>
+      </tr>
+      <tr>
+        <td>1228 Klondike Drive</td>
+        <td>2,158</td>
+        <td>4</td>
+        <td>2.5</td>
+        <td>$400,000</td>
+        <td><button class="btn btn-xs btn-danger">Remove</button></td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <button id="addHome" class="btn btn-danger">Add Home</button>
+  <button id="restoreHomes" class="btn btn-info" disabled>Restore Removed Homes</button>
+
+</body>
+</html>

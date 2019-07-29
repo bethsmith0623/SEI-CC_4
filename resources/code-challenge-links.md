@@ -15,6 +15,7 @@
 | Jared | ATX | [link](https://git.generalassemb.ly/jrodriguezsei082046/daily-code-challenges) |
 | Joe | ATX | [link](https://git.generalassemb.ly/JLGerhard/daily-code-challenges) |
 | Julia | ATX | [link](https://git.generalassemb.ly/juliagalan/daily-code-challenges) |
+| Lee | ATX | [link](https://git.generalassemb.ly/lte3000/daily-js-code-challenges) |
 | Lily | ATX | [link](https://git.generalassemb.ly/Lilymbest/daily-code-challenges) |
 | Mason | ATX | [link](https://git.generalassemb.ly/masonpierce/daily-code-challenges) |
 | Nova | ATX | [link](https://git.generalassemb.ly/nhasley/daily-js-code-challenges) |
