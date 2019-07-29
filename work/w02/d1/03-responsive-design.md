@@ -164,7 +164,7 @@ As you can see, using [grid-template-areas](https://developer.mozilla.org/en-US/
 
 #### What's a Media Query?
 
-A **media query** provides a way to conditionally add CSS rules.
+A [media query](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) provides a way to conditionally add CSS rules.
 
 A media query contains its own section of CSS that is used to modify the "base" CSS when certain "media" conditions exist.
 
