@@ -37,7 +37,7 @@
 
 ---
 ### What Are <em>Classes</em>?
-<br>lockheed
+<br>
 
 <img src="https://i.imgur.com/Pjxlpjs.jpg" width="600">
 
@@ -139,40 +139,31 @@ var cohort = {
 
 ---
 ### The _<span style="text-transform:lowercase">constructor</span>_ Method
+<br>
 
-- When a class is being instantiated, the special `constructor` method in the class will automatically be called:
+- When a class is being instantiated, the special `constructor` method in the class will **automatically** be called:
 
 	```js
 	class Vehicle {
 	  constructor(vin, make) {
 	    this.vin = vin;
 	    this.make = make;
-	    // return is not needed - the new object is returned by default
+	    // return is not needed 
+	    // because the new object is returned by default
 	  }
 	}
 	
 	var plane = new Vehicle('X123Y', 'Boeing');
 	```
 
-- **The purpose** of the `constructor` method is to initialize the data properties of the new object being created (represented by `this`).
-
 ---
 ### The _<span style="text-transform:lowercase">constructor</span>_ Method
 <br>
 
-- If you don't have any properties to initialize, the `constructor` method is optional (a hidden default constructor is called).
+- **The purpose** of the `constructor` method is to initialize the data properties of the new object being created (represented by `this`).
 
-- For example, classes can be used to simply expose static methods (discussed in a bit):
+- If there are no properties to initialize, the `constructor` method is optional (a hidden default constructor is called).
 
-	```js
-	class Math {
-	  static abs(n) {
-	    return n < 0 ? n * -1 : n;
-	  }
-	}
-	
-	Math.abs(-123); // returns 123
-	```
 
 ---
 ### Practice - Add a Property
@@ -188,10 +179,9 @@ var cohort = {
 
 ---
 ### Object Instantiation
-<br>
 
-- When we invoke the class prefaced with the `new` keyword:
-	- Behind the scenes, JS creates a shiny new object (empty) and assigns it to the `this` keyword.
+- When we invoke the class prefaced with the `new` keyword, behind the scenes:
+	- JS creates a shiny new object (empty) and assigns it to the `this` keyword.
 	- The `constructor` method is called with the arguments we provided when invoking the class. Remember, the `constructor` method is where we create/initialize properties on the new object assigned to `this`.
 	- After the `constructor` is finished executing, the class automatically returns the shiny new object.
 
@@ -211,7 +201,6 @@ var cohort = {
 
 ---
 ### Defining Methods in a Class
-<br>
 
 - Let's add a `start` method to our `Vehicle` class:
 
@@ -245,7 +234,7 @@ var cohort = {
 
 - Thanks to another OOP principle called _inheritance_, **subclasses** inherit methods from their parent classes.
 
-- JS is different from class-based languages like Java or Python in that it's inheritance implementation is _prototype-based_.  We won't go into prototypes during this lesson, but if you want to learn more, [check out the docs here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain).
+- JS is different from class-based languages like Java or Python in that its inheritance implementation is _prototype-based_.  We won't go into prototypes during this lesson, but if you want to learn more, [check out the docs here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain).
 
 - In JS, virtually every object inherits from the `Object` class and thus inherits it's methods, such as `toString`:
 
@@ -271,13 +260,12 @@ var cohort = {
 
 ---
 ### Review Questions
-<br>
 
-- You've just learned how to define a class and add prototype methods to it.  This represents about 80% there is to know about classes - congrats!<br><br>A few questions before moving on:
-- **What is the JS keyword used to define a class?**
-- **What is the name of the method in a class that is automatically called when we instantiate a class?**
-- **What is the main purpose of this method?**
-- **What character(s) separate the methods in a class definition?**
+- You've just learned how to define a class and add prototype methods to it.  This represents about 80% there is to know about classes - congrats!<br><br>Some questions before moving on:<br><br>
+1. **What is the JS keyword used to define a class?**
+2. **What is the name of the method in a class that is automatically called when we instantiate a class?**
+3. **What is the main purpose of this method?**
+4. **What character(s) separate the methods in a class definition?**
 
 ---
 ### Constructor Functions - B.C. (before classes 😀)
@@ -285,7 +273,7 @@ var cohort = {
 
 - Before classes arrived via ES2015, we used _constructor functions_ to do the exact same thing as classes.
 
-- Because of the newness of ES2015, most of the code out there is written using constructor functions, however, most new code today is likely to be written as classes.
+- Because of the newness of ES2015, much of the code out there is written using constructor functions, however, most new code today is likely to be written as classes.
 
 - It's important that you be able to recognize _constructor functions_, so let's look at how the `Vehicle` class can be written as a constructor function...
 
