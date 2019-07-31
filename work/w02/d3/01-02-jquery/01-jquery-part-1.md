@@ -63,9 +63,9 @@ Those new to jQuery are best served by jQuery's newer [Learning Center](http://l
 
 ##### REVIEW QUESTIONS
 
-**Q1: What is the difference between a _library_ and a _framework_?**
+**❓ What is the difference between a _library_ and a _framework_?**
 
-**Q2: What is the use case for jQuery? (what and when/why...)**
+**❓ What is the use case for jQuery? (what and when/why...)**
 
 ## 2. Setting up jQuery
 
@@ -174,7 +174,7 @@ To select elements by the _type_ of the element, use the name of the tag, just l
 All CSS3 selectors rules apply. For example, this is how you could select just the first `<li>` tag using the `:first-child` _psuedo class selector_<br>
 `$('li:first-child')`
 
-##### PRACTICE
+##### 💪 PRACTICE EXERCISE
 
 In Chrome's console (`cmd-opt-J`), use jQuery to select the `<div>` that have a class of `big-and-round`.
 
@@ -217,9 +217,9 @@ Aha! Each element in the array is a **native DOM element just like the ones we w
 
 ##### REVIEW QUESTIONS
 
-**Q: What does the jQuery function return when it is passed a string representing a CSS3 selector rule?**
+**❓ What does the jQuery function return when it is passed a string representing a CSS3 selector rule?**
 
-**Q: The _jQuery Object_ contains an array of zero or more native _____ ______.**
+**❓ The _jQuery Object_ contains an array of zero or more native _____ ______.**
 
 ### Accessing the Native DOM Elements in a jQuery Object
 
@@ -227,9 +227,9 @@ As we've seen, the _jQuery Object_ contains an array of the selected native DOM 
 
 Those DOM elements can be accessed using bracket notation like with any other array.
 
-##### PRACTICE
+##### 💪 PRACTICE EXERCISE
 
-Access the last `<li>` DOM element contained in the `$li` jQuery set and assign to a variable named `lastLi`.
+Assuming you don't know how many `<li>` DOM elements are contained in the `$li` jQuery set, assign the last `<li>` in `$li` to a variable named `lastLi`.
 
 ### Adding jQuery Powers to Native DOM Elements
 
@@ -358,7 +358,7 @@ The `css()` method also has a different _signature_ that can be used to set a si
 $('p').css('font-size', '30px');
 ```
 
-##### PRACTICE
+##### 💪 PRACTICE EXERCISE
 
 In the console, write the code that will set the background color of _only the last_ `<li>` element to yellow.
 
@@ -382,9 +382,9 @@ $('p')
 
 ##### REVIEW QUESTIONS
 
-**Q: What jQuery method can be used to both get & set the content of the elements held in a jQuery object?**
+**❓ What jQuery method can be used to both get & set the content of the elements held in a jQuery object?**
 
-**Q: What jQuery method is used to change the styling of the elements held in a jQuery object?**
+**❓ What jQuery method is used to change the styling of the elements held in a jQuery object?**
 
 ## 7. Further Study
 
