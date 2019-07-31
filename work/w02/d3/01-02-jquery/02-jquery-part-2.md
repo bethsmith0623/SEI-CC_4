@@ -20,7 +20,7 @@
 
 ## Page Setup
 
-### Create `js/app.js`
+### Create a `js/app.js` File
 
 For this lesson, we're going to use the same `index.html` inside the `first-jquery` directory we created in the _Intro to jQuery_ lesson.
 
@@ -156,7 +156,7 @@ $(function(){
 });
 ```
 
-**?: Since all of the app's code will be within the callback function, what impact does this have in terms of scope?**
+**❓ Since all of the app's code will be within the callback function, what impact does this have in terms of scope?**
 
 ### Open it Up!
 
@@ -177,9 +177,9 @@ $('#addHome').removeClass('btn-danger').addClass('btn-success');
 ```
 That's better!
 
-**Q: What's it called when we call a method immediately after a previous method like we did above?**
+**❓ What's it called when we call a method immediately after a previous method like we did above?**
 
-##### PRACTICE
+##### 💪 PRACTICE EXERCISE
 
 **Using jQuery, add the Bootstrap class named "text-center" to the `<h1>` tag.**
 
@@ -197,7 +197,7 @@ var isStyled = $('p').hasClass('left-aligned big');
 // the classes of "left-aligned" and "big"
 ```
 
-There's also a `toggleClass(<the class as a string>)` method - **guess what it does?**
+There's also a `toggleClass(<the class as a string>)` method used to toggle a class.
 
 ## Creating New Elements
 
@@ -287,17 +287,15 @@ Here is how we can add a _click_ event listener to the _Add Home_ button:
 
 ```js
 $('#addHome').on('click', function(evt) {
-  console.log(evt, this);
+  console.log(evt);
 });
 ```
 
 Refresh the page and open the console to see what the `evt` argument (jQuery's _event_ object) passed in by jQuery looks like.
 
-Also, see what jQuery sets `this` to.
-
 jQuery's _event_ object is pretty much the same as native JavaScript's - yes, it has all of the useful properties...
 
-**Q: What property on the event object references the element that dispatched the event?**
+**❓ What property on the event object references the element that dispatched the event?**
 
 When googling, you will find plenty of jQuery code using a different syntax for adding a event listeners similar to this:
 
@@ -317,7 +315,7 @@ This syntax in fact uses the `.on` method internally.
 
 We already learned about _event delegation_ in native JavaScript.
 
-**Q: Who can remind us what _event delegation_ is it?**
+**❓ Who can remind us what _event delegation_ is it?**
 
 _Event delegation_ in jQuery is a bit more powerful because we can tell jQuery **which specific descendants** we're interested in listening to by specifying another CSS selector.
 
@@ -329,7 +327,7 @@ $('body').on('click', 'div.circle', function() {
 });
 ```
 
-**Who notices the difference about the way we attach a delegated event listener in jQuery vs. vanilla JS?**
+**What's different about the way we attach a delegated event listener in jQuery vs. vanilla JS?**
 
 Taking advantage of _event delegation_ seems like a perfect approach for our _Remove_ buttons that are on each home.
 
@@ -380,7 +378,7 @@ Here, we are taking advantage of the fact that we can provide a callback functio
 
 That's better!
 
-## Practice Exercise - Add New Homes
+## 💪 Practice Exercise - Add New Homes
 
 Now for a fun challenge.
 
