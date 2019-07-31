@@ -47,6 +47,8 @@ Please create an HTML, CSS, JS Repl and name it `Responsive Design Lab`.
 		  font-family: Helvetica;
 		}
 	```
+	
+- Do not use the `grid-template-areas` approach for defining a layout with an unknown number of rows.  For example, if you make the `<body>` a CSS Grid with a header, main (center area), and footer - this is always three rows, so using `grid-template-areas` is fine. However, make that main center area itself a CSS Grid and use just the `grid-template-columns` property to allow for any number of "tiles" to automatically be placed in the grid.
 
 - Use the _Digital Color Meter_ application that comes with the Mac to "pick" the colors from the screen.
 

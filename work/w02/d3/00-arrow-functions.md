@@ -120,18 +120,18 @@ Also note that unlike regular (non-arrow) functions, `this` **cannot be explicit
 
 ##### Because of the binding rules of `this` in arrow functions, **do not** use arrow functions for:
 
-  - Methods in objects that need to access other properties within the object.
+- Methods in objects that need to access other properties within the object.
 
   For example, this works as expected:
  
 	```js
 	const ticket = {
-	    airlines: 'Air SEI',
-		flight: '0116',
-		seat: 'C19',
-	    print: function() {
-			console.log(`${this.airlines}: flight ${this.flight} / seat ${this.seat}`);
-		}
+	  airlines: 'Air SEI',
+	  flight: '0116',
+	  seat: 'C19',
+	  print: function() {
+	    console.log(`${this.airlines}: flight ${this.flight} / seat ${this.seat}`);
+	  }
 	}
 	```
 	
@@ -139,15 +139,16 @@ Also note that unlike regular (non-arrow) functions, `this` **cannot be explicit
 	
 	```js
 	const ticket = {
-	    airlines: 'Air SEI',
-		flight: '0116',
-		seat: 'C19',
-	    print: () => {
-			console.log(`${this.airlines}: flight ${this.flight} / seat ${this.seat}`);
-		}
+	  airlines: 'Air SEI',
+	  flight: '0116',
+	  seat: 'C19',
+	  print: () => {
+	    console.log(`${this.airlines}: flight ${this.flight} / seat ${this.seat}`);
+	  }
 	}
 	```
-  - Constructor functions also are not a use case for arrow functions because they do not allow JS to set `this` to the shiny new object being created.
+
+- Constructor functions also are not a use case for arrow functions because they do not allow JS to set `this` to the shiny new object being created.
 
 
 
