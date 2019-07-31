@@ -120,7 +120,7 @@ Also note that unlike regular (non-arrow) functions, `this` **cannot be explicit
 
 ##### Because of the binding rules of `this` in arrow functions, **do not** use arrow functions for:
 
-  - Methods in objects that need to access other properties within the object.
+- Methods in objects that need to access other properties within the object.
 
   For example, this works as expected:
  
@@ -147,7 +147,7 @@ Also note that unlike regular (non-arrow) functions, `this` **cannot be explicit
 		}
 	}
 	```
-  - Constructor functions also are not a use case for arrow functions because they do not allow JS to set `this` to the shiny new object being created.
+- Constructor functions also are not a use case for arrow functions because they do not allow JS to set `this` to the shiny new object being created.
 
 
 
