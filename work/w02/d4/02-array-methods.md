@@ -45,8 +45,6 @@ Current trends in development are pushing toward using declarative code over imp
 
 This walk-thru summarizes Array _iterator_ methods, that is, methods that declaratively iterate over an array's elements.
 
-Each of the below methods invoke a callback function for each iteration (once for each element).
-
 ## Method Summary
 
 | Method | Purpose | Returns | Callback Should | Callback's Args |
@@ -59,6 +57,13 @@ Each of the below methods invoke a callback function for each iteration (once fo
 | `findIndex(cb)` | Find a certain element's **index** | the index of the first `elem` found | Return truthy if `elem` is what you're looking for | `(elem, idx, array)` |
 | `some(cb)` | Check if array has something | `true` or `false` | Return truthy if `elem` is what you're checking for | `(elem, idx, array)` |
 | `every(cb)` | Check if every `elem` passes condition | `true` or `false` | Return truthy if `elem` is what you're checking for | `(elem, idx, array)` |
+
+
+Note that each of the methods invoke a callback function for each iteration - _usually_ once for each element, however, the following methods will "short circuit" and stop iterating when the callback returns a truthy value:
+
+- `find`
+- `findIndex`
+- `some`
 
 > **VOCAB:** Note that the `filter`, `find`, `findIndex`, `some` and `every` iterator methods rely on the truthy-ness or falsey-ness returned by the callback function. Such a function, written to return true/false values, is called a **predicate**. 
 
