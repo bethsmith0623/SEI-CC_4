@@ -51,7 +51,7 @@ This lab **is a deliverable**.
 	
 2. Code the following _user stories_, using jQuery where possible:
 
-	- As a User (AAU), I don't want to see any developer skills in the list so that I can start with a fresh slate.
+	- As a User (AAU), I don't want to see any developer skills when the page first loads so that I can start with a fresh slate.
 
 	- AAU, I want to be able to type in a skill and have it added to my list of skills by clicking a button.
 
