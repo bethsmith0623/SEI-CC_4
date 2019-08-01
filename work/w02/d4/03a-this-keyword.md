@@ -29,19 +29,21 @@ Students will be able to:
 
 ## What is `this`?
 
-`this` is a keyword in JavaScript available for use inside of functions/methods.  **When is a function considered to be a method?**
-
-When we introduced functions last week we briefly discussed another JS keyword automatically available inside of functions - **____________**?
+**`this` is a keyword in JavaScript** available for use inside of functions/methods.  **When is a function considered to be a method?**
 
 So yup, the keyword `this`, is another pre-defined variable inside **every** function.
 
+> Note: `this` is also accessible in the **global** scope, however, its use within the global scope is unnecessary.  
+
+The value assigned to `this` is sometimes referred to as the **context** of a function.
+
 The value of `this` is set by the JS engine automatically when a function is invoked.  This setting of a value is also known as "binding".
 
-Although JS automatically sets the value of `this` when a function/method is invoked, there are methods available on every function object that allow the programmer to **explicitly** set the value of `this` to what the programmer wants it to be. However, this is usually not necessary and in this lesson, we are going to focus on the **implicit** (automatic) binding - after all, before you can willfully change what `this` is set to, you need to know what it's going to be in the first place!
+Although JS automatically sets the value of `this` when a function/method is invoked, there are methods available on every function object that allow the programmer to **explicitly** set the value of `this` to what the programmer wants it to be. However, this is usually not necessary and in this lesson, we are going to focus on the **implicit** (automatic) binding - after all, before you should willfully change what `this` is set to, you need to know what it's going to be in the first place!
 
 The value of `this` is sometimes referred to as the **context** within the function.
 
-Understanding `this` is important as a developer, and as a job-seeker - there's a good chance you will be asked about `this` during an interview for a front-end developer job.
+Understanding `this`, and how its value is set, is important as a developer, and as a job-seeker - there's a chance you will be asked about `this` during an interview for a front-end developer job.
 
 ## Why `this` is necessary
 
@@ -117,11 +119,11 @@ Without `this`, we could not implement this efficient code reuse.
 
 Before looking at **how** the value of `this` is set, a few review questions;
 
-- **The `this` keyword is accessible within every ____________?**
+- **❓ The `this` keyword is accessible within every ____________?**
 
-- **What is one of the reasons we need `this` in JavaScript?**
+- **❓ What is one of the reasons we need `this` in JavaScript?**
 
-- **What's the other reason?**
+- **❓ What's the other reason?**
 
 ## Determining **how** the value of `this` is set (bound)
 
@@ -175,7 +177,7 @@ Let's look at examples for each of these four scenarios:
 	// call thisCheck() as a method
 	ninja.f();  // Object {name: "JS Ninja"}
 	```
-	As observed, the rule is, the object left of the dot is what `this` is bound to!
+	As observed, the rule is: **The object left of the dot is what `this` is bound to!**
 
 #### 3. Classes & Constructor Functions
 	
@@ -197,7 +199,7 @@ Let's look at examples for each of these four scenarios:
 	// <div id="my-div">...
 	```
 
-> Warning: Using an arrow function prevents JS from being able to set 'this' as shown above
+> Warning: Using an arrow function prevents JS from being able to set the value of `this` as shown above.
 
 #### 5. Generic Callback Functions
 
@@ -325,15 +327,15 @@ BTW, this is good advice in lots of cases - sometimes it's just better to write 
 
 I'll give you a moment to review these with a pair:
 
-**What type of programming languages rely on the concept of `this`?**
+**❓ What type of programming languages rely on the concept of `this`?**
 
-**True or false? The value of `this` can be always be determined by examining the definition of a function. Explain your answer.**
+**❓ True or false? The value of `this` can be always be determined by examining the definition of a function. Explain your answer.**
 
-**What is `this` bound to when a class or constructor function is invoked?**
+**❓ What is `this` bound to when a class or constructor function is invoked?**
 
-**What is `this` bound to within a method invoked on an object?**
+**❓ What is `this` bound to within a method invoked on an object?**
 
-**In this code:**
+**❓ In this code:**
 
 ```js
 function foo() {
@@ -351,8 +353,8 @@ foo();
 bar.foo();
 ```
 
-**What will be logged out in _Scenario 1_, if not in strict mode?**
+**❓ What will be logged out in _Scenario 1_, if not in strict mode?**
 
-**What will be logged out in _Scenario 1_, if in strict mode?**
+**❓ What will be logged out in _Scenario 1_, if in strict mode?**
 
-**What will be logged out in _Scenario 2_?**
+**❓ What will be logged out in _Scenario 2_?**
