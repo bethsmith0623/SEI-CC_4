@@ -2,4 +2,4 @@
 
 | Student | Game | GitHub | Hosted Site |
 |---|:---:|:---:|:---:|
-| Name (Campus) |  |  |  |
+| Ryan George (DTX) | BlackJack | [link](https://github.com/RyanPGeorge/project1-blackjack)| [link](#)|
