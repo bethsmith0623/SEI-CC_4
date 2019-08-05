@@ -2,31 +2,32 @@
 
 | Student | Game | GitHub | Hosted Site |
 |---|:---:|:---:|:---:|
-| Ben (ATX) |  |  |  |
-| Beverly (ATX) |  |  |  |
-| Caleb (ATX) |  |  |  |
-| Chighali (ATX) |  |  |  |
-| Chris M. (ATX) |  |  |  |
-| Christopher P. (ATX) |  |  |  |
-| Conner (ATX) |  |  |  |
-| David (ATX) |  |  |  |
-| Dev (ATX) |  |  |  |
-| Elco (ATX) |  |  |  |
-| Emily L. (ATX) |  | [link](https://github.com/emgrebe/Unit-1-Project) |  |
-| Emily M. (ATX) |  |  |  |
-| Frances (ATX) |  |  |  |
-| Garrett (ATX) |  |  |  |
-| Heather (ATX) |  |  |  |
-| Jack (ATX) |  |  |  |
-| Jeremiah (ATX) |  |  |  |
-| Joseph (ATX) |  |  |  |
-| Julia (ATX) |  |  |  |
-| Lily (ATX) |  |  |  |
-| Mason (ATX) |  |  |  |
-| Nova (ATX) |  |  |  |
-| Robin (ATX) |  |  |  |
-| Taylor (ATX) |  |  |  |
-| Vittoria (ATX) |  |  |  |
+| Ben (ATX) | Craps | [link](https://github.com/ManliestBen/Craps) |  |
+| Beverly (ATX) |  | [link](https://github.com/beverlyosoria/Unit-1-Project) |  |
+| Caleb (ATX) |  | [link](https://github.com/snsaleh1/GAProject1) |  |
+| Chighali (ATX) |  | [link](https://github.com/ChighaliMknss/Unit-One-Project) |  |
+| Chris M. (ATX) |  | [link](https://github.com/mayfielc/Unit-1-Project.git) |  |
+| Christopher P. (ATX) | MemoryGame | [link](https://github.com/600rrchris/Unit-1-project.git) |  |
+| Conner (ATX) |  | [link](https://github.com/ConnerMcCabe/project1) |  |
+| David (ATX) | omok | [link](https://github.com/eyybaebae/omok) |  |
+| Dev (ATX) |  | [link](https://github.com/Dev-94/unit1_project) |  |
+| Elco (ATX) | 2048 | [link](https://github.com/eag58914/2048_project) |  |
+| Emily L. (ATX) | Yathzee | [link](https://github.com/emgrebe/Yahtzee-Game) |  |
+| Emily M. (ATX) | TheMooreYouKnow | [link](https://github.com/efm0004/the-moore-you-know.git) |  |
+| Frances (ATX) |  | [link](https://github.com/fcancio/chin2win) |  |
+| Garrett (ATX) |  | [link](https://github.com/garryc5/TetrisGame) |  |
+| Heather (ATX) |  | [link](https://github.com/MetaHeather/Unit1Project) |  |
+| Jack (ATX) | AdventureGame | [link](https://github.com/Jground-33/Adventure-Game) |  |
+| Jared R (ATX) |  | [link](https://github.com/jrodriguez082046/Unit-1-Project-.git) |  |
+| Jeremiah (ATX) |  | [link](https://github.com/JMHGZ/unit1-project) |  |
+| Joseph (ATX) | Solitaire | [link](https://github.com/SleepyJosus/Solitaire) |  |
+| Julia (ATX) |  | [link](https://github.com/julia-nichole/unit-1-game) |  |
+| Lily (ATX) |  | [link](https://github.com/lilymbest/Unit-1-Project) |  |
+| Mason (ATX) |  | [link](https://github.com/masonpierce/unit-one-project.git) |  |
+| Nova (ATX) | BlackJack | [link](https://github.com/nhasley/Black-Jack-) |  |
+| Robin (ATX) |  | [link](https://github.com/robified/unit-1-project) |  |
+| Taylor (ATX) | Sudoku | [link](https://github.com/tlacerte/Sudoku---JS-HTML-CSS) |  |
+| Vittoria (ATX) |  | [link](https://github.com/vittoriaerdem/project1) |  |
 | Andrew (DAL) | Checkers | [link](https://github.com/atheismann/checkers/tree/development/) |  |
 | Armando (DAL) | War | [link](https://github.com/Drag49487Jr/War-Game) |  |
 | Daniel (DAL) | Blackjack | [link](https://github.com/dc3430/BlackJack) |  |
