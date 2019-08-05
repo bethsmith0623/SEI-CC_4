@@ -39,7 +39,7 @@
 | Cole (DAL) | Slot Machine | [link](https://github.com/41Holmes41/myproject1) |  |
 | Ruben (DAL) | Card Matching Game | [link](https://github.com/rcaceres1/MatchingGame1) |  |
 | Ryan (DAL) | Blackjack | [link](https://github.com/RyanPGeorge/project1-blackjack) |  |
-| Sam (DAL) | Card Matching Game | [link](https://github.com/samiduara/Snake-Game) |  |
+| Sam (DAL) | Card Matching Game | [link](https://github.com/samiduara/card-matching-game) |  |
 | Amandeep (LA) |  |  |  |
 | Dan (LA) | Minesweeper | [link](https://github.com/seagrendaniel/Mime-Sweeper) |  |
 | Dave (LA) | Blackjack | [link](https://github.com/davekoncsol/black-jack) |  |
