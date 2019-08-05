@@ -27,18 +27,19 @@
 | Robin (ATX) |  |  |  |
 | Taylor (ATX) |  |  |  |
 | Vittoria (ATX) |  |  |  |
-| Andrew (DAL) |  |  |  |
+| Andrew (DAL) | Checkers | [link](https://github.com/atheismann/checkers/tree/development/) |  |
 | Armando (DAL) | War | [link](https://github.com/Drag49487Jr/War-Game) |  |
 | Daniel (DAL) | Blackjack | [link](https://github.com/dc3430/BlackJack) |  |
 | Beth (DAL) | Roulette | [link](https://github.com/bethsmith0623/Roulette) |  |
-| James (DAL) |  |  |  |
+| James (DAL) | Card Matching Game | [link](https://github.com/newmediarecordings/myproject1) |  |
+| Joseph (DAL) | War | [link](https://github.com/Jhunted/myproject1) |  |
 | Kevinn (DAL) | War | [link](https://github.com/kevinnarbas/war-game-project1) |  |
-| Michael H. (DAL) |  |  |  |
-| Michael M. (DAL) |  |  |  |
+| Michael H. (DAL) | Mancala | [link](https://github.com/mhinte91/ProjectOne) |  |
+| Michael M. (DAL) | Checkers | [link](https://github.com/Mad-Hatter-1865/Checkers) |  |
 | Cole (DAL) | Slot Machine | [link](https://github.com/41Holmes41/myproject1) |  |
-| Ruben (DAL) |  |  |  |
+| Ruben (DAL) | Card Matching Game | [link](https://github.com/rcaceres1/MatchingGame1) |  |
 | Ryan (DAL) | Blackjack | [link](https://github.com/RyanPGeorge/project1-blackjack) |  |
-| Samuel (DAL) |  |  |  |
+| Sam (DAL) | Snake | [link](https://github.com/samiduara/Snake-Game) |  |
 | Amandeep (LA) |  |  |  |
 | Dan (LA) | Minesweeper | [link](https://github.com/seagrendaniel/Mime-Sweeper) |  |
 | Dave (LA) | Blackjack | [link](https://github.com/davekoncsol/black-jack) |  |
