@@ -58,21 +58,21 @@
 | Braxton (SF) | Slot Machine | [link](https://github.com/codenerd21/Slot-Machine.git) |  |
 | Carol (SF) | 2048 | [link](https://github.com/carolsand/TwentyFoutyEight) |  |
 | CJ (SF) | Blackjack | [link](https://github.com/cjs83/blackjack) |  |
-| Chi (SF) | 2048 |  |  |
+| Chi (SF) | 2048 | [link](https://github.com/Chi37/2048) |  |
 | Emily (SF) | Mancala | [link](https://github.com/emilyc729/mancala) |  |
 | Greg M. (SF) | Minesweeper | [link](https://github.com/g-merrill/minesweeper) |  |
 | Greg R. (SF) | 2048 | [link](https://github.com/franics925/2048) |  |
 | Jon (SF) | Echo (Simon) | [link](https://github.com/simpleCodify/Project-Echo) | [link](https://simplecodify.github.io/Project-Echo/) |
 | Joshua (SF) | Jota Negra | [link](https://github.com/jusselman/jotaNegra) |  |
 | Loquen (SF) | Checkers | [link](https://github.com/Loquen/checkers) |  |
-| Matthew (SF) |  |  |  |
+| Matthew (SF) | Whack-a-mole |  |  |
 | Michael (SF) | Minesweeper | [link](https://github.com/mihof/minesweeper-project) |  |
-| Ny Antsa (SF) |  |  |  |
+| Ny Antsa (SF) | 2048 |  |  |
 | Preston (SF) |  |  |  |
 | Samantha (SF) | Solitaire | [link](https://github.com/Samantha2233/Solitaire) |  |
 | Sonnia (SF) | Slot Machine | [link](https://github.com/brownbugz/slotmachine) |  |
-| Sorrel (SF) |  |  |  |
-| Steven (SF) |  |  |  |
-| Tyler (SF) |  |  |  |
+| Sorrel (SF) | Go |  |  |
+| Steven (SF) | Roulette |  |  |
+| Tyler (SF) | DOM Platformer |  |  |
 | Wenjie (SF) | Blackjack | [link](https://github.com/wenwenkp/black-jack) |  |
-| Yaphiet (SF) |  |  |  |
+| Yaphiet (SF) | War |  |  |
