@@ -52,22 +52,21 @@
 | Rick (LA) |  |  |  |
 | Timothy (LA) |  |  |  |
 | Victor (LA) |  |  |  |
-| Aly (SF) |  |  |  |
+| Aly (SF) | Battleship |  |  |
 | Anami (SF) | Blackjack | [link](https://github.com/anami-sf/blackjack-v2) | [link](https://anami-sf.github.io/blackjack-v2/) |
-| Sheena (SF) |  |  |  |
 | Anna (SF) | War | [link](https://github.com/1anya1/War) |  |
-| Braxton (SF) |  |  |  |
+| Braxton (SF) | Slot Machine | [link](https://github.com/codenerd21/Slot-Machine.git) |  |
 | Carol (SF) | 2048 | [link](https://github.com/carolsand/TwentyFoutyEight) |  |
 | CJ (SF) | Blackjack | [link](https://github.com/cjs83/blackjack) |  |
-| Chi (SF) |  |  |  |
+| Chi (SF) | 2048 |  |  |
 | Emily (SF) | Mancala | [link](https://github.com/emilyc729/mancala) |  |
-| Greg M. (SF) | Minesweeper | [link](https://github.com/g-merrill/project-1) |  |
+| Greg M. (SF) | Minesweeper | [link](https://github.com/g-merrill/minesweeper) |  |
 | Greg R. (SF) | 2048 | [link](https://github.com/franics925/2048) |  |
 | Jon (SF) | Echo (Simon) | [link](https://github.com/simpleCodify/Project-Echo) | [link](https://simplecodify.github.io/Project-Echo/) |
 | Joshua (SF) | Jota Negra | [link](https://github.com/jusselman/jotaNegra) |  |
 | Loquen (SF) | Checkers | [link](https://github.com/Loquen/checkers) |  |
 | Matthew (SF) |  |  |  |
-| Michael (SF) |  |  |  |
+| Michael (SF) | Minesweeper | [link](https://github.com/mihof/minesweeper-project) |  |
 | Ny Antsa (SF) |  |  |  |
 | Preston (SF) |  |  |  |
 | Samantha (SF) | Solitaire | [link](https://github.com/Samantha2233/Solitaire) |  |
