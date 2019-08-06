@@ -52,7 +52,7 @@
 | Rick (LA) |  |  |  |
 | Timothy (LA) |  |  |  |
 | Victor (LA) |  |  |  |
-| Aly (SF) | Battleship |  |  |
+| Aly (SF) | Battleship | [link](https://github.com/alynguyen/battle-ship) |  |
 | Anami (SF) | Blackjack | [link](https://github.com/anami-sf/blackjack-v2) | [link](https://anami-sf.github.io/blackjack-v2/) |
 | Anna (SF) | War | [link](https://github.com/1anya1/War) |  |
 | Braxton (SF) | Slot Machine | [link](https://github.com/codenerd21/Slot-Machine.git) |  |
@@ -67,7 +67,7 @@
 | Loquen (SF) | Checkers | [link](https://github.com/Loquen/checkers) |  |
 | Matthew (SF) | Whack-a-mole |  |  |
 | Michael (SF) | Minesweeper | [link](https://github.com/mihof/minesweeper-project) |  |
-| Ny Antsa (SF) | 2048 |  |  |
+| Ny Antsa (SF) | 2048 | [link](https://github.com/NyAntsaR/2048_Game) |  |
 | Preston (SF) | Dota Game | [link](https://github.com/prestonhom/DotaGame) |  |
 | Samantha (SF) | Solitaire | [link](https://github.com/Samantha2233/Solitaire) |  |
 | Sonnia (SF) | Slot Machine | [link](https://github.com/brownbugz/slotmachine) |  |
