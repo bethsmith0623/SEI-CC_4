@@ -16,6 +16,7 @@ It is a requirement to complete at least **80%** of the following to to receive:
 |Fri 7/26|[Tic-Tac-Toe Weekend](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/tree/master/work/w01/d5/tic-tac-toe-weekend)|
 |Mon 7/29|[Responsive Design Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/blob/master/work/w02/d1/04-responsive-design-lab.md)|
 |Wed 7/31|[jQuery "My Developer Skills" Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/blob/master/work/w02/d3/03-04-jquery-lab.md)|
+|Tue 8/13|[Express "Dev Skills" Part 2 Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/blob/master/work/w04/d2/04-dev-skills-lab-part-2.md)|
 
 
 
