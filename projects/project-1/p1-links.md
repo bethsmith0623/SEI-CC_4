@@ -2,31 +2,32 @@
 
 | Student | Game | GitHub | Hosted Site |
 |---|:---:|:---:|:---:|
-| Ben (ATX) |  |  |  |
-| Beverly (ATX) |  |  |  |
-| Caleb (ATX) |  |  |  |
-| Chighali (ATX) |  |  |  |
-| Chris M. (ATX) |  |  |  |
-| Christopher P. (ATX) |  |  |  |
-| Conner (ATX) |  |  |  |
-| David (ATX) |  |  |  |
-| Dev (ATX) |  |  |  |
-| Elco (ATX) |  |  |  |
-| Emily L. (ATX) |  | [link](https://github.com/emgrebe/Unit-1-Project) |  |
-| Emily M. (ATX) |  |  |  |
-| Frances (ATX) |  |  |  |
-| Garrett (ATX) |  |  |  |
-| Heather (ATX) |  |  |  |
-| Jack (ATX) |  |  |  |
-| Jeremiah (ATX) |  |  |  |
-| Joseph (ATX) |  |  |  |
-| Julia (ATX) |  |  |  |
-| Lily (ATX) |  |  |  |
-| Mason (ATX) |  |  |  |
-| Nova (ATX) |  |  |  |
-| Robin (ATX) |  |  |  |
-| Taylor (ATX) |  |  |  |
-| Vittoria (ATX) |  |  |  |
+| Ben (ATX) | Craps | [link](https://github.com/ManliestBen/Craps) |  |
+| Beverly (ATX) |  | [link](https://github.com/beverlyosoria/Unit-1-Project) |  |
+| Caleb (ATX) |  | [link](https://github.com/snsaleh1/GAProject1) |  |
+| Chighali (ATX) |  | [link](https://github.com/ChighaliMknss/Unit-One-Project) |  |
+| Chris M. (ATX) |  | [link](https://github.com/mayfielc/Unit-1-Project.git) |  |
+| Christopher P. (ATX) | MemoryGame | [link](https://github.com/600rrchris/Unit-1-project.git) |  |
+| Conner (ATX) |  | [link](https://github.com/ConnerMcCabe/project1) |  |
+| David (ATX) | omok | [link](https://github.com/eyybaebae/omok) |  |
+| Dev (ATX) |  | [link](https://github.com/Dev-94/unit1_project) |  |
+| Elco (ATX) | 2048 | [link](https://github.com/eag58914/2048_project) |  |
+| Emily L. (ATX) | Yathzee | [link](https://github.com/emgrebe/Yahtzee-Game) |  |
+| Emily M. (ATX) | TheMooreYouKnow | [link](https://github.com/efm0004/the-moore-you-know.git) |  |
+| Frances (ATX) |  | [link](https://github.com/fcancio/chin2win) |  |
+| Garrett (ATX) |  | [link](https://github.com/garryc5/TetrisGame) |  |
+| Heather (ATX) |  | [link](https://github.com/MetaHeather/Unit1Project) |  |
+| Jack (ATX) | AdventureGame | [link](https://github.com/Jground-33/Adventure-Game) |  |
+| Jared R (ATX) |  | [link](https://github.com/jrodriguez082046/Unit-1-Project-.git) |  |
+| Jeremiah (ATX) |  | [link](https://github.com/JMHGZ/unit1-project) |  |
+| Joseph (ATX) | Solitaire | [link](https://github.com/SleepyJosus/Solitaire) |  |
+| Julia (ATX) |  | [link](https://github.com/julia-nichole/unit-1-game) |  |
+| Lily (ATX) |  | [link](https://github.com/lilymbest/Unit-1-Project) |  |
+| Mason (ATX) |  | [link](https://github.com/masonpierce/unit-one-project.git) |  |
+| Nova (ATX) | BlackJack | [link](https://github.com/nhasley/Black-Jack-) |  |
+| Robin (ATX) |  | [link](https://github.com/robified/unit-1-project) |  |
+| Taylor (ATX) | Sudoku | [link](https://github.com/tlacerte/Sudoku---JS-HTML-CSS) |  |
+| Vittoria (ATX) |  | [link](https://github.com/vittoriaerdem/project1) |  |
 | Andrew (DAL) | Checkers | [link](https://github.com/atheismann/checkers/tree/development/) |  |
 | Armando (DAL) | War | [link](https://github.com/Drag49487Jr/War-Game) |  |
 | Daniel (DAL) | Blackjack | [link](https://github.com/dc3430/BlackJack) |  |
@@ -51,28 +52,27 @@
 | Rick (LA) |  |  |  |
 | Timothy (LA) |  |  |  |
 | Victor (LA) |  |  |  |
-| Aly (SF) |  |  |  |
+| Aly (SF) | Battleship |  |  |
 | Anami (SF) | Blackjack | [link](https://github.com/anami-sf/blackjack-v2) | [link](https://anami-sf.github.io/blackjack-v2/) |
-| Sheena (SF) |  |  |  |
 | Anna (SF) | War | [link](https://github.com/1anya1/War) |  |
-| Braxton (SF) |  |  |  |
+| Braxton (SF) | Slot Machine | [link](https://github.com/codenerd21/Slot-Machine.git) |  |
 | Carol (SF) | 2048 | [link](https://github.com/carolsand/TwentyFoutyEight) |  |
 | CJ (SF) | Blackjack | [link](https://github.com/cjs83/blackjack) |  |
-| Chi (SF) |  |  |  |
+| Chi (SF) | 2048 | [link](https://github.com/Chi37/2048) |  |
 | Emily (SF) | Mancala | [link](https://github.com/emilyc729/mancala) |  |
-| Greg M. (SF) | Minesweeper | [link](https://github.com/g-merrill/project-1) |  |
+| Greg M. (SF) | Minesweeper | [link](https://github.com/g-merrill/minesweeper) |  |
 | Greg R. (SF) | 2048 | [link](https://github.com/franics925/2048) |  |
 | Jon (SF) | Echo (Simon) | [link](https://github.com/simpleCodify/Project-Echo) | [link](https://simplecodify.github.io/Project-Echo/) |
 | Joshua (SF) | Jota Negra | [link](https://github.com/jusselman/jotaNegra) |  |
 | Loquen (SF) | Checkers | [link](https://github.com/Loquen/checkers) |  |
-| Matthew (SF) |  |  |  |
-| Michael (SF) |  |  |  |
-| Ny Antsa (SF) |  |  |  |
+| Matthew (SF) | Whack-a-mole |  |  |
+| Michael (SF) | Minesweeper | [link](https://github.com/mihof/minesweeper-project) |  |
+| Ny Antsa (SF) | 2048 |  |  |
 | Preston (SF) |  |  |  |
 | Samantha (SF) | Solitaire | [link](https://github.com/Samantha2233/Solitaire) |  |
 | Sonnia (SF) | Slot Machine | [link](https://github.com/brownbugz/slotmachine) |  |
-| Sorrel (SF) |  |  |  |
-| Steven (SF) |  |  |  |
-| Tyler (SF) |  |  |  |
+| Sorrel (SF) | Go |  |  |
+| Steven (SF) | Roulette |  |  |
+| Tyler (SF) | DOM Platformer |  |  |
 | Wenjie (SF) | Blackjack | [link](https://github.com/wenwenkp/black-jack) |  |
-| Yaphietq (SF) |  |  |  |
+| Yaphiet (SF) | War |  |  |
