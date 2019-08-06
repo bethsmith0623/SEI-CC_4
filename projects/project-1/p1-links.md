@@ -75,4 +75,4 @@
 | Steven (SF) |  |  |  |
 | Tyler (SF) |  |  |  |
 | Wenjie (SF) | Blackjack | [link](https://github.com/wenwenkp/black-jack) |  |
-| Yaphietq (SF) |  |  |  |
+| Yaphiet (SF) |  |  |  |
