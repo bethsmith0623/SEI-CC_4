@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <title>Mongoose Movies</title>
+</head>
+<body>
+  <h2>Enter a New Movie</h2>
+  <form action="/movies" method="POST">
+    <label>Title:
+      <input type="text" name="title">
+    </label><br>
+    <label>Release Year:
+      <input type="text" name="releaseYear">
+    </label><br>
+    <label>MPAA Rating
+      <select name="mpaaRating">
+        <option value="G">G</option>
+        <option value="PG">PG</option>
+        <option value="PG-13">PG-13</option>
+        <option value="R">R</option>
+      </select>
+    </label><br>
+    <label>Cast (separate actors with commas):
+      <input type="text" name="cast">
+    </label><br>
+    <label>Now Showing:
+      <input type="checkbox" name="nowShowing" checked>
+    </label><br>
+    <input type="submit" value="Add Movie">
+  </form>
+</body>
+</html>
