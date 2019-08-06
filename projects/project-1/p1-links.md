@@ -68,11 +68,11 @@
 | Matthew (SF) | Whack-a-mole |  |  |
 | Michael (SF) | Minesweeper | [link](https://github.com/mihof/minesweeper-project) |  |
 | Ny Antsa (SF) | 2048 |  |  |
-| Preston (SF) |  |  |  |
+| Preston (SF) | Dota Game | [link](https://github.com/prestonhom/DotaGame) |  |
 | Samantha (SF) | Solitaire | [link](https://github.com/Samantha2233/Solitaire) |  |
 | Sonnia (SF) | Slot Machine | [link](https://github.com/brownbugz/slotmachine) |  |
-| Sorrel (SF) | Go |  |  |
-| Steven (SF) | Roulette |  |  |
-| Tyler (SF) | DOM Platformer |  |  |
+| Sorrel (SF) | Go | [link](https://github.com/sorrelbri/browser-go) |  |
+| Steven (SF) | Roulette | [link](https://git.generalassemb.ly/ssotosf/roulette_game) |  |
+| Tyler (SF) | DOM Platformer | [link](https://github.com/tvilla0000/Project-1) |  |
 | Wenjie (SF) | Blackjack | [link](https://github.com/wenwenkp/black-jack) |  |
 | Yaphiet (SF) | War |  |  |
