@@ -17,7 +17,7 @@
 | Frances (ATX) | Chin 2 Win | [link](https://github.com/fcancio/chin2win) |  |
 | Garrett (ATX) |  | [link](https://github.com/garryc5/TetrisGame) |  |
 | Heather (ATX) |  | [link](https://github.com/MetaHeather/Unit1Project) |  |
-| Jack (ATX) | AdventureGame | [link](https://github.com/Jground-33/Adventure-Game) |  |
+| Jack (ATX) | AdventureGame | [link](https://github.com/Jground-33/Adventure-Game) | [link](https://jground-33.github.io/Adventure-Game/) |
 | Jared R (ATX) | Guitar Game | [link](https://github.com/jrodriguez082046/Unit-1-Project-.git) |  |
 | Jeremiah (ATX) |  | [link](https://github.com/JMHGZ/unit1-project) |  |
 | Joseph (ATX) | Solitaire | [link](https://github.com/SleepyJosus/Solitaire) |  |
