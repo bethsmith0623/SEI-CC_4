@@ -14,11 +14,11 @@
 | Elco (ATX) | 2048 | [link](https://github.com/eag58914/2048_project) |  |
 | Emily L. (ATX) | Yathzee | [link](https://github.com/emgrebe/Yahtzee-Game) |  |
 | Emily M. (ATX) | TheMooreYouKnow | [link](https://github.com/efm0004/the-moore-you-know.git) |  |
-| Frances (ATX) |  | [link](https://github.com/fcancio/chin2win) |  |
+| Frances (ATX) | Chin 2 Win | [link](https://github.com/fcancio/chin2win) |  |
 | Garrett (ATX) |  | [link](https://github.com/garryc5/TetrisGame) |  |
 | Heather (ATX) |  | [link](https://github.com/MetaHeather/Unit1Project) |  |
 | Jack (ATX) | AdventureGame | [link](https://github.com/Jground-33/Adventure-Game) |  |
-| Jared R (ATX) |  | [link](https://github.com/jrodriguez082046/Unit-1-Project-.git) |  |
+| Jared R (ATX) | Guitar Game | [link](https://github.com/jrodriguez082046/Unit-1-Project-.git) |  |
 | Jeremiah (ATX) |  | [link](https://github.com/JMHGZ/unit1-project) |  |
 | Joseph (ATX) | Solitaire | [link](https://github.com/SleepyJosus/Solitaire) |  |
 | Julia (ATX) |  | [link](https://github.com/julia-nichole/unit-1-game) |  |
