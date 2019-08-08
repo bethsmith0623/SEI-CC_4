@@ -50,13 +50,13 @@
 | Perice (LA) | Hangman | [link](https://github.com/perice-pope/hangman) | [link](https://perice-pope.github.io/hangman/) |
 | Timothy (LA) | 2048 | [link](https://github.com/TimCross1994/2048-Game) | [link](https://timcross1994.github.io/2048-Game/) |
 | Victor (LA) | 2048 | [link](https://github.com/TimeForZeros/Game-2048) | [link](https://timeforzeros.github.io/Game-2048/) |
-| Aly (SF) | Battleship | [link](https://github.com/alynguyen/battle-ship) |  |
+| Aly (SF) | Battleship | [link](https://github.com/alynguyen/battle-ship) | [link](https://alynguyen.github.io/battle-ship/) |
 | Anami (SF) | Blackjack | [link](https://github.com/anami-sf/blackjack-v2) | [link](https://anami-sf.github.io/blackjack-v2/) |
 | Braxton (SF) | Slot Machine | [link](https://github.com/codenerd21/Slot-Machine.git) | [link](https://codenerd21.github.io/Slot-Machine/) |
 | Carol (SF) | 2048 | [link](https://github.com/carolsand/TwentyFoutyEight) |  |
 | CJ (SF) | Blackjack | [link](https://github.com/cjs83/blackjack) |  |
-| Chi (SF) | 2048 | [link](https://github.com/Chi37/2048) |  |
-| Emily (SF) | Mancala | [link](https://github.com/emilyc729/mancala) |  |
+| Chi (SF) | 2048 | [link](https://github.com/Chi37/2048) | [link](https://chi37.github.io/2048/) |
+| Emily (SF) | Mancala | [link](https://github.com/emilyc729/mancala) | [link](https://emilyc729.github.io/mancala/) |
 | Greg M. (SF) | Minesweeper | [link](https://github.com/g-merrill/minesweeper) | [link](g-merrill.github.io/minesweeper/) |
 | Greg R. (SF) | 2048 | [link](https://github.com/franics925/2048) |  |
 | Jon (SF) | Echo (Simon) | [link](https://github.com/simpleCodify/Project-Echo) | [link](https://simplecodify.github.io/Project-Echo/) |
