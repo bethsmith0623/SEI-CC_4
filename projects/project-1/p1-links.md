@@ -63,7 +63,7 @@
 | Jon (SF) | Echo (Simon) | [link](https://github.com/simpleCodify/Project-Echo) | [link](https://simplecodify.github.io/Project-Echo/) |
 | Joshua (SF) | Jota Negra | [link](https://github.com/jusselman/jotaNegra) |  |
 | Loquen (SF) | Checkers | [link](https://github.com/Loquen/checkers) | [link](https://loquen.github.io/checkers/) |
-| Matthew (SF) | Whack-a-mole |  |  |
+| Matthew (SF) | Whack-a-mole | [link](https://github.com/mrobin88/Wack-a-mole) |  |
 | Michael (SF) | Minesweeper | [link](https://github.com/mihof/minesweeper-project) |  |
 | Ny Antsa (SF) | 2048 | [link](https://github.com/NyAntsaR/2048_Game) |  |
 | Preston (SF) | Dota Game | [link](https://github.com/prestonhom/DotaGame) |  |
