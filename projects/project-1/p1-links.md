@@ -42,7 +42,7 @@
 | Sam (DAL) | Card Matching Game | [link](https://github.com/samiduara/card-matching-game) |  |
 | Amandeep (LA) |  |  |  |
 | Dan (LA) | Minesweeper | [link](https://github.com/seagrendaniel/Mime-Sweeper) |  |
-| Dave (LA) | Blackjack | [link](https://github.com/davekoncsol/black-jack) |  |
+| Dave (LA) | Blackjack | [link](https://github.com/davekoncsol/black-jack) | [link](https://davekoncsol.github.io/black-jack/) |
 | Leo (LA) | Slot Machine | [link](https://github.com/leonelRos/Slot-machine) |  |
 | Marques (LA) | War | [link](https://github.com/Mjsmith30/game-of-war) |  |
 | Nick (LA) |  |  |  |
