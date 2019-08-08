@@ -23,7 +23,6 @@
 | Joseph (ATX) | Solitaire | [link](https://github.com/SleepyJosus/Solitaire) | [link](https://sleepyjosus.github.io/Solitaire/) |
 | Julia (ATX) | MemoryBasketBall | [link](https://github.com/julia-nichole/unit-1-game) | [link](http://unit-1-nba.surge.sh) |
 | Lily (ATX) | MemoryGame | [link](https://github.com/lilymbest/Unit-1-Project) | [link](https://lilymbest.github.io/Unit-1-Project/) |
-| Mason (ATX) | Black Jack | [link](https://github.com/masonpierce/unit-one-project.git) | [link](http://masonpierce.surge.sh) |
 | Nova (ATX) | BlackJack | [link](https://github.com/nhasley/Black-Jack-) | [link](http://novahasleyblackjack.surge.sh/) |
 | Robin (ATX) | Black-jack | [link](https://github.com/robified/unit-1-project) |  |
 | Taylor (ATX) | Sudoku | [link](https://github.com/tlacerte/Sudoku---JS-HTML-CSS) | [link](http://taylor-sudoku.surge.sh/) |
