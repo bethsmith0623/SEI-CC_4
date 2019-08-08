@@ -29,7 +29,7 @@
 | Vittoria (ATX) | Bingo | [link](https://github.com/vittoriaerdem/project1) | [link](https://vittoriaerdem.github.io/bingo-game/) |
 | Andrew (DAL) | Checkers | [link](https://github.com/atheismann/checkers/tree/development/) | [link](https://atheismann.github.io/checkers/) |
 | Armando (DAL) | War | [link](https://github.com/Drag49487Jr/War-Game) |  |
-| Daniel (DAL) | Blackjack | [link](https://github.com/dc3430/BlackJack) |  |
+| Daniel (DAL) | Blackjack | [link](https://github.com/dc3430/BlackJack) | [link](https://dc3430.github.io/BlackJack/) |
 | Beth (DAL) | Roulette | [link](https://github.com/bethsmith0623/Roulette) | [link](https://bethsmith0623.github.io/Roulette/) |
 | James (DAL) | Card Matching Game | [link](https://github.com/newmediarecordings/myproject1) | [link](https://newmediarecordings.github.io/myproject1/) |
 | Joseph (DAL) | War | [link](https://github.com/Jhunted/myproject1) |  |
