@@ -44,7 +44,7 @@
 | Dan (LA) | "Mime" Sweeper | [link](https://github.com/seagrendaniel/Mime-Sweeper) | [link](https://seagrendaniel.github.io/Mime-Sweeper/) |
 | Dave (LA) | Blackjack | [link](https://github.com/davekoncsol/black-jack) | [link](https://davekoncsol.github.io/black-jack/) |
 | Leo (LA) | Slot Machine | [link](https://github.com/leonelRos/Slot-machine) | [link](https://leonelros.github.io/Slot-machine/) |
-| Marques (LA) | War | [link](https://github.com/Mjsmith30/game-of-war) |  |
+| Marques (LA) | War | [link](https://github.com/Mjsmith30/game-of-war) | [link](https://mjsmith30.github.io/game-of-war/) |
 | Nick (LA) | Roulette | [link](https://github.com/nbai123/Roulette) | [link](https://nbai123.github.io/Roulette/) |
 | Muhammed (LA) | War | [link](https://github.com/qadanm) | [link](https://qadanm.github.io/war-game/) |
 | Perice (LA) | Hangman | [link](https://github.com/perice-pope/hangman) | [link](https://perice-pope.github.io/hangman/) |
