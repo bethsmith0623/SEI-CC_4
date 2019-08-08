@@ -5,7 +5,7 @@
 | Ben (ATX) | Craps | [link](https://github.com/ManliestBen/Craps) | [link](http://crappy-craps.surge.sh/) |
 | Beverly (ATX) | GuessThatMovie | [link](https://github.com/beverlyosoria/Unit-1-Project) | [link](http://moviegame.surge.sh/) |
 | Caleb (ATX) | GuessWhatCity | [link](https://github.com/snsaleh1/GAProject1) | [link](https://rep-your-city-ga19.surge.sh) |
-| Chighali (ATX) | HangMan | [link](https://github.com/ChighaliMknss/Unit-One-Project) |  |
+| Chighali (ATX) | HangMan | [link](https://github.com/ChighaliMknss/Unit-One-Project) | [link](https://chighalimknss.github.io/Unit-One-Project/) |
 | Chris M. (ATX) | Memory | [link](https://github.com/mayfielc/Unit-1-Project.git) | [link](https://dendecardgame.surge.sh/) |
 | Christopher P. (ATX) | MemoryGame | [link](https://github.com/600rrchris/Unit-1-project.git) | [link](http://damaging-class.surge.sh/) |
 | Conner (ATX) | SlidePuzzle | [link](https://github.com/ConnerMcCabe/project1) | [link](http://stressedofficeguy.surge.sh/) |
