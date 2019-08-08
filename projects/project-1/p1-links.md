@@ -47,7 +47,7 @@
 | Marques (LA) | War | [link](https://github.com/Mjsmith30/game-of-war) |  |
 | Nick (LA) | Roulette | [link](https://github.com/nbai123/Roulette) | [link](https://nbai123.github.io/Roulette/) |
 | Muhammed (LA) | War | [link](https://github.com/qadanm) | [link](https://qadanm.github.io/war-game/) |
-| Perice (LA) | Battleship | [link](https://github.com/perice-pope/Battle-Assembly_4_000) |  |
+| Perice (LA) | Hangman | [link](https://github.com/perice-pope/hangman) | [link](https://perice-pope.github.io/hangman/) |
 | Timothy (LA) | 2048 | [link](https://github.com/TimCross1994/2048-Game) | [link](https://timcross1994.github.io/2048-Game/) |
 | Victor (LA) | 2048 | [link](https://github.com/TimeForZeros/Game-2048) | [link](https://timeforzeros.github.io/Game-2048/) |
 | Aly (SF) | Battleship | [link](https://github.com/alynguyen/battle-ship) |  |
