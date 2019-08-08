@@ -48,7 +48,7 @@
 | Nick (LA) |  |  |  |
 | Muhammed (LA) |  |  |  |
 | Perice (LA) | Battleship | [link](https://github.com/perice-pope/Battle-Assembly_4_000) |  |
-| Timothy (LA) |  |  |  |
+| Timothy (LA) | 2048 | [link](https://github.com/TimCross1994/2048-Game) | [link](https://timcross1994.github.io/2048-Game/) |
 | Victor (LA) | 2048 | [link](https://github.com/TimeForZeros/Game-2048) | [link](https://timeforzeros.github.io/Game-2048/) |
 | Aly (SF) | Battleship | [link](https://github.com/alynguyen/battle-ship) |  |
 | Anami (SF) | Blackjack | [link](https://github.com/anami-sf/blackjack-v2) | [link](https://anami-sf.github.io/blackjack-v2/) |
