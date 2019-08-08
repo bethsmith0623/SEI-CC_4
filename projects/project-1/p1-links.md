@@ -27,19 +27,19 @@
 | Robin (ATX) | Black-jack | [link](https://github.com/robified/unit-1-project) | [link](https://robified.github.io/unit-1-project/) |
 | Taylor (ATX) | Sudoku | [link](https://github.com/tlacerte/Sudoku---JS-HTML-CSS) | [link](http://taylor-sudoku.surge.sh/) |
 | Vittoria (ATX) | Bingo | [link](https://github.com/vittoriaerdem/project1) | [link](https://vittoriaerdem.github.io/bingo-game/) |
-| Andrew (DAL) | Checkers | [link](https://github.com/atheismann/checkers/tree/development/) |  |
+| Andrew (DAL) | Checkers | [link](https://github.com/atheismann/checkers/tree/development/) | [link](https://atheismann.github.io/checkers/) |
 | Armando (DAL) | War | [link](https://github.com/Drag49487Jr/War-Game) |  |
 | Daniel (DAL) | Blackjack | [link](https://github.com/dc3430/BlackJack) |  |
-| Beth (DAL) | Roulette | [link](https://github.com/bethsmith0623/Roulette) |  |
-| James (DAL) | Card Matching Game | [link](https://github.com/newmediarecordings/myproject1) |  |
+| Beth (DAL) | Roulette | [link](https://github.com/bethsmith0623/Roulette) | [link](https://bethsmith0623.github.io/Roulette/) |
+| James (DAL) | Card Matching Game | [link](https://github.com/newmediarecordings/myproject1) | [link](https://newmediarecordings.github.io/myproject1/) |
 | Joseph (DAL) | War | [link](https://github.com/Jhunted/myproject1) |  |
-| Kevinn (DAL) | War | [link](https://github.com/kevinnarbas/war-game-project1) |  |
-| Michael H. (DAL) | Mancala | [link](https://github.com/mhinte91/ProjectOne) |  |
+| Kevinn (DAL) | War | [link](https://github.com/kevinnarbas/war-game-project1) | [link](https://kevinnarbas.github.io/war-game-project1/#) |
+| Michael H. (DAL) | Mancala | [link](https://github.com/mhinte91/ProjectOne) | [link](https://mhinte91.github.io/MancalaIsland/) |
 | Michael M. (DAL) | Checkers | [link](https://github.com/Mad-Hatter-1865/Checkers) |  |
-| Cole (DAL) | Slot Machine | [link](https://github.com/41Holmes41/myproject1) |  |
-| Ruben (DAL) | Card Matching Game | [link](https://github.com/rcaceres1/MatchingGame1) |  |
-| Ryan (DAL) | Blackjack | [link](https://github.com/RyanPGeorge/project1-blackjack) |  |
-| Sam (DAL) | Card Matching Game | [link](https://github.com/samiduara/card-matching-game) |  |
+| Cole (DAL) | Slot Machine | [link](https://github.com/41Holmes41/myproject1) |   [link](https://41holmes41.github.io/myproject1/) |
+| Ruben (DAL) | Card Matching Game | [link](https://github.com/rcaceres1/MatchingGame1) | [link](https://rcaceres1.github.io/MatchingGame1/) |
+| Ryan (DAL) | Blackjack | [link](https://github.com/RyanPGeorge/project1-blackjack) | [link](https://ryanpgeorge.github.io/project1-blackjack/) |
+| Sam (DAL) | Card Matching Game | [link](https://github.com/samiduara/card-matching-game) | [link](https://samiduara.github.io/card-matching-game/) |
 | Amandeep (LA) |  |  |  |
 | Dan (LA) | "Mime" Sweeper | [link](https://github.com/seagrendaniel/Mime-Sweeper) | [link](https://seagrendaniel.github.io/Mime-Sweeper/) |
 | Dave (LA) | Blackjack | [link](https://github.com/davekoncsol/black-jack) | [link](https://davekoncsol.github.io/black-jack/) |
