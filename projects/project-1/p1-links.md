@@ -3,16 +3,16 @@
 | Student | Game | GitHub | Hosted Site |
 |---|:---:|:---:|:---:|
 | Ben (ATX) | Craps | [link](https://github.com/ManliestBen/Craps) | [link](http://crappy-craps.surge.sh/) |
-| Beverly (ATX) | GuessThatMovie | [link](https://github.com/beverlyosoria/Unit-1-Project) |  |
+| Beverly (ATX) | GuessThatMovie | [link](https://github.com/beverlyosoria/Unit-1-Project) | [link](http://moviegame.surge.sh/) |
 | Caleb (ATX) | GuessWhatCity | [link](https://github.com/snsaleh1/GAProject1) | [link](https://rep-your-city-ga19.surge.sh) |
-| Chighali (ATX) | HangMan | [link](https://github.com/ChighaliMknss/Unit-One-Project) |  |
+| Chighali (ATX) | HangMan | [link](https://github.com/ChighaliMknss/Unit-One-Project) | [link](https://chighalimknss.github.io/Unit-One-Project/) |
 | Chris M. (ATX) | Memory | [link](https://github.com/mayfielc/Unit-1-Project.git) | [link](https://dendecardgame.surge.sh/) |
 | Christopher P. (ATX) | MemoryGame | [link](https://github.com/600rrchris/Unit-1-project.git) | [link](http://damaging-class.surge.sh/) |
-| Conner (ATX) | SlidePuzzle | [link](https://github.com/ConnerMcCabe/project1) |  |
+| Conner (ATX) | SlidePuzzle | [link](https://github.com/ConnerMcCabe/project1) | [link](http://stressedofficeguy.surge.sh/) |
 | David (ATX) | omok | [link](https://github.com/eyybaebae/omok) | [link](http://direful-notebook.surge.sh/) |
 | Dev (ATX) | MathTeaching | [link](https://github.com/Dev-94/unit1_project) | [link](https://dev-94.github.io/unit1_project/) |
 | Elco (ATX) | GeoGuess | [link](https://github.com/eag58914/2048_project) | [link](http://kindhearted-use.surge.sh ) |
-| Emily L. (ATX) | Yathzee | [link](https://github.com/emgrebe/Yahtzee-Game) |  |
+| Emily L. (ATX) | Yathzee | [link](https://github.com/emgrebe/Yahtzee-Game) | [link](https://github.com/emgrebe/Yahtzee-Game/tree/gh-pages) |
 | Emily M. (ATX) | TheMooreYouKnow | [link](https://github.com/efm0004/the-moore-you-know.git) | [link](http://anxious-spark.surge.sh/) |
 | Frances (ATX) | Chin 2 Win | [link](https://github.com/fcancio/chin2win) | [link](https://fcancio.github.io/chin2win/) |
 | Garrett (ATX) | 2D Game | [link](https://github.com/garryc5/TetrisGame) | [link](https://garryc5.github.io/TetrisGame/) |
@@ -24,7 +24,7 @@
 | Julia (ATX) | MemoryBasketBall | [link](https://github.com/julia-nichole/unit-1-game) | [link](http://unit-1-nba.surge.sh) |
 | Lily (ATX) | MemoryGame | [link](https://github.com/lilymbest/Unit-1-Project) | [link](https://lilymbest.github.io/Unit-1-Project/) |
 | Nova (ATX) | BlackJack | [link](https://github.com/nhasley/Black-Jack-) | [link](http://novahasleyblackjack.surge.sh/) |
-| Robin (ATX) | Black-jack | [link](https://github.com/robified/unit-1-project) |  |
+| Robin (ATX) | Black-jack | [link](https://github.com/robified/unit-1-project) | [link](https://robified.github.io/unit-1-project/) |
 | Taylor (ATX) | Sudoku | [link](https://github.com/tlacerte/Sudoku---JS-HTML-CSS) | [link](http://taylor-sudoku.surge.sh/) |
 | Vittoria (ATX) | Bingo | [link](https://github.com/vittoriaerdem/project1) | [link](https://vittoriaerdem.github.io/bingo-game/) |
 | Andrew (DAL) | Checkers | [link](https://github.com/atheismann/checkers/tree/development/) |  |
