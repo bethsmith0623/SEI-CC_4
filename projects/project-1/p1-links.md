@@ -45,7 +45,7 @@
 | Dan (LA) | Minesweeper | [link](https://github.com/seagrendaniel/Mime-Sweeper) |  |
 | Dave (LA) | Blackjack | [link](https://github.com/davekoncsol/black-jack) |  |
 | Leo (LA) | Slot Machine | [link](https://github.com/leonelRos/Slot-machine) |  |
-| Marques (LA) | War | [link](https://github.com/Mjsmith30/THE-GAME-OF-WAR) |  |
+| Marques (LA) | War | [link](https://github.com/Mjsmith30/game-of-war) |  |
 | Nick (LA) |  |  |  |
 | Muhammed (LA) |  |  |  |
 | Perice (LA) | Battleship | [link](https://github.com/perice-pope/Battle-Assembly_4_000) |  |
