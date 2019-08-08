@@ -45,7 +45,7 @@
 | Dave (LA) | Blackjack | [link](https://github.com/davekoncsol/black-jack) | [link](https://davekoncsol.github.io/black-jack/) |
 | Leo (LA) | Slot Machine | [link](https://github.com/leonelRos/Slot-machine) |  |
 | Marques (LA) | War | [link](https://github.com/Mjsmith30/game-of-war) |  |
-| Nick (LA) |  |  |  |
+| Nick (LA) | Roulette | [link](https://github.com/nbai123/Roulette) | [link](https://nbai123.github.io/Roulette/) |
 | Muhammed (LA) |  |  |  |
 | Perice (LA) | Battleship | [link](https://github.com/perice-pope/Battle-Assembly_4_000) |  |
 | Timothy (LA) | 2048 | [link](https://github.com/TimCross1994/2048-Game) | [link](https://timcross1994.github.io/2048-Game/) |
