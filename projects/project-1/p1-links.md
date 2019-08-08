@@ -52,7 +52,6 @@
 | Victor (LA) | 2048 | [link](https://github.com/TimeForZeros/Game-2048) | [link](https://timeforzeros.github.io/Game-2048/) |
 | Aly (SF) | Battleship | [link](https://github.com/alynguyen/battle-ship) |  |
 | Anami (SF) | Blackjack | [link](https://github.com/anami-sf/blackjack-v2) | [link](https://anami-sf.github.io/blackjack-v2/) |
-| Anna (SF) | War | [link](https://github.com/1anya1/War) |  |
 | Braxton (SF) | Slot Machine | [link](https://github.com/codenerd21/Slot-Machine.git) | [link](https://codenerd21.github.io/Slot-Machine/) |
 | Carol (SF) | 2048 | [link](https://github.com/carolsand/TwentyFoutyEight) |  |
 | CJ (SF) | Blackjack | [link](https://github.com/cjs83/blackjack) |  |
