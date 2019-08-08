@@ -49,7 +49,6 @@
 | Nick (LA) |  |  |  |
 | Muhammed (LA) |  |  |  |
 | Perice (LA) | Battleship | [link](https://github.com/perice-pope/Battle-Assembly_4_000) |  |
-| Rick (LA) |  |  |  |
 | Timothy (LA) |  |  |  |
 | Victor (LA) |  |  |  |
 | Aly (SF) | Battleship | [link](https://github.com/alynguyen/battle-ship) |  |
