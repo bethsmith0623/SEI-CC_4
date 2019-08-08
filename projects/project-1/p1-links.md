@@ -41,12 +41,12 @@
 | Ryan (DAL) | Blackjack | [link](https://github.com/RyanPGeorge/project1-blackjack) |  |
 | Sam (DAL) | Card Matching Game | [link](https://github.com/samiduara/card-matching-game) |  |
 | Amandeep (LA) |  |  |  |
-| Dan (LA) | Minesweeper | [link](https://github.com/seagrendaniel/Mime-Sweeper) |  |
+| Dan (LA) | "Mime" Sweeper | [link](https://github.com/seagrendaniel/Mime-Sweeper) | [link](https://seagrendaniel.github.io/Mime-Sweeper/) |
 | Dave (LA) | Blackjack | [link](https://github.com/davekoncsol/black-jack) | [link](https://davekoncsol.github.io/black-jack/) |
-| Leo (LA) | Slot Machine | [link](https://github.com/leonelRos/Slot-machine) |  |
+| Leo (LA) | Slot Machine | [link](https://github.com/leonelRos/Slot-machine) | [link](https://leonelros.github.io/Slot-machine/) |
 | Marques (LA) | War | [link](https://github.com/Mjsmith30/game-of-war) |  |
 | Nick (LA) | Roulette | [link](https://github.com/nbai123/Roulette) | [link](https://nbai123.github.io/Roulette/) |
-| Muhammed (LA) |  |  |  |
+| Muhammed (LA) | War | [link](https://github.com/qadanm) | [link](https://qadanm.github.io/war-game/) |
 | Perice (LA) | Battleship | [link](https://github.com/perice-pope/Battle-Assembly_4_000) |  |
 | Timothy (LA) | 2048 | [link](https://github.com/TimCross1994/2048-Game) | [link](https://timcross1994.github.io/2048-Game/) |
 | Victor (LA) | 2048 | [link](https://github.com/TimeForZeros/Game-2048) | [link](https://timeforzeros.github.io/Game-2048/) |
