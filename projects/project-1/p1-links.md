@@ -12,7 +12,7 @@
 | David (ATX) | omok | [link](https://github.com/eyybaebae/omok) | [link](http://direful-notebook.surge.sh/) |
 | Dev (ATX) | MathTeaching | [link](https://github.com/Dev-94/unit1_project) | [link](https://dev-94.github.io/unit1_project/) |
 | Elco (ATX) | GeoGuess | [link](https://github.com/eag58914/2048_project) | [link](http://kindhearted-use.surge.sh ) |
-| Emily L. (ATX) | Yathzee | [link](https://github.com/emgrebe/Yahtzee-Game) | [link](https://github.com/emgrebe/Yahtzee-Game/tree/gh-pages) |
+| Emily L. (ATX) | Yathzee | [link](https://github.com/emgrebe/Yahtzee-Game) | [link](https://emgrebe.github.io/Yahtzee-Game/) |
 | Emily M. (ATX) | TheMooreYouKnow | [link](https://github.com/efm0004/the-moore-you-know.git) | [link](http://anxious-spark.surge.sh/) |
 | Frances (ATX) | Chin 2 Win | [link](https://github.com/fcancio/chin2win) | [link](https://fcancio.github.io/chin2win/) |
 | Garrett (ATX) | 2D Game | [link](https://github.com/garryc5/TetrisGame) | [link](https://garryc5.github.io/TetrisGame/) |
@@ -25,7 +25,7 @@
 | Lily (ATX) | MemoryGame | [link](https://github.com/lilymbest/Unit-1-Project) | [link](https://lilymbest.github.io/Unit-1-Project/) |
 | Nova (ATX) | BlackJack | [link](https://github.com/nhasley/Black-Jack-) | [link](http://novahasleyblackjack.surge.sh/) |
 | Robin (ATX) | Black-jack | [link](https://github.com/robified/unit-1-project) | [link](https://robified.github.io/unit-1-project/) |
-| Taylor (ATX) | Sudoku | [link](https://github.com/tlacerte/Sudoku---JS-HTML-CSS) | [link](http://taylor-sudoku.surge.sh/) |
+| Taylor (ATX) | Sudoku | [link](https://github.com/tlacerte/Sudoku---JS-HTML-CSS) | [link](http://momentous-steel.surge.sh/) |
 | Vittoria (ATX) | Bingo | [link](https://github.com/vittoriaerdem/project1) | [link](https://vittoriaerdem.github.io/bingo-game/) |
 | Andrew (DAL) | Checkers | [link](https://github.com/atheismann/checkers/tree/development/) | [link](https://atheismann.github.io/checkers/) |
 | Armando (DAL) | War | [link](https://github.com/Drag49487Jr/War-Game) | [link](https://drag49487jr.github.io/War-Game/) |
