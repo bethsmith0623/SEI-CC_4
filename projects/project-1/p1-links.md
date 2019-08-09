@@ -32,10 +32,10 @@
 | Daniel (DAL) | Blackjack | [link](https://github.com/dc3430/BlackJack) | [link](https://dc3430.github.io/BlackJack/) |
 | Beth (DAL) | Roulette | [link](https://github.com/bethsmith0623/Roulette) | [link](https://bethsmith0623.github.io/Roulette/) |
 | James (DAL) | Card Matching Game | [link](https://github.com/newmediarecordings/myproject1) | [link](https://newmediarecordings.github.io/myproject1/) |
-| Joseph (DAL) | War | [link](https://github.com/Jhunted/myproject1) |  |
+| Joseph (DAL) | War | [link](https://github.com/Jhunted/myproject1) | [link](https://jhunted.github.io/) |
 | Kevinn (DAL) | War | [link](https://github.com/kevinnarbas/war-game-project1) | [link](https://kevinnarbas.github.io/war-game-project1/#) |
 | Michael H. (DAL) | Mancala | [link](https://github.com/mhinte91/ProjectOne) | [link](https://mhinte91.github.io/MancalaIsland/) |
-| Michael M. (DAL) | Checkers | [link](https://github.com/Mad-Hatter-1865/Checkers) |  |
+| Michael M. (DAL) | Checkers | [link](https://github.com/Mad-Hatter-1865/Checkers) | [link](https://mad-hatter-1865.github.io/Checkers/) |
 | Cole (DAL) | Slot Machine | [link](https://github.com/41Holmes41/myproject1) |   [link](https://41holmes41.github.io/myproject1/) |
 | Ruben (DAL) | Card Matching Game | [link](https://github.com/rcaceres1/MatchingGame1) | [link](https://rcaceres1.github.io/MatchingGame1/) |
 | Ryan (DAL) | Blackjack | [link](https://github.com/RyanPGeorge/project1-blackjack) | [link](https://ryanpgeorge.github.io/project1-blackjack/) |
