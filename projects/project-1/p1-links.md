@@ -40,7 +40,7 @@
 | Ruben (DAL) | Card Matching Game | [link](https://github.com/rcaceres1/MatchingGame1) | [link](https://rcaceres1.github.io/MatchingGame1/) |
 | Ryan (DAL) | Blackjack | [link](https://github.com/RyanPGeorge/project1-blackjack) | [link](https://ryanpgeorge.github.io/project1-blackjack/) |
 | Sam (DAL) | Card Matching Game | [link](https://github.com/samiduara/card-matching-game) | [link](https://samiduara.github.io/card-matching-game/) |
-| Amandeep (LA) |  |  |  |
+| Amandeep (LA) | Mancala | [link](https://github.com/amanuhhh/Mancala) |  |
 | Dan (LA) | "Mime" Sweeper | [link](https://github.com/seagrendaniel/Mime-Sweeper) | [link](https://seagrendaniel.github.io/Mime-Sweeper/) |
 | Dave (LA) | Blackjack | [link](https://github.com/davekoncsol/black-jack) | [link](https://davekoncsol.github.io/black-jack/) |
 | Leo (LA) | Slot Machine | [link](https://github.com/leonelRos/Slot-machine) | [link](https://leonelros.github.io/Slot-machine/) |
