@@ -1,0 +1,16 @@
+<%- include('../partials/header') %>
+
+<section id="show-page">
+  <div>Title: </div>
+  <div><%= movie.title %></div>
+  <div>Release Year: </div>
+  <div><%= movie.releaseYear %></div>
+  <div>Rating: </div>
+  <div><%= movie.mpaaRating %></div>
+  <div>Cast: </div>
+  <div><%= movie.cast.join(', ') %></div>
+  <div>Now Showing: </div>
+  <div><%= movie.nowShowing ? 'Yes' : 'Nope' %></div>
+</section>
+  
+<%- include('../partials/footer') %>

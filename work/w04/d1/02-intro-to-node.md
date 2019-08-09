@@ -122,7 +122,7 @@
 	> sayHello()
 	Hello
 	undefined
-	> var http = require('http');
+	> const http = require('http');
 	undefined
 	> http
 	[ a large JS object representing Node's 'http' module ]
@@ -594,8 +594,8 @@
 <p style="text-align:left">A module named "random" that has a function <strong>assigned</strong> to the <em>module.exports</em> and returns a random number, as an integer, between two numbers provided, inclusive, as arguments; so that we could use it in our program like this:</p>
 	
 ```js
-var random = require('./utilities/random');
-for (var i = 0; i < 10; i++) {
+const random = require('./utilities/random');
+for (let i = 0; i < 10; i++) {
 	console.log( random(100, 200) );
 }
 ```
@@ -611,7 +611,7 @@ for (var i = 0; i < 10; i++) {
 - Hint: This is JS, so `Math.PI` is available.
 
 	```js
-	var circle = require('./utilities/circle');
+	const circle = require('./utilities/circle');
 	console.log( circle.area(50) );  // 7853.98...
 	console.log( circle.circumference(75) );  // 471.23...
 	```

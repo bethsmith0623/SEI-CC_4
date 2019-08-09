@@ -1,0 +1,56 @@
+<%- include('../partials/header') %>
+
+<section id="show-page">
+  <div>Title: </div>
+  <div><%= movie.title %></div>
+  <div>Release Year: </div>
+  <div><%= movie.releaseYear %></div>
+  <div>Rating: </div>
+  <div><%= movie.mpaaRating %></div>
+  <div>Cast: </div>
+  <div><%= movie.cast.join(', ') %></div>
+  <div>Now Showing: </div>
+  <div><%= movie.nowShowing ? 'Yes' : 'Nope' %></div>
+</section>
+
+<br><br><h2>Reviews</h2>
+<form id="add-review-form" method="POST"
+  action="/movies/<%= movie._id %>/reviews">
+  <label>Review:</label>
+  <textarea name="content"></textarea>
+  <label>Rating:</label>
+  <select name="rating">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+  <input type="submit" value="Add Review">
+</form>
+
+<% if (movie.reviews.length) { %>
+  <table>
+    <thead>
+      <tr>
+      	 <th>Date</th>
+        <th>Review</th>
+        <th>Rating</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% movie.reviews.forEach(function(r) { %>
+        <tr>
+          <td><%= r.createdAt.toLocaleDateString() %></td>
+          <td><%= r.content %></td>
+          <td><%= r.rating %></td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+<% } else { %>
+  <h5>No Reviews Yet</h5>
+<% } %>
+
+
+<%- include('../partials/footer') %>
