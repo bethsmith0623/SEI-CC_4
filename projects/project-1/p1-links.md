@@ -53,23 +53,23 @@
 | Aly (SF) | Battleship | [link](https://github.com/alynguyen/battle-ship) | [link](https://alynguyen.github.io/battle-ship/) |
 | Anami (SF) | Blackjack | [link](https://github.com/anami-sf/blackjack-v2) | [link](https://anami-sf.github.io/blackjack-v2/) |
 | Braxton (SF) | Slot Machine | [link](https://github.com/codenerd21/Slot-Machine.git) | [link](https://codenerd21.github.io/Slot-Machine/) |
-| Carol (SF) | 2048 | [link](https://github.com/carolsand/TwentyFoutyEight) |  |
+| Carol (SF) | Hangman | [link](https://github.com/carolsand/hangman) | [link](https://carolsand.github.io/hangman/) |
 | CJ (SF) | Blackjack | [link](https://github.com/cjs83/blackjack) |  |
 | Chi (SF) | 2048 | [link](https://github.com/Chi37/2048) | [link](https://chi37.github.io/2048/) |
 | Emily (SF) | Mancala | [link](https://github.com/emilyc729/mancala) | [link](https://emilyc729.github.io/mancala/) |
 | Greg M. (SF) | Minesweeper | [link](https://github.com/g-merrill/minesweeper) | [link](g-merrill.github.io/minesweeper/) |
 | Greg R. (SF) | 2048 | [link](https://github.com/franics925/2048) |  |
 | Jon (SF) | Echo (Simon) | [link](https://github.com/simpleCodify/Project-Echo) | [link](https://simplecodify.github.io/Project-Echo/) |
-| Joshua (SF) | Jota Negra | [link](https://github.com/jusselman/jotaNegra) |  |
+| Joshua (SF) | Jota Negra (Blackjack) | [link](https://github.com/jusselman/jotaNegra) | [link](https://jusselman.github.io/jotaNegra/) |
 | Loquen (SF) | Checkers | [link](https://github.com/Loquen/checkers) | [link](https://loquen.github.io/checkers/) |
 | Matthew (SF) | Whack-a-mole | [link](https://github.com/mrobin88/Wack-a-mole) |  |
 | Michael (SF) | Minesweeper | [link](https://github.com/mihof/minesweeper-project) | [link](https://mihof.github.io/minesweeper-project/) |
-| Ny Antsa (SF) | 2048 | [link](https://github.com/NyAntsaR/2048_Game) |  |
+| Ny Antsa (SF) | 2048 | [link](https://github.com/NyAntsaR/2048_Game) | [link](https://nyantsar.github.io/2048_Game/) |
 | Preston (SF) | Dota Game | [link](https://github.com/prestonhom/DotaGame) |  |
 | Samantha (SF) | Solitaire | [link](https://github.com/Samantha2233/Solitaire) |  |
 | Sonnia (SF) | Slot Machine | [link](https://github.com/brownbugz/slotmachine) | [link](https://brownbugz.github.io/slotmachine/) |
-| Sorrel (SF) | Go | [link](https://github.com/sorrelbri/browser-go) |  |
+| Sorrel (SF) | Go | [link](https://github.com/sorrelbri/browser-go) | [link](https://sorrelbri.github.io/browser-go/) |
 | Steven (SF) | Roulette | [link](https://git.generalassemb.ly/ssotosf/roulette_game) |  |
 | Tyler (SF) | DOM Platformer | [link](https://github.com/tvilla0000/Project-1) |  |
-| Wenjie (SF) | Blackjack | [link](https://github.com/wenwenkp/black-jack) |  |
+| Wenjie (SF) | Blackjack | [link](https://github.com/wenwenkp/black-jack) | [link](https://wenwenkp.github.io/black-jack/) |
 | Yaphiet (SF) | War |  |  |
