@@ -114,7 +114,6 @@ You will have a maximum of 10 minutes to present your project following these gu
 1. **Blackjack**
 1. **Simon** (warning: will require asynchronous timing)
 1. **Slot Machine**
-1. **2048**
 1. **Mancala**
 1. **Minesweeper**
 1. **Roulette**
