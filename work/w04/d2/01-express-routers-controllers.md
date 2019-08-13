@@ -316,7 +316,7 @@ Options:
 #### To-Do Refactor
 <br>
 
-- We're going refactor the To-Do code from yesterday to follow best practices...
+- We're going to refactor the To-Do code from yesterday to follow best practices...
 
 - We'll copy over the **index.ejs** view and put the todos "database" into the `models` folder.
 
@@ -400,7 +400,9 @@ Options:
 #### To-Do Refactor - Routing
 <br>
 
-- For routing, first let's rename the **routes/users.js** route module to a name that's more appropriate for our resource - **routes/todos.js**.
+- Since we need a router for our **todos** resource and don't need the **routes/users.js** router module that Express Generator created, we'll modify it instead of having it lay around unused.
+
+- First, rename the **routes/users.js** route module to a name that's more appropriate for our resource - **routes/todos.js**.
 
 ---
 #### To-Do Refactor - Routing
@@ -540,15 +542,13 @@ Options:
 	- Implement any additional application logic, often relying on other services and utility modules; and
 	- Pass data to Views to be rendered then return the resulting markup to the browser.
 
-- FYI, the above description is gold if asked about MVC in an interview :)
-
 ---
 #### Controllers
 <br>
 
 - Controllers are functions, but wait, we already wrote functions that perform those responsibilities in our route modules!
 
-- Exactly!  Those functions _are_ controllers, we just need to separate our concerns, i.e., we need to separate the **route definitions** from their respective **controller functions**.
+- Exactly!  Those functions _are_ controllers, we just need to separate our concerns, i.e., as a best practice, we need to separate the **route definitions** from their respective **controller functions**.
 
 ---
 #### Controllers
@@ -633,11 +633,11 @@ Options:
 
 - Notice how we now have the following for the **_todos_ resource**:
 	- **models/todo.js**
-	- **views/todos**
+	- **views/todos** (directory)
 	- **controllers/todos.js**
 	- **routes/todos.js**
 
-- Each data _resource_ will likely receive the same treatment.
+- Each data _resource_ should receive the same treatment.
 
 - Note that resource names are pluralized except for the model.
 
@@ -668,12 +668,12 @@ Options:
 
 - Let's say we want to view a details page for a resource.
 
-- Just like we refer to the **index** route/action to list all of a resource, we will refer to the **show** route/action when displaying the details of a single resource.
+- Just like how we use an **index** route/action to list all of a resource, we will use a **show** route/action when displaying the details of a single resource.
 
 - Let's add the functionality to view a single To Do...
 
 ---
-### Adding Show a To-Do Functionality
+### Adding Show To-Do Functionality
  
 ---
 #### Adding Show a To-Do Functionality
@@ -681,19 +681,19 @@ Options:
 
 - When adding functionality to your apps, start by identifying what route makes sense - this is usually based on [RESTful/Resourceful Routing conventions](https://gist.github.com/jim-clark/17908763db7bd3c403e6).
 
-- We'll definitely be reviewing RESTful/Resourceful Routing later, in fact we just might quiz you on it one day - it's that important :)
+- We'll definitely be reviewing RESTful/Resourceful Routing later, in fact we just might quiz you on it one day - it's that important 😊
 
 ---
 #### Adding Show a To-Do Functionality
 <br>
 
-- According to REST, the "correct" route to display a<br>single To Do would be:
+- According to REST, the "proper" route to display a<br>single To Do would be:
 
 	```sh
 	GET /todos/:id
 	```
 
-- With the proper route identified, the next step is to create UI that will send request(s) that match that route...
+- With the proper route identified, the next step is to create some UI that will send a request that matches that route...
 
 ---
 #### Adding Show a To-Do Functionality
@@ -821,6 +821,6 @@ Options:
 ## References
 <br>
 
-<p style="text-align:left"><em>Note: When searching for info on the Express framework, be sure that you search for the info for version 4 only - there were significant changes made from earlier versions.</em></p>
+<p style="text-align:left"><em>Note: When searching for info on the Express framework, be sure that you search for the info for version 4 only - there were significant changes made from earlier versions.</em> Also note that version 5 is currently in alpha although all of the code we've written should be compatible.</p>
 
 
