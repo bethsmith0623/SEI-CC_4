@@ -91,7 +91,7 @@ In fact, you'll be working with documents using JavaScript, therefore they absol
 
 ### The Document `_id`
 
-The `_id` is a special field represents the document's _unique identifier_. If you're familiar with SQL databases, a document's `_id` is like a _primary key_.
+The `_id` is a special field that represents the document's _unique identifier_. If you're familiar with SQL databases, a document's `_id` is like a _primary key_.
 
 MongoDB automatically creates the `_id` when documents are saved for the first time.
 
