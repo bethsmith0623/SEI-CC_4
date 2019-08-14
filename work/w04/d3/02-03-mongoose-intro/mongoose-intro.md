@@ -158,14 +158,14 @@
 	```
 
 ---
-### Review Questions
+### ❓ Review Questions
 <br>
 
-- **In your own words, describe the use case for Mongoose (what is it's purpose and when might you choose to use it?).**
+1. **In your own words, describe the use case for Mongoose (what is it's purpose and when might you choose to use it?).**
 
-- **A Mongoose _________ is compiled into a Mongoose Model.**
+2. **A Mongoose _________ is compiled into a Mongoose Model.**
 
-- **We use a Mongoose  _________ to perform CRUD operations on a MongoDB.**.
+3. **We use a Mongoose  _________ to perform CRUD operations on a MongoDB.**.
 
 ---
 ## Including Mongoose<br>in an App
