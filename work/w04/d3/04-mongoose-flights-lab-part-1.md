@@ -7,7 +7,7 @@
 
 Today in the Intro to Mongoose lesson you Created and Read documents using a `Movie` Model.
 
-In this lab, you'll do the same, except you'll create and use a `Fight` model.
+In this lab, you'll do the same, except you'll create and use a `Flight` model.
 
 Similar to what we did in the lesson, you'll start by creating a `mongoose-flights` project.
 
