@@ -1,0 +1,16 @@
+.brand-logo {
+  margin-left: 15px;
+}
+
+.card .card-content .card-title {
+  margin-bottom: 10px;
+}
+
+#search-row form {
+  padding-top: 20px;
+}
+
+.student-name {
+  position: relative;
+  top: -5px;
+}

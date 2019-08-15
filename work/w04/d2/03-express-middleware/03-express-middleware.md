@@ -218,7 +218,7 @@ This presentation can be viewed [here](https://presentations.generalassemb.ly/d7
 
 - What functionality do we want?  Do we want to show a form on the `index` view, or do we want a separate page dedicated to adding a To Do?  Typically, you'd want have the form on the same page, however, for completeness, we'll use the dedicated page approach.
 
-- Checking the [Resourceful Routing for CRUD Operations in Web Applications Chart](https://gist.github.com/jim-clark/17908763db7bd3c403e6), we find that the proper route is second from the bottom:
+- Checking the [Resourceful Routing for CRUD Operations in Web Applications Chart](https://gist.github.com/jim-clark/17908763db7bd3c403e6), we find that the proper route is:
 
 	```sh
 	GET /todos/new

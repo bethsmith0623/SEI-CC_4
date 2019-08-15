@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SEI Student Fun Facts</title>
+  <!-- Google Icon Fonts used by Materialize -->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize CSS Framework -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="stylesheets/style.css" />
+  <!-- JavaScript for Materialize -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="" class="brand-logo left">SEI Student Fun Facts</a>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <div id="search-row" class="row">
+      <h2 class="col s4 blue-grey-text text-darken-2">Students</h2>
+      <form action="/students" method="GET">
+        <div class="col s3 offset-s3">
+          <!-- search -->
+          <div class="input-field">
+            <input id="search" type="search" name="name" placeholder="search name" value="<%= name %>" autocomplete="off">
+            <i class="material-icons">close</i>
+          </div>
+        </div>
+        <div class="col s2">
+          <p>
+            <label for="sort-cohort">
+              <input name="sort" type="radio" id="sort-cohort" value="cohort" class="with-gap"
+                <%= sortKey === 'cohort' ? 'checked' : '' %> >
+              <span>Sort by Cohort</span>
+            </label>
+          </p>
+          <p>
+            <label for="sort-name">
+              <input name="sort" type="radio" id="sort-name" value="name" class="with-gap"
+                <%= sortKey === 'name' ? 'checked' : '' %> >
+              <span>Sort by Name</span>
+            </label>
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <div id="students" class="col s12">
+        <% students.forEach(function(student) { %>
+          <div class="card blue-grey">
+            <div class="card-content white-text">
+              <div>
+                <span class="card-title">
+                  <i class="small material-icons">perm_identity</i>
+                  <span class="student-name"><%= student.name %></span>
+                  <% if (student.cohort) { %><span class="badge white">SEI <%= student.cohort %></span><% } %>
+                </span>
+              </div>
+              <ul class="collection">
+                <% student.facts.forEach(function(fact) { %>
+                  <li class="collection-item blue-grey-text text-darken-2"><%- fact.text %></li>
+                <% }) %>
+              </ul>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
