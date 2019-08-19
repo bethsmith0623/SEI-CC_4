@@ -149,31 +149,31 @@
 
 	- Adjust the existing boilerplate.
 	
-	- Add the Search form
+	- Add the form for submitting GitHub usernames
 
 - Later, when we see what data is at our disposal, we'll come back and decide how to render it. 
 
 ---
 ### Adjust the boilerplate
 
-- <p>We're adding [Bootstrap](http://getbootstrap.com/getting-started/), changing the title and adding a Jumbotron:</p>
+- We're adding [Bootstrap](http://getbootstrap.com/getting-started/), changing the title and adding a Jumbotron:
 
 ```html
 <head>
-	<title>GitHub Users</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel='stylesheet' href='/stylesheets/style.css' />
+  <title>GitHub Users</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body class="container">
-	<h1 class="jumbotron text-center">GitHub Users</h1>
+  <h1 class="jumbotron text-center">GitHub Users</h1>
     
 </body>
 ``` 
 
-<p>Next, the search form...</p>
+<p>Next, the form for submitting the username...</p>
 
 ---
-### Add the Search form
+### Add the Username form
 
 - We'll need a simple form to allow us to submit a GitHub username to retrieve data for:
 
@@ -207,12 +207,12 @@
 
 	```js
 	router.get('/', function(req, res, next) {
-  		res.render('index');
+  	  res.render('index');
 	});
 
 	router.post('/', function(req, res, next) {
-  		console.log(`username: ${req.body.username}`);
-  		res.render('index');
+  	  console.log(`username: ${req.body.username}`);
+  	  res.render('index');
 	});
 	```
 - For now, we're just logging out to the server terminal what was typed in the input then rendering the **index** view again.
@@ -224,7 +224,7 @@
 ### Install and require the "request" module
 <br>
 
-- In order to make HTTP requests from our Express server to the GitHub API, we will need to install and require an NPM module named [request](https://www.npmjs.com/package/request), a simple HTTP request client:
+- In order to make HTTP requests from our Express server to the GitHub API, we'll need to install and require an NPM module named [request](https://www.npmjs.com/package/request), a simple HTTP request client:
 
 	```
 	$ npm install request
@@ -432,7 +432,7 @@
 	router.post('/', function(req, res) {
 	  request(
 	    rootURL + 'users/' + req.body.username + 
-	    	'?access_token=' + process.env.GITHUB_TOKEN,
+	      '?access_token=' + process.env.GITHUB_TOKEN,
 	    function(err, response, body) {
 	      res.render('index', {userData: body});
 	    }
@@ -447,18 +447,18 @@
 - We're passing the content returned from the request to our **index.ejs**.  Let's display it:
 
 	```html
-		<!-- new HTML just above closing body tag -->
-		<hr>
-	    <div class="row col-xs-8 col-xs-offset-2">
-		    <% if (userData) { %>
-		      <%= userData %>
-		    <% } else { %>
-		      <h3 class="text-center text-info">
-		        Submit a GitHub username!
-		      </h3>
-		    <% } %>
-	    </div>
-  	</body>
+	  <!-- new HTML just above closing body tag -->
+	  <hr>
+	  <div class="row col-xs-8 col-xs-offset-2">
+	    <% if (userData) { %>
+	      <%= userData %>
+	    <% } else { %>
+	      <h3 class="text-center text-info">
+	        Submit a GitHub username!
+	      </h3>
+	    <% } %>
+	  </div>
+	</body>
 	```
 
 - Also, we have to...
@@ -551,17 +551,17 @@
 
 	```html
 	<% if (userData) { %>
-		<div class="panel panel-default">
-		  <div class="panel-heading text-center">
-		    <img src="<%= userData.avatar_url %>"
-		    	class="img-circle" width="300">
-		    <h2><%= userData.login %></h2>
-		  </div>
-		  <div class="panel-body">
-		    <h3>Repos:</h3>
-		    need to list repos here...
-		  </div>
-		</div>
+	  <div class="panel panel-default">
+	    <div class="panel-heading text-center">
+	      <img src="<%= userData.avatar_url %>"
+	        class="img-circle" width="300">
+	      <h2><%= userData.login %></h2>
+	    </div>
+	    <div class="panel-body">
+	      <h3>Repos:</h3>
+	      need to list repos here...
+	    </div>
+	  </div>
 	<% } else { %>
 	```
 
@@ -575,8 +575,8 @@
 
 	```js
 	request(options, function(err, response, body) {
-		var userData = JSON.parse(body);
-    	res.render('index', {userData: userData});
+	  var userData = JSON.parse(body);
+     res.render('index', {userData: userData});
 	});
 	```
 
@@ -602,16 +602,16 @@
 	```js
 	...
 	request(options, function(err, response, body) {
-		var userData = JSON.parse(body);
-		// update the options url to fetch the user's repos
-		options.url = userData.repos_url;
-		request(options, function(err, response, body) {
-		  // add a repos property
-		  userData.repos = JSON.parse(body);
-		  console.log(userData.repos[0]);
-		  res.render('index', {userData: userData});
-		});
-  	});
+	  var userData = JSON.parse(body);
+	  // update the options url to fetch the user's repos
+	  options.url = userData.repos_url;
+	  request(options, function(err, response, body) {
+	    // add a repos property
+	    userData.repos = JSON.parse(body);
+	    console.log(userData.repos[0]);
+	    res.render('index', {userData: userData});
+	  });
+	});
 	``` 
 
 ---
@@ -630,17 +630,17 @@
 
 	```html
 	<div class="panel-body">
-		<h3>Repos:</h3>
-		<!-- new stuff below -->
-		<div class="list-group">
-			<% userData.repos.forEach(function(repo) { %>
-				<a href="<%= repo.html_url %>" target="_blank"
-		   			class="list-group-item">
-		   			<%= repo.name %>
-		    	</a>
-		  	<% }); %>
-		</div>
-		<!-- new stuff above -->
+	  <h3>Repos:</h3>
+	  <!-- new stuff below -->
+	  <div class="list-group">
+	    <% userData.repos.forEach(function(repo) { %>
+	      <a href="<%= repo.html_url %>" target="_blank"
+	        class="list-group-item">
+	        <%= repo.name %>
+	      </a>
+	    <% }); %>
+	  </div>
+	  <!-- new stuff above -->
 	</div>
 	```
 
