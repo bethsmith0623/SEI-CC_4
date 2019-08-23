@@ -56,7 +56,7 @@
 | Chi (SF) |  |  |  |  |
 | Emily (SF) | FoodieGram | [link](https://github.com/emilyc729/foodie-gram) | [link](https://trello.com/b/fUVzZUbH/full-stack-app-1) |  |
 | Greg M. (SF) |  |  |  |  |
-| Greg R. (SF) |  |  |  |  |
+| Greg R. (SF) | Baby Steps |  | [link](https://trello.com/b/jBl1dmhw/baby-steps) |  |
 | Jon (SF) | Recipease | [link](https://github.com/simpleCodify/recipease) |  |  |
 | Joshua (SF) |  |  |  |  |
 | Loquen (SF) | Habit |  | [link](https://trello.com/b/9MRDqrH7/loquen-jones-sei-4-project-2-habit) |  |
