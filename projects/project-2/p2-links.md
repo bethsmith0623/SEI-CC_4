@@ -60,7 +60,7 @@
 | Jon (SF) | Recipease | [link](https://github.com/simpleCodify/recipease) |  |  |
 | Joshua (SF) |  |  |  |  |
 | Loquen (SF) | Habit |  | [link](https://trello.com/b/9MRDqrH7/loquen-jones-sei-4-project-2-habit) |  |
-| Matthew (SF) | Go Skate |  | [link](https://trello.com/b/IZ6OzSL7/gonegosk9) |  |
+| Matthew (SF) | Go Skate | [link](https://github.com/mrobin88/goneGoSk8) | [link](https://trello.com/b/IZ6OzSL7/gonegosk9) |  |
 | Michael (SF) |  |  | [link](https://trello.com/b/Z6uY8Sst/welcome-to-trello) |  |
 | Ny Antsa (SF) | Expense Tracker | [link](https://github.com/NyAntsaR/tirelire_project) | [link](https://trello.com/b/ElJVaV40/expense-tracker) |  |
 | Preston (SF) | CoinAgora | [link](https://github.com/prestonhom/CoinAgora) | [link](https://trello.com/b/Qc9mF0ip/coinagora) |  |
