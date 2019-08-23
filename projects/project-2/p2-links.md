@@ -59,7 +59,7 @@
 | Greg R. (SF) |  |  |  |  |
 | Jon (SF) | Recipease | [link](https://github.com/simpleCodify/recipease) |  |  |
 | Joshua (SF) |  |  |  |  |
-| Loquen (SF) |  |  |  |  |
+| Loquen (SF) | Habit |  | [link](https://trello.com/b/9MRDqrH7/loquen-jones-sei-4-project-2-habit) |  |
 | Matthew (SF) |  |  |  |  |
 | Michael (SF) |  |  |  |  |
 | Ny Antsa (SF) | Expense Tracker | [link](https://github.com/NyAntsaR/tirelire_project) | [link](https://trello.com/b/ElJVaV40/expense-tracker) |  |
