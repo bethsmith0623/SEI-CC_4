@@ -42,11 +42,11 @@
 | Dan (LA) |  |  |  |  |
 | Dave (LA) | Kickball  | [link](https://github.com/davekoncsol/kickball)  | [link](https://trello.com/b/8SemGKuF/kickball) |  |
 | Leo (LA) |  |  |  |  |
-| Marques (LA) |  |  |  |  |
+| Marques (LA) | Hunter | [link](https://github.com/Mjsmith30/Hunter) |  |  |
 | Nick (LA) |  |  |  |  |
 | Muhammed (LA) |  |  |  |  |
-| Perice (LA) |  |  |  |  |
-| Timothy (LA) |  |  |  |  |
+| Perice (LA) | Tunes Talk | [link](https://github.com/perice-pope/tunes-talk) | [link](https://trello.com/b/hHPBMPMc/tune-talk) |  |
+| Timothy (LA) | Donut World | [link](https://github.com/TimCross1994/Donut-World) | [link](https://trello.com/b/RHoGM2gG/donut-journal) |  |
 | Victor (LA) | Fridge | [link](https://github.com/TimeForZeros/fridge-app) | [link](https://trello.com/b/A8wxwDhe/fridge-app) |  |
 | Aly (SF) |  |  |  |  |
 | Anami (SF) |  |  |  |  |
