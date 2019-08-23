@@ -50,7 +50,7 @@
 | Victor (LA) | Fridge | [link](https://github.com/TimeForZeros/fridge-app) | [link](https://trello.com/b/A8wxwDhe/fridge-app) |  |
 | Aly (SF) | Event Planner |  | [link](https://trello.com/b/g8S5qgLR/event-planner) |  |
 | Anami (SF) | Wikicode |  | [link](https://trello.com/b/Uovn3MiM/wikicode) |  |
-| Braxton (SF) |  |  | [link](https://trello.com/b/F0t7d30b/project-2-full-stack-crud-app) |  |
+| Braxton (SF) | Network Calendar |  | [link](https://trello.com/b/F0t7d30b/project-2-full-stack-crud-app) |  |
 | Carol (SF) | InventoryU | [link](https://github.com/carolsand/InventoryU) | [link](https://trello.com/b/hY6s7vXM/inventoryu) |  |
 | CJ (SF) | WTF |  | [link](https://trello.com/b/GOYSEsEC/wtf) |  |
 | Chi (SF) | Flight Lesson Planner |  | [link](https://trello.com/b/cbtChWra/project-2) |  |
@@ -60,7 +60,7 @@
 | Jon (SF) | Recipease | [link](https://github.com/simpleCodify/recipease) |  |  |
 | Joshua (SF) |  |  |  |  |
 | Loquen (SF) | Habit |  | [link](https://trello.com/b/9MRDqrH7/loquen-jones-sei-4-project-2-habit) |  |
-| Matthew (SF) | Go Skate | [link](https://github.com/mrobin88/goneGoSk8) | [link](https://trello.com/b/IZ6OzSL7/gonegosk9) |  |
+| Matthew (SF) |  |  |  |  |
 | Michael (SF) |  |  | [link](https://trello.com/b/Z6uY8Sst/welcome-to-trello) |  |
 | Ny Antsa (SF) | Expense Tracker | [link](https://github.com/NyAntsaR/tirelire_project) | [link](https://trello.com/b/ElJVaV40/expense-tracker) |  |
 | Preston (SF) | CoinAgora | [link](https://github.com/prestonhom/CoinAgora) | [link](https://trello.com/b/Qc9mF0ip/coinagora) |  |
