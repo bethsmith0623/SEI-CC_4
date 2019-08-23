@@ -53,7 +53,7 @@
 | Braxton (SF) |  |  | [link](https://trello.com/b/F0t7d30b/project-2-full-stack-crud-app) |  |
 | Carol (SF) | InventoryU | [link](https://github.com/carolsand/InventoryU) | [link](https://trello.com/b/hY6s7vXM/inventoryu) |  |
 | CJ (SF) | WTF |  | [link](https://trello.com/b/GOYSEsEC/wtf) |  |
-| Chi (SF) |  |  |  |  |
+| Chi (SF) | Flight Lesson Planner |  | [link](https://trello.com/b/cbtChWra/project-2) |  |
 | Emily (SF) | FoodieGram | [link](https://github.com/emilyc729/foodie-gram) | [link](https://trello.com/b/fUVzZUbH/full-stack-app-1) |  |
 | Greg M. (SF) |  |  |  |  |
 | Greg R. (SF) | Baby Steps |  | [link](https://trello.com/b/jBl1dmhw/baby-steps) |  |
