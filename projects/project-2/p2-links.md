@@ -55,7 +55,7 @@
 | CJ (SF) | WTF |  | [link](https://trello.com/b/GOYSEsEC/wtf) |  |
 | Chi (SF) | Flight Lesson Planner |  | [link](https://trello.com/b/cbtChWra/project-2) |  |
 | Emily (SF) | FoodieGram | [link](https://github.com/emilyc729/foodie-gram) | [link](https://trello.com/b/fUVzZUbH/full-stack-app-1) |  |
-| Greg M. (SF) |  |  |  |  |
+| Greg M. (SF) | Get In Ma Belleh |  | [link](https://trello.com/b/UZQ23QIg/ga-sei-project-2-get-in-ma-belleh) |  |
 | Greg R. (SF) | Baby Steps |  | [link](https://trello.com/b/jBl1dmhw/baby-steps) |  |
 | Jon (SF) | Recipease | [link](https://github.com/simpleCodify/recipease) |  |  |
 | Joshua (SF) |  |  | [link](https://trello.com/b/7n3Ta4Ls/sei-p-2) |  |
