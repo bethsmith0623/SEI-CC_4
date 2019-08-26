@@ -2,7 +2,7 @@
 
 | Student | Project Name | GitHub | Planning (Trello) | Hosted Site |
 |---|:---:|:---:|:---:|:---:|
-| Ben (ATX) | College Basketball | [link](https://github.com/ManliestBen/college-basketball) |  | [link](https://college-basketball-project.herokuapp.com/users) |
+| Ben (ATX) | College Basketball | [link](https://github.com/ManliestBen/college-basketball) | [link](https://trello.com/b/WXOA4hHc/sei-college-basketball-project) | [link](https://college-basketball-project.herokuapp.com/users) |
 | Beverly (ATX) |  |  |  |  |
 | Caleb (ATX) | Home Events | [link](https://github.com/snsaleh1/project2) |  |  |
 | Chighali (ATX) |  |  |  |  |
