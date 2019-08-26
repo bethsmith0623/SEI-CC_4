@@ -2,29 +2,29 @@
 
 | Student | Project Name | GitHub | Planning (Trello) | Hosted Site |
 |---|:---:|:---:|:---:|:---:|
-| Ben (ATX) | College Basketball | [link](https://github.com/ManliestBen/college-basketball) | [link](https://trello.com/b/WXOA4hHc/sei-college-basketball-project) | [link](https://college-basketball-project.herokuapp.com/users) |
-| Beverly (ATX) |  |  |  |  |
-| Caleb (ATX) | Home Events | [link](https://github.com/snsaleh1/project2) |  |  |
+| Ben (ATX) | College Basketball | [link](https://github.com/ManliestBen/college-basketball) | [link](https://trello.com/b/WXOA4hHc/sei-college-basketball-project) | [link](https://college-basketball-project.herokuapp.com) |
+| Beverly (ATX) | Deaf Friendly |  |  | [link](https://deaf-friendly.herokuapp.com/) |
+| Caleb (ATX) | Home Events | [link](https://github.com/snsaleh1/project2) |  | [link](https://homevents.herokuapp.com/) |
 | Chighali (ATX) |  |  |  |  |
-| Chris M. (ATX) |  | [link](https://github.com/mayfielc/unit2-project) |  |  |
-| Chris P. (ATX) | Fantasy Watch | [link](https://github.com/600rrchris/fantasy-watch) |  |  |
-| Conner (ATX) |  | [link](https://github.com/ConnerMcCabe/project2) |  [link](https://trello.com/b/2SNVVWcy/project-2)|  |
-| David (ATX) |  |  |  |  |
-| Dev (ATX) | Scheduling App | [link](https://github.com/Dev-94/sched-app) | [link](https://github.com/Dev-94/sched-app) |  |
-| Elco (ATX) | E-commerce | [link](https://github.com/eag58914/e-commerce-website-unit-2-project) |  |  |
-| Emily L. (ATX) | Kendra Shop | [link](https://github.com/emgrebe/Kendra-Shop-Project) |  |  |
-| Emily M. (ATX) | The Calorie Counter | [link](https://github.com/efm0004/the-calorie-controller) | [link](https://trello.com/b/ZyfRP0P6/project-2-the-calorie-controller) |  |
-| Frances (ATX) | Tarot Journal | [link](https://github.com/fcancio/tarotjournal) | [link](https://trello.com/b/JuSjWJJl/project2) |  |
-| Garrett (ATX) |  |  |  |  |
-| Heather (ATX) | Picto | [link](https://github.com/MetaHeather/picto-app) | [link](https://trello.com/b/JjqPeIqr/project-2-node-express-mongodb-full-stack-crud-application) |  |
+| Chris M. (ATX) | SEI Pro Football | [link](https://github.com/mayfielc/unit2-project) |  | [link](https://sei-profootball.herokuapp.com/) |
+| Chris P. (ATX) | Fantasy Watch | [link](https://github.com/600rrchris/fantasy-watch) |  | [link](https://fantasy-watch.herokuapp.com/) |
+| Conner (ATX) |  | [link](https://github.com/ConnerMcCabe/project2) |  [link](https://trello.com/b/2SNVVWcy/project-2)| [link](https://jorgensjellies.herokuapp.com/) |
+| David (ATX) |  |  |  | [link](https://algorismusbae.herokuapp.com/) |
+| Dev (ATX) | Scheduling App | [link](https://github.com/Dev-94/sched-app) | [link](https://github.com/Dev-94/sched-app) | [link](https://scheduling-app94.herokuapp.com/) |
+| Elco (ATX) | Kelly Succulents | [link](https://github.com/eag58914/e-commerce-website-unit-2-project) |  | [link](https://kelly-succulents.herokuapp.com/) |
+| Emily L. (ATX) | Kendra Shop | [link](https://github.com/emgrebe/Kendra-Shop-Project) |  | [link](https://kendra-products.herokuapp.com/) |
+| Emily M. (ATX) | The Calorie Counter | [link](https://github.com/efm0004/the-calorie-controller) | [link](https://trello.com/b/ZyfRP0P6/project-2-the-calorie-controller) | [link](https://the-calorie-controller.herokuapp.com/) |
+| Frances (ATX) | Tarot Journal | [link](https://github.com/fcancio/tarotjournal) | [link](https://trello.com/b/JuSjWJJl/project2) | [link](https://tarot-journal.herokuapp.com/) |
+| Garrett (ATX) | Survey to API |  |  | [link](https://surveyapiandcharts.herokuapp.com/) |
+| Heather (ATX) | Picto | [link](https://github.com/MetaHeather/picto-app) | [link](https://trello.com/b/JjqPeIqr/project-2-node-express-mongodb-full-stack-crud-application) | [link](https://picto-app.herokuapp.com/) |
 | Jack (ATX) | Find-A-Taco | [link](https://github.com/Jground-33/Find-A-Taco) | [link](https://trello.com/b/HnvbV6Ko/unit-2-find-a-taco) |  |
-| Jared R (ATX) | Settle-Up | [link](https://github.com/jrodriguez082046/settle-up) | [link](https://trello.com/b/28sZi8p0/unit-2-project-settleup) |  |
-| Jeremiah (ATX) |  |  |  |  |
-| Joseph (ATX) |  |  |  |  |
-| Julia (ATX) | Back App | [link](https://github.com/julia-nichole/bach-app) | [link](https://trello.com/b/VtqnzaMg/bach-app) |  |
-| Lily (ATX) | RAM-IT | [link](https://github.com/lilymbest/RAM-IT) | [link](https://trello.com/b/RH9w8fup/unit-two-project) |  |
-| Nova (ATX) |  |  |  |  |
-| Robin (ATX) | Video Game Todo | [link](https://github.com/robified/video-game-todo-project) | [link](https://trello.com/b/vTQHFyVu/video-game-todo-project) |  |
+| Jared R (ATX) | Settle-Up | [link](https://github.com/jrodriguez082046/settle-up) | [link](https://trello.com/b/28sZi8p0/unit-2-project-settleup) | [link](https://settleup.herokuapp.com/) |
+| Jeremiah (ATX) | Bitter 'Bout Litter |  |  | [link](https://bitter-bout-litter.herokuapp.com/members) |
+| Joseph (ATX) | MTG Draft |  |  | [link](https://mtg-draft-filter.herokuapp.com/) |
+| Julia (ATX) | Back App | [link](https://github.com/julia-nichole/bach-app) | [link](https://trello.com/b/VtqnzaMg/bach-app) | [link](https://bach-behavior-app.herokuapp.com/) |
+| Lily (ATX) | RAM-IT | [link](https://github.com/lilymbest/RAM-IT) | [link](https://trello.com/b/RH9w8fup/unit-two-project) | [link](https://ram-it.herokuapp.com/) |
+| Nova (ATX) | Vendor Node |  |  | [link](https://vender-node.herokuapp.com/) |
+| Robin (ATX) | Video Game Todo | [link](https://github.com/robified/video-game-todo-project) | [link](https://trello.com/b/vTQHFyVu/video-game-todo-project) | [link](https://vgduetoo-app.herokuapp.com/) |
 | Taylor (ATX) | Texas Flowers | [link](https://github.com/tlacerte/Texas-Flower-Search) | [link](https://trello.com/b/ohQYoIhO/texas-flowers) | [link](https://texas-flower-search.herokuapp.com/) |
 | Vittoria (ATX) | Cat Foster | [link](https://github.com/vittoriaerdem/cat-foster-database) | [link](https://trello.com/b/D4sxhF8j/cat-foster-database) | [link](https://cat-foster-database.herokuapp.com/fosters) |
 | Andrew (DAL) | Herbaldashery | [link](https://github.com/atheismann/herbaldashery-cookbook) | [link](https://trello.com/b/Jvr4tiYD/p2-cookbook) |  |
