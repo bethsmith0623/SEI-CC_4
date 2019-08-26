@@ -6,19 +6,19 @@
 | Beverly (ATX) |  |  |  |  |
 | Caleb (ATX) | Home Events | [link](https://github.com/snsaleh1/project2) |  |  |
 | Chighali (ATX) |  |  |  |  |
-| Chris M. (ATX) |  |  |  |  |
+| Chris M. (ATX) |  | [link](https://github.com/mayfielc/unit2-project) |  |  |
 | Chris P. (ATX) | Fantasy Watch | [link](https://github.com/600rrchris/fantasy-watch) |  |  |
 | Conner (ATX) |  |  |  |  |
 | David (ATX) |  |  |  |  |
 | Dev (ATX) |  |  |  |  |
-| Elco (ATX) |  |  |  |  |
-| Emily L. (ATX) |  |  |  |  |
-| Emily M. (ATX) |  |  |  |  |
+| Elco (ATX) | E-commerce | [link](https://github.com/eag58914/e-commerce-website-unit-2-project) |  |  |
+| Emily L. (ATX) | Kendra Shop | [link](https://github.com/emgrebe/Kendra-Shop-Project) |  |  |
+| Emily M. (ATX) | The Calorie Counter | [link](https://github.com/efm0004/the-calorie-controller) | [link](https://trello.com/b/ZyfRP0P6/project-2-the-calorie-controller) |  |
 | Frances (ATX) |  |  |  |  |
 | Garrett (ATX) |  |  |  |  |
 | Heather (ATX) |  |  |  |  |
 | Jack (ATX) |  |  |  |  |
-| Jared R (ATX) |  |  |  |  |
+| Jared R (ATX) | Settle-Up | [link](https://github.com/jrodriguez082046/settle-up) |  |  |
 | Jeremiah (ATX) |  |  |  |  |
 | Joseph (ATX) |  |  |  |  |
 | Julia (ATX) |  |  |  |  |
@@ -30,7 +30,7 @@
 | Andrew (DAL) |  |  |  |  |
 | Armando (DAL) |  |  |  |  |
 | Daniel (DAL) |  |  |  |  |
-| Beth (DAL) |  |  |  |  |
+| Beth (DAL) | Pet Central | [link](https://github.com/bethsmith0623/Pet-Central/) | [link](https://trello.com/b/AhwwmWIu/project-2-pet-central-app) |  |
 | Joseph (DAL) |  |  |  |  |
 | Kevinn (DAL) |  |  |  |  |
 | Michael H. (DAL) |  |  |  |  |
