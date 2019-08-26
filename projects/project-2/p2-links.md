@@ -24,7 +24,7 @@
 | Julia (ATX) |  |  |  |  |
 | Lily (ATX) |  |  |  |  |
 | Nova (ATX) |  |  |  |  |
-| Robin (ATX) |  |  |  |  |
+| Robin (ATX) | Video Game Todo | [link](https://github.com/robified/video-game-todo-project) | [link](https://trello.com/b/vTQHFyVu/video-game-todo-project) |  |
 | Taylor (ATX) |  |  |  |  |
 | Vittoria (ATX) |  |  |  |  |
 | Andrew (DAL) |  |  |  |  |
