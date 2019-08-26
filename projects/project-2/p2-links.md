@@ -59,7 +59,7 @@
 | Greg R. (SF) | Baby Steps |  | [link](https://trello.com/b/jBl1dmhw/baby-steps) |  |
 | Jon (SF) | Recipease | [link](https://github.com/simpleCodify/recipease) |  |  |
 | Joshua (SF) | emOcean | [link](https://github.com/jusselman/emOcean) | [link](https://trello.com/b/7n3Ta4Ls/sei-p-2) |  |
-| Loquen (SF) | Habit |  | [link](https://trello.com/b/9MRDqrH7/loquen-jones-sei-4-project-2-habit) |  |
+| Loquen (SF) | Habit | [link](https://github.com/Loquen/habit) | [link](https://trello.com/b/9MRDqrH7/loquen-jones-sei-4-project-2-habit) |  |
 | Matthew (SF) | Go Skate | [link](https://github.com/mrobin88/goneGoSk8) | [link](https://trello.com/b/IZ6OzSL7/gonegosk9) |  |
 | Michael (SF) |  |  | [link](https://trello.com/b/Z6uY8Sst/welcome-to-trello) |  |
 | Ny Antsa (SF) | Expense Tracker | [link](https://github.com/NyAntsaR/tirelire_project) | [link](https://trello.com/b/ElJVaV40/expense-tracker) |  |
