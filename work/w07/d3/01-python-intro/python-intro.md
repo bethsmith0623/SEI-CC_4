@@ -309,6 +309,31 @@ num *= 3
 
 > IMPORTANT: A couple of our favorites in JS, the Increment (`++`) and Decrement (`--`) operators, do not exist in Python. Use `+= 1` and `-= 1` instead.
 
+### Ternary Expressions
+
+In JS we used the ternary expression to concisely return one of two values depending upon a conditional expression, for example:
+
+```js
+// Using the ternary operator/expression
+let beverage = age >= 21 ? 'Beer' : 'Milk';
+
+// Without a ternary expression
+let beverage;
+if (age >= 21) {
+  beverage = 'Beer';
+} else {
+  beverage = 'Milk';
+}
+```
+
+Python, however, does not have a dedicated ternary operator. Instead, Python uses a modified syntax of `if`/`else` which results in a ternary expression instead of a control flow construct.
+
+The Python ternary expression equivalent to the JS example above is:
+
+```python
+beverage = 'Beer' if age >= 21 else 'Milk'
+```
+
 ### Converting Between Data Types
 
 One thing we kind of took for granted in JavaScript was that it usually performed automatic data type conversion for us - a process known as implicit type coercion.
