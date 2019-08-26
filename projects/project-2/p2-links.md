@@ -21,12 +21,12 @@
 | Jared R (ATX) | Settle-Up | [link](https://github.com/jrodriguez082046/settle-up) | [link](https://trello.com/b/28sZi8p0/unit-2-project-settleup) |  |
 | Jeremiah (ATX) |  |  |  |  |
 | Joseph (ATX) |  |  |  |  |
-| Julia (ATX) |  |  |  |  |
+| Julia (ATX) | Back App | [link](https://github.com/julia-nichole/bach-app) | [link](https://trello.com/b/VtqnzaMg/bach-app) |  |
 | Lily (ATX) | RAM-IT | [link](https://github.com/lilymbest/RAM-IT) | [link](https://trello.com/b/RH9w8fup/unit-two-project) |  |
 | Nova (ATX) |  |  |  |  |
 | Robin (ATX) | Video Game Todo | [link](https://github.com/robified/video-game-todo-project) | [link](https://trello.com/b/vTQHFyVu/video-game-todo-project) |  |
-| Taylor (ATX) |  |  |  |  |
-| Vittoria (ATX) |  |  |  |  |
+| Taylor (ATX) | Texas Flowers | [link](https://github.com/tlacerte/Texas-Flower-Search) | [link](https://trello.com/b/ohQYoIhO/texas-flowers) | [link](https://texas-flower-search.herokuapp.com/) |
+| Vittoria (ATX) | Cat Foster | [link](https://github.com/vittoriaerdem/cat-foster-database) | [link](https://trello.com/b/D4sxhF8j/cat-foster-database) | [link](https://cat-foster-database.herokuapp.com/fosters) |
 | Andrew (DAL) | Herbaldashery | [link](https://github.com/atheismann/herbaldashery-cookbook) | [link](https://trello.com/b/Jvr4tiYD/p2-cookbook) |  |
 | Armando (DAL) | U Pumped Bro?  | [link](https://github.com/Drag49487Jr/workoutWebsite-P2)| [link](https://trello.com/b/iEXBq13Q/ga-project-2)|  |
 | Daniel (DAL) | Rapid Recipes|[link](https://github.com/dc3430/Rapid.Recipes) |[link](https://trello.com/b/G7G7evUa/cookbook)  |  |
