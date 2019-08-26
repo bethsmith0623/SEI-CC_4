@@ -2,9 +2,9 @@
 
 | Student | Project Name | GitHub | Planning (Trello) | Hosted Site |
 |---|:---:|:---:|:---:|:---:|
-| Ben (ATX) |  |  |  |  |
+| Ben (ATX) | College Basketball | [link](https://github.com/ManliestBen/college-basketball) |  | [link](https://college-basketball-project.herokuapp.com/users) |
 | Beverly (ATX) |  |  |  |  |
-| Caleb (ATX) |  |  |  |  |
+| Caleb (ATX) | Home Events | [link](https://github.com/snsaleh1/project2) |  |  |
 | Chighali (ATX) |  |  |  |  |
 | Chris M. (ATX) |  |  |  |  |
 | Chris P. (ATX) | Fantasy Watch | [link](https://github.com/600rrchris/fantasy-watch) |  |  |
@@ -58,7 +58,7 @@
 | Greg M. (SF) | Get In Ma Belleh |  | [link](https://trello.com/b/UZQ23QIg/ga-sei-project-2-get-in-ma-belleh) |  |
 | Greg R. (SF) | Baby Steps |  | [link](https://trello.com/b/jBl1dmhw/baby-steps) |  |
 | Jon (SF) | Recipease | [link](https://github.com/simpleCodify/recipease) |  |  |
-| Joshua (SF) |  |  | [link](https://trello.com/b/7n3Ta4Ls/sei-p-2) |  |
+| Joshua (SF) | emOcean | [link](https://github.com/jusselman/emOcean) | [link](https://trello.com/b/7n3Ta4Ls/sei-p-2) |  |
 | Loquen (SF) | Habit |  | [link](https://trello.com/b/9MRDqrH7/loquen-jones-sei-4-project-2-habit) |  |
 | Matthew (SF) | Go Skate | [link](https://github.com/mrobin88/goneGoSk8) | [link](https://trello.com/b/IZ6OzSL7/gonegosk9) |  |
 | Michael (SF) |  |  | [link](https://trello.com/b/Z6uY8Sst/welcome-to-trello) |  |
