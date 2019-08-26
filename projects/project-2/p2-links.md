@@ -22,7 +22,7 @@
 | Jeremiah (ATX) |  |  |  |  |
 | Joseph (ATX) |  |  |  |  |
 | Julia (ATX) |  |  |  |  |
-| Lily (ATX) |  |  |  |  |
+| Lily (ATX) | RAM-IT | [link](https://github.com/lilymbest/RAM-IT) | [link](https://trello.com/b/RH9w8fup/unit-two-project) |  |
 | Nova (ATX) |  |  |  |  |
 | Robin (ATX) | Video Game Todo | [link](https://github.com/robified/video-game-todo-project) | [link](https://trello.com/b/vTQHFyVu/video-game-todo-project) |  |
 | Taylor (ATX) |  |  |  |  |
