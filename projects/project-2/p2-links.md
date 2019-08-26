@@ -36,7 +36,7 @@
 | Michael H. (DAL) | Beta Buddy | [link](https://github.com/mhinte91/BetaBuddy) | [link](https://trello.com/b/53M8hkvx) | [link](#)|
 | Michael M. (DAL) | Vacations App |[link](https://github.com/Mad-Hatter-1865/project-vacations)| [link](https://trello.com/b/NCinrQmu/project-2)|[link](#)|
 | Cole (DAL) | Task Master | [link](https://trello.com/b/UTOmquNt/project-2)| [link](https://github.com/41Holmes41/project2)|  [link](http://taskmaster4000.herokuapp.com/)|
-| Ruben (DAL) |  |  |  |  |
+| Ruben (DAL) | SPED Cookbook | [link](https://github.com/rcaceres1/spedCookbook)| [link](https://trello.com/b/BEyp4mYN/sped-teachers-cookbook) | [link](#) |
 | Ryan (DAL) |  |  |  |  |
 | Sam (DAL) |  |  |  |  |
 | Dan (LA) | Fantasy Football Tracker | [link](https://github.com/seagrendaniel/Fantasy-Football-Tracker) | [link](https://trello.com/b/uo17yYUG/ff-tracker-sei-full-stack-web-app) |  |
