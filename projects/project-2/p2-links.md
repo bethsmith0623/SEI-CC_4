@@ -14,7 +14,7 @@
 | Elco (ATX) | E-commerce | [link](https://github.com/eag58914/e-commerce-website-unit-2-project) |  |  |
 | Emily L. (ATX) | Kendra Shop | [link](https://github.com/emgrebe/Kendra-Shop-Project) |  |  |
 | Emily M. (ATX) | The Calorie Counter | [link](https://github.com/efm0004/the-calorie-controller) | [link](https://trello.com/b/ZyfRP0P6/project-2-the-calorie-controller) |  |
-| Frances (ATX) |  |  |  |  |
+| Frances (ATX) | Tarot Journal | [link](https://github.com/fcancio/tarotjournal) | [link](https://trello.com/b/JuSjWJJl/project2) |  |
 | Garrett (ATX) |  |  |  |  |
 | Heather (ATX) |  |  |  |  |
 | Jack (ATX) |  |  |  |  |
