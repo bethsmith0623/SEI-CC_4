@@ -27,7 +27,7 @@
 | Robin (ATX) | Video Game Todo | [link](https://github.com/robified/video-game-todo-project) | [link](https://trello.com/b/vTQHFyVu/video-game-todo-project) |  |
 | Taylor (ATX) |  |  |  |  |
 | Vittoria (ATX) |  |  |  |  |
-| Andrew (DAL) |  |  |  |  |
+| Andrew (DAL) | Herbaldashery | [link](https://github.com/atheismann/herbaldashery-cookbook) | [link](https://trello.com/b/Jvr4tiYD/p2-cookbook) |  |
 | Armando (DAL) |  |  |  |  |
 | Daniel (DAL) |  |  |  |  |
 | Beth (DAL) | Pet Central | [link](https://github.com/bethsmith0623/Pet-Central/) | [link](https://trello.com/b/AhwwmWIu/project-2-pet-central-app) |  |
