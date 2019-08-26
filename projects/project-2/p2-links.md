@@ -27,18 +27,18 @@
 | Robin (ATX) | Video Game Todo | [link](https://github.com/robified/video-game-todo-project) | [link](https://trello.com/b/vTQHFyVu/video-game-todo-project) |  |
 | Taylor (ATX) |  |  |  |  |
 | Vittoria (ATX) |  |  |  |  |
-| Andrew (DAL) |  |  |  |  |
-| Armando (DAL) |  |  |  |  |
-| Daniel (DAL) |  |  |  |  |
-| Beth (DAL) | Pet Central | [link](https://github.com/bethsmith0623/Pet-Central/) | [link](https://trello.com/b/AhwwmWIu/project-2-pet-central-app) |  |
-| Joseph (DAL) |  |  |  |  |
-| Kevinn (DAL) |  |  |  |  |
-| Michael H. (DAL) |  |  |  |  |
-| Michael M. (DAL) |  |  |  |  |
-| Cole (DAL) |  |  |  |  |
-| Ruben (DAL) |  |  |  |  |
-| Ryan (DAL) |  |  |  |  |
-| Sam (DAL) |  |  |  |  |
+| Andrew (DAL) | Herbaldashery | [link](https://github.com/atheismann/herbaldashery-cookbook) | [link](https://trello.com/b/Jvr4tiYD/p2-cookbook) |[link](#)  |
+| Armando (DAL) | U Pumped Bro?  | [link](https://github.com/Drag49487Jr/workoutWebsite-P2)| [link](https://trello.com/b/iEXBq13Q/ga-project-2)|[link](#)  |
+| Daniel (DAL) | Rapid Recipes|[link](https://github.com/dc3430/Rapid.Recipes) |[link](https://trello.com/b/G7G7evUa/cookbook)  |[link](#)  |
+| Beth (DAL) | Pet Central | [link](https://github.com/bethsmith0623/Pet-Central/) | [link](https://trello.com/b/AhwwmWIu/project-2-pet-central-app) |[link](#) |
+| Joseph (DAL) | Concert Tracker | [link](https://github.com/Jhunted/My-Project-2.git)| [link](https://trello.com/b/FopwTLOS/concert-tracker)| [link](#) |
+| Kevinn (DAL) | PodComm | [link](https://github.com/kevinnarbas/PodComm-p2)|[link](https://trello.com/b/9YcvWYcr/podcomm)|[link](#) |
+| Michael H. (DAL) | Beta Buddy | [link](https://github.com/mhinte91/BetaBuddy) | [link](https://trello.com/b/53M8hkvx) | [link](#)|
+| Michael M. (DAL) | Vacations App |[link](https://github.com/Mad-Hatter-1865/project-vacations)| [link](https://trello.com/b/NCinrQmu/project-2)|[link](#)|
+| Cole (DAL) | Task Master | [link](https://trello.com/b/UTOmquNt/project-2)| [link](https://github.com/41Holmes41/project2)|  [link](http://taskmaster4000.herokuapp.com/)|
+| Ruben (DAL) | SPED Cookbook | [link](https://github.com/rcaceres1/spedCookbook)| [link](https://trello.com/b/BEyp4mYN/sped-teachers-cookbook) | [link](#) |
+| Ryan (DAL) | Forum App |[link](https://github.com/RyanPGeorge/project2-forum)| [link](https://trello.com/b/zimb5iK3/ga-sei-project-2) |[link](#)|
+| Sam (DAL) | Railway Train App | [link](https://github.com/samiduara/Standard-Gauge-Railway-Train-APP)| [link](https://trello.com/b/OECQ3nH0/standard-gauge-railway ) |[link](#)  |
 | Dan (LA) | Fantasy Football Tracker | [link](https://github.com/seagrendaniel/Fantasy-Football-Tracker) | [link](https://trello.com/b/uo17yYUG/ff-tracker-sei-full-stack-web-app) |  |
 | Dave (LA) | Kickball  | [link](https://github.com/davekoncsol/kickball)  | [link](https://trello.com/b/8SemGKuF/kickball) |  |
 | Leo (LA) | Manchester United Tracker |  | [link](https://github.com/leonelRos/manchester-united-tracker) |  |
