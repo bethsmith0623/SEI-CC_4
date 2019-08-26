@@ -35,7 +35,7 @@
 | Kevinn (DAL) | PodComm | [link](https://github.com/kevinnarbas/PodComm-p2)|[link](https://trello.com/b/9YcvWYcr/podcomm)|[link](#) |
 | Michael H. (DAL) | Beta Buddy | [link](https://github.com/mhinte91/BetaBuddy) | [link](https://trello.com/b/53M8hkvx) | [link](#)|
 | Michael M. (DAL) | Vacations App |[link](https://github.com/Mad-Hatter-1865/project-vacations)| [link](https://trello.com/b/NCinrQmu/project-2)|[link](#)|
-| Cole (DAL) |  |  |  |  |
+| Cole (DAL) | Task Master | [link](https://trello.com/b/UTOmquNt/project-2)| [link](https://github.com/41Holmes41/project2)|  [link](http://taskmaster4000.herokuapp.com/)|
 | Ruben (DAL) |  |  |  |  |
 | Ryan (DAL) |  |  |  |  |
 | Sam (DAL) |  |  |  |  |
