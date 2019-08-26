@@ -33,7 +33,8 @@
 | Beth (DAL) | Pet Central | [link](https://github.com/bethsmith0623/Pet-Central/) | [link](https://trello.com/b/AhwwmWIu/project-2-pet-central-app) |[link](#) |
 | Joseph (DAL) | Concert Tracker | [link](https://github.com/Jhunted/My-Project-2.git)| [link](https://trello.com/b/FopwTLOS/concert-tracker)| [link](#) |
 | Kevinn (DAL) | PodComm | [link](https://github.com/kevinnarbas/PodComm-p2)|[link](https://trello.com/b/9YcvWYcr/podcomm)|[link](#) |
-| Michael H. (DAL) |  |  |  |  |
+| Michael H. (DAL) |Beta Buddy | [link](https://github.com/mhinte91/BetaBuddy
+)|[link](https://trello.com/b/53M8hkvx)|[link](#)|
 | Michael M. (DAL) |  |  |  |  |
 | Cole (DAL) |  |  |  |  |
 | Ruben (DAL) |  |  |  |  |
