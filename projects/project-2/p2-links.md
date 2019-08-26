@@ -8,7 +8,7 @@
 | Chighali (ATX) |  |  |  |  |
 | Chris M. (ATX) |  | [link](https://github.com/mayfielc/unit2-project) |  |  |
 | Chris P. (ATX) | Fantasy Watch | [link](https://github.com/600rrchris/fantasy-watch) |  |  |
-| Conner (ATX) |  |  |  |  |
+| Conner (ATX) |  | [link](https://github.com/ConnerMcCabe/project2) |  [link](https://trello.com/b/2SNVVWcy/project-2)|  |
 | David (ATX) |  |  |  |  |
 | Dev (ATX) | Scheduling App | [link](https://github.com/Dev-94/sched-app) | [link](https://github.com/Dev-94/sched-app) |  |
 | Elco (ATX) | E-commerce | [link](https://github.com/eag58914/e-commerce-website-unit-2-project) |  |  |
@@ -16,7 +16,7 @@
 | Emily M. (ATX) | The Calorie Counter | [link](https://github.com/efm0004/the-calorie-controller) | [link](https://trello.com/b/ZyfRP0P6/project-2-the-calorie-controller) |  |
 | Frances (ATX) | Tarot Journal | [link](https://github.com/fcancio/tarotjournal) | [link](https://trello.com/b/JuSjWJJl/project2) |  |
 | Garrett (ATX) |  |  |  |  |
-| Heather (ATX) |  |  |  |  |
+| Heather (ATX) |  | [link](https://github.com/MetaHeather/picto-app) |  |  |
 | Jack (ATX) |  |  |  |  |
 | Jared R (ATX) | Settle-Up | [link](https://github.com/jrodriguez082046/settle-up) | [link](https://trello.com/b/28sZi8p0/unit-2-project-settleup) |  |
 | Jeremiah (ATX) |  |  |  |  |
