@@ -17,7 +17,7 @@
 | Frances (ATX) | Tarot Journal | [link](https://github.com/fcancio/tarotjournal) | [link](https://trello.com/b/JuSjWJJl/project2) |  |
 | Garrett (ATX) |  |  |  |  |
 | Heather (ATX) | Picto | [link](https://github.com/MetaHeather/picto-app) | [link](https://trello.com/b/JjqPeIqr/project-2-node-express-mongodb-full-stack-crud-application) |  |
-| Jack (ATX) |  |  |  |  |
+| Jack (ATX) | Find-A-Taco | [link](https://github.com/Jground-33/Find-A-Taco) | [link](https://trello.com/b/HnvbV6Ko/unit-2-find-a-taco) |  |
 | Jared R (ATX) | Settle-Up | [link](https://github.com/jrodriguez082046/settle-up) | [link](https://trello.com/b/28sZi8p0/unit-2-project-settleup) |  |
 | Jeremiah (ATX) |  |  |  |  |
 | Joseph (ATX) |  |  |  |  |
