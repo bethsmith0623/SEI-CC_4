@@ -10,7 +10,7 @@
 | Chris P. (ATX) | Fantasy Watch | [link](https://github.com/600rrchris/fantasy-watch) |  |  |
 | Conner (ATX) |  |  |  |  |
 | David (ATX) |  |  |  |  |
-| Dev (ATX) |  |  |  |  |
+| Dev (ATX) | Scheduling App | [link](https://github.com/Dev-94/sched-app) | [link](https://github.com/Dev-94/sched-app) |  |
 | Elco (ATX) | E-commerce | [link](https://github.com/eag58914/e-commerce-website-unit-2-project) |  |  |
 | Emily L. (ATX) | Kendra Shop | [link](https://github.com/emgrebe/Kendra-Shop-Project) |  |  |
 | Emily M. (ATX) | The Calorie Counter | [link](https://github.com/efm0004/the-calorie-controller) | [link](https://trello.com/b/ZyfRP0P6/project-2-the-calorie-controller) |  |
