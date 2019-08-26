@@ -27,12 +27,12 @@
 | Robin (ATX) | Video Game Todo | [link](https://github.com/robified/video-game-todo-project) | [link](https://trello.com/b/vTQHFyVu/video-game-todo-project) |  |
 | Taylor (ATX) |  |  |  |  |
 | Vittoria (ATX) |  |  |  |  |
-| Andrew (DAL) | Herbaldashery | [link](https://github.com/atheismann/herbaldashery-cookbook) | [link](https://trello.com/b/Jvr4tiYD/p2-cookbook) |  |
-| Armando (DAL) | U Pumped Bro?  | [link](https://github.com/Drag49487Jr/workoutWebsite-P2)| [link](https://trello.com/b/iEXBq13Q/ga-project-2)|  |
-| Daniel (DAL) | Rapid Recipes|[link](https://github.com/dc3430/Rapid.Recipes) |[link](https://trello.com/b/G7G7evUa/cookbook)  |  |
-| Beth (DAL) | Pet Central | [link](https://github.com/bethsmith0623/Pet-Central/) | [link](https://trello.com/b/AhwwmWIu/project-2-pet-central-app) |  |
-| Joseph (DAL) | Concert Tracker | [link](https://github.com/Jhunted/My-Project-2.git)| [link](https://trello.com/b/FopwTLOS/concert-tracker)|  |
-| Kevinn (DAL) |  |  |  |  |
+| Andrew (DAL) | Herbaldashery | [link](https://github.com/atheismann/herbaldashery-cookbook) | [link](https://trello.com/b/Jvr4tiYD/p2-cookbook) |[link](#)  |
+| Armando (DAL) | U Pumped Bro?  | [link](https://github.com/Drag49487Jr/workoutWebsite-P2)| [link](https://trello.com/b/iEXBq13Q/ga-project-2)|[link](#)  |
+| Daniel (DAL) | Rapid Recipes|[link](https://github.com/dc3430/Rapid.Recipes) |[link](https://trello.com/b/G7G7evUa/cookbook)  |[link](#)  |
+| Beth (DAL) | Pet Central | [link](https://github.com/bethsmith0623/Pet-Central/) | [link](https://trello.com/b/AhwwmWIu/project-2-pet-central-app) |[link](#) |
+| Joseph (DAL) | Concert Tracker | [link](https://github.com/Jhunted/My-Project-2.git)| [link](https://trello.com/b/FopwTLOS/concert-tracker)| [link](#) |
+| Kevinn (DAL) | PodComm | [link](https://github.com/kevinnarbas/PodComm-p2)|[link](https://trello.com/b/9YcvWYcr/podcomm)|[link](#) |
 | Michael H. (DAL) |  |  |  |  |
 | Michael M. (DAL) |  |  |  |  |
 | Cole (DAL) |  |  |  |  |
