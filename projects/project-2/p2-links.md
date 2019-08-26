@@ -28,7 +28,7 @@
 | Taylor (ATX) |  |  |  |  |
 | Vittoria (ATX) |  |  |  |  |
 | Andrew (DAL) | Herbaldashery | [link](https://github.com/atheismann/herbaldashery-cookbook) | [link](https://trello.com/b/Jvr4tiYD/p2-cookbook) |  |
-| Armando (DAL) |  |  |  |  |
+| Armando (DAL) | U Pumped Bro?  | [link](https://github.com/Drag49487Jr/workoutWebsite-P2)| [link](https://trello.com/b/iEXBq13Q/ga-project-2)|  |
 | Daniel (DAL) |  |  |  |  |
 | Beth (DAL) | Pet Central | [link](https://github.com/bethsmith0623/Pet-Central/) | [link](https://trello.com/b/AhwwmWIu/project-2-pet-central-app) |  |
 | Joseph (DAL) |  |  |  |  |
