@@ -18,7 +18,7 @@
 | Garrett (ATX) |  |  |  |  |
 | Heather (ATX) |  |  |  |  |
 | Jack (ATX) |  |  |  |  |
-| Jared R (ATX) | Settle-Up | [link](https://github.com/jrodriguez082046/settle-up) |  |  |
+| Jared R (ATX) | Settle-Up | [link](https://github.com/jrodriguez082046/settle-up) | [link](https://trello.com/b/28sZi8p0/unit-2-project-settleup) |  |
 | Jeremiah (ATX) |  |  |  |  |
 | Joseph (ATX) |  |  |  |  |
 | Julia (ATX) |  |  |  |  |
