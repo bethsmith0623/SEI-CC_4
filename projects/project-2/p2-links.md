@@ -19,7 +19,7 @@
 | Heather (ATX) | Picto | [link](https://github.com/MetaHeather/picto-app) | [link](https://trello.com/b/JjqPeIqr/project-2-node-express-mongodb-full-stack-crud-application) | [link](https://picto-app.herokuapp.com/) |
 | Jack (ATX) | Find-A-Taco | [link](https://github.com/Jground-33/Find-A-Taco) | [link](https://trello.com/b/HnvbV6Ko/unit-2-find-a-taco) |  |
 | Jared R (ATX) | Settle-Up | [link](https://github.com/jrodriguez082046/settle-up) | [link](https://trello.com/b/28sZi8p0/unit-2-project-settleup) | [link](https://settleup.herokuapp.com/) |
-| Jeremiah (ATX) | Bitter 'Bout Litter |  |  | [link](https://bitter-bout-litter.herokuapp.com/members) |
+| Jeremiah (ATX) | Bitter 'Bout Litter | [link](https://github.com/JMHGZ/unit2-project) | [link](https://trello.com/b/TT5PXxjS/project2) | [link](https://bitter-bout-litter.herokuapp.com/members) |
 | Joseph (ATX) | MTG Draft |  |  | [link](https://mtg-draft-filter.herokuapp.com/) |
 | Julia (ATX) | Back App | [link](https://github.com/julia-nichole/bach-app) | [link](https://trello.com/b/VtqnzaMg/bach-app) | [link](https://bach-behavior-app.herokuapp.com/) |
 | Lily (ATX) | RAM-IT | [link](https://github.com/lilymbest/RAM-IT) | [link](https://trello.com/b/RH9w8fup/unit-two-project) | [link](https://ram-it.herokuapp.com/) |
