@@ -4,11 +4,11 @@
 |---|:---:|:---:|:---:|:---:|
 | Ben (ATX) | College Basketball | [link](https://github.com/ManliestBen/college-basketball) | [link](https://trello.com/b/WXOA4hHc/sei-college-basketball-project) | [link](https://college-basketball-project.herokuapp.com) |
 | Beverly (ATX) | Deaf Friendly | [link](https://github.com/beverlyosoria/deaf-friendly) | [link](https://trello.com/b/F4vZsWRm/search-it) | [link](https://deaf-friendly.herokuapp.com/) |
-| Caleb (ATX) | Home Events | [link](https://github.com/snsaleh1/project2) |  | [link](https://homevents.herokuapp.com/) |
+| Caleb (ATX) | Home Events | [link](https://github.com/snsaleh1/project2) | [link](https://trello.com/b/369Gas8y/home-app) | [link](https://homevents.herokuapp.com/) |
 | Chighali (ATX) |  |  |  |  |
 | Chris M. (ATX) | SEI Pro Football | [link](https://github.com/mayfielc/unit2-project) | [link](https://trello.com/b/MgH04x7o/ga) | [link](https://sei-profootball.herokuapp.com/) |
 | Chris P. (ATX) | Fantasy Watch | [link](https://github.com/600rrchris/fantasy-watch) |  | [link](https://fantasy-watch.herokuapp.com/) |
-| Conner (ATX) |  | [link](https://github.com/ConnerMcCabe/project2) |  [link](https://trello.com/b/2SNVVWcy/project-2)| [link](https://jorgensjellies.herokuapp.com/) |
+| Conner (ATX) | JorgenJellies | [link](https://github.com/ConnerMcCabe/project2) |  [link](https://trello.com/b/2SNVVWcy/project-2)| [link](https://jorgensjellies.herokuapp.com/) |
 | David (ATX) | Algorismus | [link](https://github.com/eyybaebae/algorismus) | [link](https://trello.com/b/qQhKDTw9/algorismus) | [link](https://algorismusbae.herokuapp.com/) |
 | Dev (ATX) | Scheduling App | [link](https://github.com/Dev-94/sched-app) | [link](https://github.com/Dev-94/sched-app) | [link](https://scheduling-app94.herokuapp.com/) |
 | Elco (ATX) | Kelly Succulents | [link](https://github.com/eag58914/e-commerce-website-unit-2-project) | [link](https://trello.com/b/cvHQGE4M/unit-2-project) | [link](https://kelly-succulents.herokuapp.com/) |
@@ -17,7 +17,7 @@
 | Frances (ATX) | Tarot Journal | [link](https://github.com/fcancio/tarotjournal) | [link](https://trello.com/b/JuSjWJJl/project2) | [link](https://tarot-journal.herokuapp.com/) |
 | Garrett (ATX) | Survey to API | [link](https://github.com/garryc5/survey) | [link](https://trello.com/b/YpUWfqCs/survey-website-todos) | [link](https://surveyapiandcharts.herokuapp.com/) |
 | Heather (ATX) | Picto | [link](https://github.com/MetaHeather/picto-app) | [link](https://trello.com/b/JjqPeIqr/project-2-node-express-mongodb-full-stack-crud-application) | [link](https://picto-app.herokuapp.com/) |
-| Jack (ATX) | Find-A-Taco | [link](https://github.com/Jground-33/Find-A-Taco) | [link](https://trello.com/b/HnvbV6Ko/unit-2-find-a-taco) |  |
+| Jack (ATX) | Find-A-Taco | [link](https://github.com/Jground-33/Find-A-Taco) | [link](https://trello.com/b/HnvbV6Ko/unit-2-find-a-taco) | [link](https://find-a-taco.herokuapp.com) |
 | Jared R (ATX) | Settle-Up | [link](https://github.com/jrodriguez082046/settle-up) | [link](https://trello.com/b/28sZi8p0/unit-2-project-settleup) | [link](https://settleup.herokuapp.com/) |
 | Jeremiah (ATX) | Bitter 'Bout Litter | [link](https://github.com/JMHGZ/unit2-project) | [link](https://trello.com/b/TT5PXxjS/project2) | [link](https://bitter-bout-litter.herokuapp.com/members) |
 | Joseph (ATX) | MTG Draft | [link](https://github.com/SleepyJosus/mtg-draft-sort) | [link](https://trello.com/b/jSGc3yzq/mtg-draft-sort) | [link](https://mtg-draft-filter.herokuapp.com/) |
