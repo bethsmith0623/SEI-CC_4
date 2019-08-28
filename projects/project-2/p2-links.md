@@ -36,10 +36,10 @@
 | Michael H. (DAL) | Beta Buddy | [link](https://github.com/mhinte91/BetaBuddy) | [link](https://trello.com/b/53M8hkvx) |[link](https://beta-buddy.herokuapp.com) |
 | Michael M. (DAL) | Vacations App |[link](https://github.com/Mad-Hatter-1865/project-vacations)| [link](https://trello.com/b/NCinrQmu/project-2)|  |
 | Cole (DAL) | Task Master | [link](https://trello.com/b/UTOmquNt/project-2)| [link](https://github.com/41Holmes41/project2)|  [link](http://taskmaster4000.herokuapp.com/)|
-| Ruben (DAL) | SPED Cookbook | [link](https://github.com/rcaceres1/spedCookbook)| [link](https://trello.com/b/BEyp4mYN/sped-teachers-cookbook) |  |
+| Ruben (DAL) | SPED Cookbook | [link](https://github.com/rcaceres1/spedCookbook)| [link](https://trello.com/b/BEyp4mYN/sped-teachers-cookbook) | [link](https://sped-cookbook.herokuapp.com/)|
 | Ryan (DAL) | Forum App |[link](https://github.com/RyanPGeorge/project2-forum)| [link](https://trello.com/b/zimb5iK3/ga-sei-project-2) | [link](https://ga-project2-forum.herokuapp.com) |
 | Sam (DAL) | Railway Train App | [link](https://github.com/samiduara/Standard-Gauge-Railway-Train-APP)| [link](https://trello.com/b/OECQ3nH0/standard-gauge-railway ) |  |
-| Dan (LA) | Fantasy Football Tracker | [link](https://github.com/seagrendaniel/Fantasy-Football-Tracker) | [link](https://trello.com/b/uo17yYUG/ff-tracker-sei-full-stack-web-app) |  |
+| Dan (LA) | Fantasy Football Tracker | [link](https://github.com/seagrendaniel/Fantasy-Football-Tracker) | [link](https://trello.com/b/uo17yYUG/ff-tracker-sei-full-stack-web-app) |[link](https://rapidrecipes.herokuapp.com/recipes#)|
 | Dave (LA) | Kickball  | [link](https://github.com/davekoncsol/kickball)  | [link](https://trello.com/b/8SemGKuF/kickball) |  |
 | Leo (LA) | Manchester United Tracker |  | [link](https://github.com/leonelRos/manchester-united-tracker) |  |
 | Marques (LA) | Hunter | [link](https://github.com/Mjsmith30/Hunter) |  |  |
