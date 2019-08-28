@@ -27,7 +27,7 @@
 | Robin (ATX) | Video Game Todo | [link](https://github.com/robified/video-game-todo-project) | [link](https://trello.com/b/vTQHFyVu/video-game-todo-project) | [link](https://vgduetoo-app.herokuapp.com/) |
 | Taylor (ATX) | Texas Flowers | [link](https://github.com/tlacerte/Texas-Flower-Search) | [link](https://trello.com/b/ohQYoIhO/texas-flowers) | [link](https://texas-flower-search.herokuapp.com/) |
 | Vittoria (ATX) | Cat Foster | [link](https://github.com/vittoriaerdem/cat-foster-database) | [link](https://trello.com/b/D4sxhF8j/cat-foster-database) | [link](https://cat-foster-database.herokuapp.com/fosters) |
-| Andrew (DAL) | Herbaldashery | [link](https://github.com/atheismann/herbaldashery-cookbook) | [link](https://trello.com/b/Jvr4tiYD/p2-cookbook) |  |
+| Andrew (DAL) | Herbaldashery | [link](https://github.com/atheismann/herbaldashery-cookbook) | [link](https://trello.com/b/Jvr4tiYD/p2-cookbook) | [link](https://herbaldashery-cookbook.herokuapp.com)|
 | Armando (DAL) | U Pumped Bro?  | [link](https://github.com/Drag49487Jr/workoutWebsite-P2)| [link](https://trello.com/b/iEXBq13Q/ga-project-2)|  |
 | Daniel (DAL) | Rapid Recipes|[link](https://github.com/dc3430/Rapid.Recipes) |[link](https://trello.com/b/G7G7evUa/cookbook)  |  |
 | Beth (DAL) | Pet Central | [link](https://github.com/bethsmith0623/Pet-Central/) | [link](https://trello.com/b/AhwwmWIu/project-2-pet-central-app) |[link](http://pet-central.herokuapp.com/)|
