@@ -28,8 +28,8 @@
 | Taylor (ATX) | Texas Flowers | [link](https://github.com/tlacerte/Texas-Flower-Search) | [link](https://trello.com/b/ohQYoIhO/texas-flowers) | [link](https://texas-flower-search.herokuapp.com/) |
 | Vittoria (ATX) | Cat Foster | [link](https://github.com/vittoriaerdem/cat-foster-database) | [link](https://trello.com/b/D4sxhF8j/cat-foster-database) | [link](https://cat-foster-database.herokuapp.com/fosters) |
 | Andrew (DAL) | Herbaldashery | [link](https://github.com/atheismann/herbaldashery-cookbook) | [link](https://trello.com/b/Jvr4tiYD/p2-cookbook) | [link](https://herbaldashery-cookbook.herokuapp.com)|
-| Armando (DAL) | U Pumped Bro?  | [link](https://github.com/Drag49487Jr/workoutWebsite-P2)| [link](https://trello.com/b/iEXBq13Q/ga-project-2)|  |
-| Daniel (DAL) | Rapid Recipes|[link](https://github.com/dc3430/Rapid.Recipes) |[link](https://trello.com/b/G7G7evUa/cookbook)  |  |
+| Armando (DAL) | U Pumped Bro?  | [link](https://github.com/Drag49487Jr/workoutWebsite-P2)| [link](https://trello.com/b/iEXBq13Q/ga-project-2)|[link](https://upumpedbro.herokuapp.com/)|
+| Daniel (DAL) | Rapid Recipes|[link](https://github.com/dc3430/Rapid.Recipes) |[link](https://trello.com/b/G7G7evUa/cookbook)  |[link](https://rapidrecipes.herokuapp.com/recipes)|
 | Beth (DAL) | Pet Central | [link](https://github.com/bethsmith0623/Pet-Central/) | [link](https://trello.com/b/AhwwmWIu/project-2-pet-central-app) |[link](http://pet-central.herokuapp.com/)|
 | Joseph (DAL) | Concert Tracker | [link](https://github.com/Jhunted/My-Project-2.git)| [link](https://trello.com/b/FopwTLOS/concert-tracker)| [link](https://concertjournal.herokuapp.com/concerts)|
 | Kevinn (DAL) | PodComm | [link](https://github.com/kevinnarbas/PodComm-p2)|[link](https://trello.com/b/9YcvWYcr/podcomm)| [link](https://podcomm.herokuapp.com/)|
@@ -38,8 +38,8 @@
 | Cole (DAL) | Task Master | [link](https://trello.com/b/UTOmquNt/project-2)| [link](https://github.com/41Holmes41/project2)|  [link](http://taskmaster4000.herokuapp.com/)|
 | Ruben (DAL) | SPED Cookbook | [link](https://github.com/rcaceres1/spedCookbook)| [link](https://trello.com/b/BEyp4mYN/sped-teachers-cookbook) | [link](https://sped-cookbook.herokuapp.com/)|
 | Ryan (DAL) | Forum App |[link](https://github.com/RyanPGeorge/project2-forum)| [link](https://trello.com/b/zimb5iK3/ga-sei-project-2) | [link](https://ga-project2-forum.herokuapp.com) |
-| Sam (DAL) | Railway Train App | [link](https://github.com/samiduara/Standard-Gauge-Railway-Train-APP)| [link](https://trello.com/b/OECQ3nH0/standard-gauge-railway ) |  |
-| Dan (LA) | Fantasy Football Tracker | [link](https://github.com/seagrendaniel/Fantasy-Football-Tracker) | [link](https://trello.com/b/uo17yYUG/ff-tracker-sei-full-stack-web-app) |[link](https://rapidrecipes.herokuapp.com/recipes#)|
+| Sam (DAL) | Railway Train App | [link](https://github.com/samiduara/Standard-Gauge-Railway-Train-APP)| [link](https://trello.com/b/OECQ3nH0/standard-gauge-railway ) |[link](https://starndard-gauge-railway.herokuapp.com)|
+| Dan (LA) | Fantasy Football Tracker | [link](https://github.com/seagrendaniel/Fantasy-Football-Tracker) | [link](https://trello.com/b/uo17yYUG/ff-tracker-sei-full-stack-web-app) | |
 | Dave (LA) | Kickball  | [link](https://github.com/davekoncsol/kickball)  | [link](https://trello.com/b/8SemGKuF/kickball) |  |
 | Leo (LA) | Manchester United Tracker |  | [link](https://github.com/leonelRos/manchester-united-tracker) |  |
 | Marques (LA) | Hunter | [link](https://github.com/Mjsmith30/Hunter) |  |  |
