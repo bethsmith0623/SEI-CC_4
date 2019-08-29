@@ -43,7 +43,7 @@
 | Dave (LA) | Kickball  | [link](https://github.com/davekoncsol/kickball)  | [link](https://trello.com/b/8SemGKuF/kickball) | [link](https://kickball-page.herokuapp.com/ballers) |
 | Leo (LA) | Manchester United Tracker |  | [link](https://github.com/leonelRos/manchester-united-tracker) |  |
 | Marques (LA) | Hunter | [link](https://github.com/Mjsmith30/Hunter) |  |  |
-| Nick (LA) | Beach Finder | [link](https://github.com/nbai123/Beach-Finder) | [link](https://trello.com/b/Y3e5N2Ju/proj-2) |  |
+| Nick (LA) | Beach Finder | [link](https://github.com/nbai123/Beach-Finder) | [link](https://trello.com/b/Y3e5N2Ju/proj-2) | [link](https://beachfinder.herokuapp.com/beaches) |
 | Muhammed (LA) | Recipes | [link](https://github.com/qadanm/recipes) |  |  |
 | Perice (LA) | Tunes Talk | [link](https://github.com/perice-pope/tunes-talk) | [link](https://trello.com/b/hHPBMPMc/tune-talk) | [link](https://tunestalk.herokuapp.com) |
 | Timothy (LA) | Donut World | [link](https://github.com/TimCross1994/Donut-World) | [link](https://trello.com/b/RHoGM2gG/donut-journal) |  |
