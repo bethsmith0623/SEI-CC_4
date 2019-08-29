@@ -47,7 +47,7 @@
 | Muhammed (LA) | Recipes | [link](https://github.com/qadanm/recipes) |  |  |
 | Perice (LA) | Tunes Talk | [link](https://github.com/perice-pope/tunes-talk) | [link](https://trello.com/b/hHPBMPMc/tune-talk) |  |
 | Timothy (LA) | Donut World | [link](https://github.com/TimCross1994/Donut-World) | [link](https://trello.com/b/RHoGM2gG/donut-journal) |  |
-| Victor (LA) | Fridge | [link](https://github.com/TimeForZeros/fridge-app) | [link](https://trello.com/b/A8wxwDhe/fridge-app) |  |
+| Victor (LA) | Fridge | [link](https://github.com/TimeForZeros/fridge-app) | [link](https://trello.com/b/A8wxwDhe/fridge-app) | [link](https://whatsinmyfridgefoo.herokuapp.com/users) |
 | Aly (SF) | Event Planner | [link](https://github.com/alynguyen/event-planner) | [link](https://trello.com/b/g8S5qgLR/event-planner) | [link](http://alyplans.herokuapp.com/) |
 | Anami (SF) | Wikicode | [link](https://github.com/anami-sf/wikicode) | [link](https://trello.com/b/Uovn3MiM/wikicode) |  |
 | Braxton (SF) | Network Calendar | [link](https://github.com/codenerd21/project2-event-calendar) | [link](https://trello.com/b/F0t7d30b/project-2-full-stack-crud-app) |  |
