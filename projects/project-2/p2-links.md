@@ -53,7 +53,7 @@
 | Braxton (SF) | Network Calendar | [link](https://github.com/codenerd21/project2-event-calendar) | [link](https://trello.com/b/F0t7d30b/project-2-full-stack-crud-app) |  |
 | Carol (SF) | InventoryU | [link](https://github.com/carolsand/InventoryU) | [link](https://trello.com/b/hY6s7vXM/inventoryu) |  |
 | CJ (SF) | WTF | [link](https://github.com/cjs83/wtf) | [link](https://trello.com/b/GOYSEsEC/wtf) |  |
-| Chi (SF) | Flight Lesson Planner | [link](https://github.com/Chi37/flight-log-book) | [link](https://trello.com/b/cbtChWra/project-2) |  |
+| Chi (SF) | Flight Lesson Planner | [link](https://github.com/Chi37/flight-log-book) | [link](https://trello.com/b/cbtChWra/project-2) | [link](http://sei-flight-logger.herokuapp.com) |
 | Emily (SF) | FoodieGram | [link](https://github.com/emilyc729/foodie-gram) | [link](https://trello.com/b/fUVzZUbH/full-stack-app-1) |  |
 | Greg M. (SF) | truckSFinder | [link](https://github.com/g-merrill/truckSFinder) | [link](https://trello.com/b/UZQ23QIg/ga-sei-project-2-trucksfinder) | [link](https://trucksfinder.herokuapp.com) |
 | Greg R. (SF) | Baby Steps |  | [link](https://trello.com/b/jBl1dmhw/baby-steps) |  |
