@@ -41,7 +41,7 @@
 | Sam (DAL) | Railway Train App | [link](https://github.com/samiduara/Standard-Gauge-Railway-Train-APP)| [link](https://trello.com/b/OECQ3nH0/standard-gauge-railway ) |[link](https://starndard-gauge-railway.herokuapp.com)|
 | Dan (LA) | Fantasy Football Tracker | [link](https://github.com/seagrendaniel/Fantasy-Football-Tracker) | [link](https://trello.com/b/uo17yYUG/ff-tracker-sei-full-stack-web-app) | [link](https://fantasy-football-stat-tracker.herokuapp.com/teams) |
 | Dave (LA) | Kickball  | [link](https://github.com/davekoncsol/kickball)  | [link](https://trello.com/b/8SemGKuF/kickball) | [link](https://kickball-page.herokuapp.com/ballers) |
-| Leo (LA) | Manchester United Tracker |  | [link](https://github.com/leonelRos/manchester-united-tracker) |  |
+| Leo (LA) | Manchester United Tracker | [link](https://github.com/leonelRos/manchester-united-tracker) | [link](https://github.com/leonelRos/manchester-united-tracker) |  |
 | Marques (LA) | Hunter | [link](https://github.com/Mjsmith30/Hunter) | [link](https://trello.com/b/Xt7U7Isd/project-2-web-app) | [link](https://thrifthunter.herokuapp.com/) |
 | Nick (LA) | Beach Finder | [link](https://github.com/nbai123/Beach-Finder) | [link](https://trello.com/b/Y3e5N2Ju/proj-2) | [link](https://beachfinder.herokuapp.com/beaches) |
 | Muhammed (LA) | Recipes | [link](https://github.com/qadanm/recipes) |  |  |
