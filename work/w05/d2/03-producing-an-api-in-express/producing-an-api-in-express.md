@@ -62,8 +62,6 @@
 
 - It can be installed by [this download](https://www.getpostman.com/downloads/) or...
 
-- Postman can also be installed as a Chrome extension by browsing to `chrome://extensions` and clicking the _Get more extensions_ link at the bottom. Search for and install **Postman**. 
-
 ---
 ### 💪 Practice Exercise (15 Min)
 <br>
@@ -135,12 +133,20 @@
 
 ---
 ### Proper response codes
+<br>
 
 - Virtually all modern web APIs respond with JSON.
 
-- However, well designed APIs also set the _status code_ of the HTTP response appropriately as depicted in this graphic:
+- However, well designed APIs also set the _status code_ of the HTTP response appropriately...
 
-<img src="https://i.imgur.com/TbZcD8Z.png" width="900">
+---
+### Proper response codes
+
+- Here is a common approach:
+
+	<img src="https://i.imgur.com/TbZcD8Z.png" width="900">
+	
+- Note that if something goes wrong on the server (network error, etc., we should send back a status code of 500).
 
 ---
 ### Set up the routes for the API

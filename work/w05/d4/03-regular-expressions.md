@@ -177,7 +177,7 @@ input:invalid {
 ### Shorthand Character Classes
 <br>
 
-- <p>Because character classes are used so often, there are several _shorthand character classes_ available. For example, instead of using `[0-9]` to match a digit, you can use `\d` instead.</p>
+- Because character classes are used so often, there are several _shorthand character classes_ available. For example, instead of using `[0-9]` to match a digit, you can use `\d` instead.
 
 ---
 
@@ -463,7 +463,7 @@ input:invalid {
 ### Exercise (5 mins)
 <br>
 
-- <p>**Write a regex that would match a CSS color hexadecimal (3 or 6 characters), such as<br>`#f355Ac` or `#D39`**</p>
+- **Write a regex that would match a CSS color hexadecimal (3 or 6 characters), such as<br>`#f355Ac` or `#D39`**
 
 ---
 
@@ -502,7 +502,7 @@ input:invalid {
 ### Exercise (2 mins)
 <br>
 
-- <p>**Write a regular expression that would match this string:<br>`hey!hey!hey!`**</p>
+- **Write a regular expression that would match this string:<br>`hey!hey!hey!`**
 
 ---
 
@@ -538,7 +538,7 @@ input:invalid {
 ### Anchors and Boundaries (cont.)
 <br>
 
-- <p>Let's test the pattern, `cat`, with anchors (`/^cat$/`), and without (`/cat/`), against the strings "cat" and "catsup".</p>
+- Let's test the pattern, `cat`, with anchors (`/^cat$/`), and without (`/cat/`), against the strings "cat" and "catsup".
 
 ---
 
