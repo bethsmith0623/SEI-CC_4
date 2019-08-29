@@ -53,9 +53,9 @@
 | Braxton (SF) | Network Calendar | [link](https://github.com/codenerd21/project2-event-calendar) | [link](https://trello.com/b/F0t7d30b/project-2-full-stack-crud-app) |  |
 | Carol (SF) | InventoryU | [link](https://github.com/carolsand/InventoryU) | [link](https://trello.com/b/hY6s7vXM/inventoryu) |  |
 | CJ (SF) | WTF | [link](https://github.com/cjs83/wtf) | [link](https://trello.com/b/GOYSEsEC/wtf) |  |
-| Chi (SF) | Flight Lesson Planner |  | [link](https://trello.com/b/cbtChWra/project-2) |  |
+| Chi (SF) | Flight Lesson Planner | [link](https://github.com/Chi37/flight-log-book) | [link](https://trello.com/b/cbtChWra/project-2) |  |
 | Emily (SF) | FoodieGram | [link](https://github.com/emilyc729/foodie-gram) | [link](https://trello.com/b/fUVzZUbH/full-stack-app-1) |  |
-| Greg M. (SF) | truckSFinder | [link](https://github.com/g-merrill/truckSFinder) | [link](https://trello.com/b/UZQ23QIg/ga-sei-project-2-trucksfinder) |  |
+| Greg M. (SF) | truckSFinder | [link](https://github.com/g-merrill/truckSFinder) | [link](https://trello.com/b/UZQ23QIg/ga-sei-project-2-trucksfinder) | [link](https://trucksfinder.herokuapp.com) |
 | Greg R. (SF) | Baby Steps |  | [link](https://trello.com/b/jBl1dmhw/baby-steps) |  |
 | Jon (SF) | Recipease | [link](https://github.com/simpleCodify/recipease) |  |  |
 | Joshua (SF) | emOcean | [link](https://github.com/jusselman/emOcean) | [link](https://trello.com/b/7n3Ta4Ls/sei-p-2) |  |
@@ -65,7 +65,7 @@
 | Ny Antsa (SF) | Expense Tracker | [link](https://github.com/NyAntsaR/tirelire_project) | [link](https://trello.com/b/ElJVaV40/expense-tracker) |  |
 | Preston (SF) | CoinAgora | [link](https://github.com/prestonhom/CoinAgora) | [link](https://trello.com/b/Qc9mF0ip/coinagora) |  |
 | Samantha (SF) | Online Ordering | [link](https://github.com/Samantha2233/Cafe-Madrid-Online-Ordering) | [link](https://trello.com/b/rUah901M/cafe-madrid-online-ordering) |  |
-| Sonnia (SF) | Tumble | [link](https://github.com/brownbugz/project-2-tumble) | [link](https://trello.com/b/Y8BpsBeu/project2-tumble) |  |
+| Sonnia (SF) | Tumble | [link](https://github.com/brownbugz/project-2-tumble) | [link](https://trello.com/b/Y8BpsBeu/project2-tumble) | [link](https://sei-project2-tumble.herokuapp.com/) |
 | Sorrel (SF) | Social Study | [link](https://github.com/sorrelbri/social-study) | [link](https://trello.com/b/NSAL72CL/social-study) |  |
 | Tyler (SF) |  |  |  |  |
 | Wenjie (SF) | MyTeam |  | [link](https://trello.com/b/d2HuLzve/myteam) |  |
