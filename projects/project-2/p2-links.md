@@ -44,7 +44,7 @@
 | Leo (LA) | Manchester United Tracker | [link](https://github.com/leonelRos/manchester-united-tracker) | [link](https://github.com/leonelRos/manchester-united-tracker) |  |
 | Marques (LA) | Hunter | [link](https://github.com/Mjsmith30/Hunter) | [link](https://trello.com/b/Xt7U7Isd/project-2-web-app) | [link](https://thrifthunter.herokuapp.com/) |
 | Nick (LA) | Beach Finder | [link](https://github.com/nbai123/Beach-Finder) | [link](https://trello.com/b/Y3e5N2Ju/proj-2) | [link](https://beachfinder.herokuapp.com/beaches) |
-| Muhammed (LA) | Recipes | [link](https://github.com/qadanm/recipes) |  |  |
+| Muhammed (LA) | Recipes | [link](https://github.com/qadanm/recipes) |  | [link](https://farawla.herokuapp.com/recipes) |
 | Perice (LA) | Tunes Talk | [link](https://github.com/perice-pope/tunes-talk) | [link](https://trello.com/b/hHPBMPMc/tune-talk) | [link](https://tunestalk.herokuapp.com) |
 | Timothy (LA) | Donut World | [link](https://github.com/TimCross1994/Donut-World) | [link](https://trello.com/b/RHoGM2gG/donut-journal) |  |
 | Victor (LA) | Fridge | [link](https://github.com/TimeForZeros/fridge-app) | [link](https://trello.com/b/A8wxwDhe/fridge-app) | [link](https://whatsinmyfridgefoo.herokuapp.com/users) |
