@@ -51,7 +51,7 @@
 | Aly (SF) | Event Planner | [link](https://github.com/alynguyen/event-planner) | [link](https://trello.com/b/g8S5qgLR/event-planner) | [link](http://alyplans.herokuapp.com/) |
 | Anami (SF) | Wikicode | [link](https://github.com/anami-sf/wikicode) | [link](https://trello.com/b/Uovn3MiM/wikicode) |  |
 | Braxton (SF) | Network Calendar | [link](https://github.com/codenerd21/project2-event-calendar) | [link](https://trello.com/b/F0t7d30b/project-2-full-stack-crud-app) |  |
-| Carol (SF) | InventoryU | [link](https://github.com/carolsand/InventoryU) | [link](https://trello.com/b/hY6s7vXM/inventoryu) |  |
+| Carol (SF) | InventoryU | [link](https://github.com/carolsand/InventoryU) | [link](https://trello.com/b/hY6s7vXM/inventoryu) | [link](https://inventoryu.herokuapp.com/) |
 | CJ (SF) | WTF | [link](https://github.com/cjs83/wtf) | [link](https://trello.com/b/GOYSEsEC/wtf) |  |
 | Chi (SF) | Flight Lesson Planner | [link](https://github.com/Chi37/flight-log-book) | [link](https://trello.com/b/cbtChWra/project-2) | [link](http://sei-flight-logger.herokuapp.com) |
 | Emily (SF) | FoodieGram | [link](https://github.com/emilyc729/foodie-gram) | [link](https://trello.com/b/fUVzZUbH/full-stack-app-1) |  |
@@ -60,7 +60,7 @@
 | Jon (SF) | Recipease | [link](https://github.com/simpleCodify/recipease) |  |  |
 | Joshua (SF) | emOcean | [link](https://github.com/jusselman/emOcean) | [link](https://trello.com/b/7n3Ta4Ls/sei-p-2) |  |
 | Loquen (SF) | Habit | [link](https://github.com/Loquen/habit) | [link](https://trello.com/b/9MRDqrH7/loquen-jones-sei-4-project-2-habit) |  |
-| Matthew (SF) | Go Skate | [link](https://github.com/mrobin88/goneGoSk8) | [link](https://trello.com/b/IZ6OzSL7/gonegosk9) |  |
+| Matthew (SF) | Go Skate | [link](https://github.com/mrobin88/goneGoSk8) | [link](https://trello.com/b/IZ6OzSL7/gonegosk9) | [link](https://gosk9.herokuapp.com/) |
 | Michael (SF) |  |  | [link](https://trello.com/b/Z6uY8Sst/welcome-to-trello) |  |
 | Ny Antsa (SF) | Expense Tracker | [link](https://github.com/NyAntsaR/tirelire_project) | [link](https://trello.com/b/ElJVaV40/expense-tracker) |  |
 | Preston (SF) | CoinAgora | [link](https://github.com/prestonhom/CoinAgora) | [link](https://trello.com/b/Qc9mF0ip/coinagora) |  |
