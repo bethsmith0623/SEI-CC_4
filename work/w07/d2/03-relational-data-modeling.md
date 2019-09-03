@@ -35,7 +35,7 @@ Students will be able to:
 
 - The **data model** is conceptual and is used as a blueprint for implementing the data persistence needs within a given database technology (SQL, NoSQL, etc.).
 
-- The data model is typically with an **Entity Relationship Diagram** (ERD).
+- The data model is typically visualized with an **Entity Relationship Diagram** (ERD).
 
 ---
 ## Data Entities
