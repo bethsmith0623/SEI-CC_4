@@ -41,17 +41,17 @@
 | Sam (DAL) | Railway Train App | [link](https://github.com/samiduara/Standard-Gauge-Railway-Train-APP)| [link](https://trello.com/b/OECQ3nH0/standard-gauge-railway ) |[link](https://starndard-gauge-railway.herokuapp.com)|
 | Dan (LA) | Fantasy Football Tracker | [link](https://github.com/seagrendaniel/Fantasy-Football-Tracker) | [link](https://trello.com/b/uo17yYUG/ff-tracker-sei-full-stack-web-app) | [link](https://fantasy-football-stat-tracker.herokuapp.com/teams) |
 | Dave (LA) | Kickball  | [link](https://github.com/davekoncsol/kickball)  | [link](https://trello.com/b/8SemGKuF/kickball) | [link](https://kickball-page.herokuapp.com/ballers) |
-| Leo (LA) | Manchester United Tracker |  | [link](https://github.com/leonelRos/manchester-united-tracker) |  |
+| Leo (LA) | Manchester United Tracker | [link](https://github.com/leonelRos/manchester-united-tracker) | [link](https://github.com/leonelRos/manchester-united-tracker) |  |
 | Marques (LA) | Hunter | [link](https://github.com/Mjsmith30/Hunter) | [link](https://trello.com/b/Xt7U7Isd/project-2-web-app) | [link](https://thrifthunter.herokuapp.com/) |
 | Nick (LA) | Beach Finder | [link](https://github.com/nbai123/Beach-Finder) | [link](https://trello.com/b/Y3e5N2Ju/proj-2) | [link](https://beachfinder.herokuapp.com/beaches) |
-| Muhammed (LA) | Recipes | [link](https://github.com/qadanm/recipes) |  |  |
+| Muhammed (LA) | Recipes | [link](https://github.com/qadanm/recipes) |  | [link](https://farawla.herokuapp.com/recipes) |
 | Perice (LA) | Tunes Talk | [link](https://github.com/perice-pope/tunes-talk) | [link](https://trello.com/b/hHPBMPMc/tune-talk) | [link](https://tunestalk.herokuapp.com) |
 | Timothy (LA) | Donut World | [link](https://github.com/TimCross1994/Donut-World) | [link](https://trello.com/b/RHoGM2gG/donut-journal) |  |
 | Victor (LA) | Fridge | [link](https://github.com/TimeForZeros/fridge-app) | [link](https://trello.com/b/A8wxwDhe/fridge-app) | [link](https://whatsinmyfridgefoo.herokuapp.com/users) |
 | Aly (SF) | Event Planner | [link](https://github.com/alynguyen/event-planner) | [link](https://trello.com/b/g8S5qgLR/event-planner) | [link](http://alyplans.herokuapp.com/) |
 | Anami (SF) | Wikicode | [link](https://github.com/anami-sf/wikicode) | [link](https://trello.com/b/Uovn3MiM/wikicode) |  |
 | Braxton (SF) | Network Calendar | [link](https://github.com/codenerd21/project2-event-calendar) | [link](https://trello.com/b/F0t7d30b/project-2-full-stack-crud-app) |  |
-| Carol (SF) | InventoryU | [link](https://github.com/carolsand/InventoryU) | [link](https://trello.com/b/hY6s7vXM/inventoryu) |  |
+| Carol (SF) | InventoryU | [link](https://github.com/carolsand/InventoryU) | [link](https://trello.com/b/hY6s7vXM/inventoryu) | [link](https://inventoryu.herokuapp.com/) |
 | CJ (SF) | WTF | [link](https://github.com/cjs83/wtf) | [link](https://trello.com/b/GOYSEsEC/wtf) |  |
 | Chi (SF) | Flight Lesson Planner | [link](https://github.com/Chi37/flight-log-book) | [link](https://trello.com/b/cbtChWra/project-2) | [link](http://sei-flight-logger.herokuapp.com) |
 | Emily (SF) | FoodieGram | [link](https://github.com/emilyc729/foodie-gram) | [link](https://trello.com/b/fUVzZUbH/full-stack-app-1) |  |
@@ -60,9 +60,9 @@
 | Jon (SF) | Recipease | [link](https://github.com/simpleCodify/recipease) |  |  |
 | Joshua (SF) | emOcean | [link](https://github.com/jusselman/emOcean) | [link](https://trello.com/b/7n3Ta4Ls/sei-p-2) |  |
 | Loquen (SF) | Habit | [link](https://github.com/Loquen/habit) | [link](https://trello.com/b/9MRDqrH7/loquen-jones-sei-4-project-2-habit) |  |
-| Matthew (SF) | Go Skate | [link](https://github.com/mrobin88/goneGoSk8) | [link](https://trello.com/b/IZ6OzSL7/gonegosk9) |  |
+| Matthew (SF) | Go Skate | [link](https://github.com/mrobin88/goneGoSk8) | [link](https://trello.com/b/IZ6OzSL7/gonegosk9) | [link](https://gosk9.herokuapp.com/) |
 | Michael (SF) |  |  | [link](https://trello.com/b/Z6uY8Sst/welcome-to-trello) |  |
-| Ny Antsa (SF) | Expense Tracker | [link](https://github.com/NyAntsaR/tirelire_project) | [link](https://trello.com/b/ElJVaV40/expense-tracker) |  |
+| Ny Antsa (SF) | TIRELIRE | [link](https://github.com/NyAntsaR/tirelire_project) | [link](https://trello.com/b/ElJVaV40/expense-tracker) | [link](https://tirelire-sei.herokuapp.com/users) |
 | Preston (SF) | CoinAgora | [link](https://github.com/prestonhom/CoinAgora) | [link](https://trello.com/b/Qc9mF0ip/coinagora) |  |
 | Samantha (SF) | Online Ordering | [link](https://github.com/Samantha2233/Cafe-Madrid-Online-Ordering) | [link](https://trello.com/b/rUah901M/cafe-madrid-online-ordering) |  |
 | Sonnia (SF) | Tumble | [link](https://github.com/brownbugz/project-2-tumble) | [link](https://trello.com/b/Y8BpsBeu/project2-tumble) | [link](https://sei-project2-tumble.herokuapp.com/) |
