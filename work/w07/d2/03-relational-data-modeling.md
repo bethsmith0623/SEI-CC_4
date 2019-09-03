@@ -140,7 +140,7 @@ Students will be able to:
 
 #### The goal is to identify separate Data Entities and their attributes.
 
-####We will review your findings in 5 minutes.<br><br>Don't cheat by looking ahead 😊
+#### We will review your findings in 5 minutes.<br><br>Don't cheat by looking ahead 😊
 
 ---
 ### Data Entities Galore!
