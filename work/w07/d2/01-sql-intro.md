@@ -43,9 +43,9 @@ In SEI, we'll be using [PostgreSQL](https://www.postgresql.org/)  since it's arg
 
 #### Schema
 
-The structure of a particular database is known as its **schema**.
+The structure of a particular database is defined by a **schema**.
 
-Schemas include the definition of such things as the database's:
+Schemas define the database's:
 
 - Tables, including the number and data type of each column
 - Indexes for efficient access of data
@@ -63,8 +63,6 @@ Tables are also known as _relations_, thus the term _relational database_.
 
 A single table in a relational database holds data for a particular _data entity_, for example, **customers**, **orders**, **reviews**, etc.
 
-Since only one type of data entity can be held in a single table, related data, for example, the **songs** for an **artist**, are stored in separate tables and "linked" via what is known as a **foreign key (FK)**:
-
 TABLE: **artists**
 
 | id (PK)       | name           | nationality |
@@ -81,16 +79,20 @@ TABLE: **songs**
 | 3      | Raspberry Beret     | 1985          | 1         |
 | 4      | Your Song           | 1970          | 2         |
 
-Note that foreign key fields hold the value of its parent's **primary key (PK)**.
+The naming convention for tables is typically snake-cased and always plural.
 
-The naming convention is typically snake-cased and always plural.
+#### Rows (Records / Tuples)
+
+A row in a table represents a single instance of the data entity.
+
+For example a particular **artist** in the **artists** table.
 
 #### Columns (Fields)
 
 The columns of a table have a:
 
 - Name
-- Data type
+- Data type (all data in a column must be of the same type)
 - Optional contraints
 
 The typical naming convention is usually snake-cased and singular.
@@ -112,11 +114,11 @@ Common constraints for a column include:
 - `NOT NULL`: column must have a value, it cannot be empty (null)
 - `UNIQUE`: data in this column must be unique among all rows in the table
 
-#### Rows (Records / Tuples)
+#### Primary Keys (PK) and Foreign Keys (FK)
 
-A row in a table represents a single instance of the data entity.
+The field (or fields) that uniquely identify each row in table are know known as that table's **primary key (PK)**.
 
-For example a particular **artist** in the **artists** table.
+Since only one type of data entity can be held in a single table, related data, for example, the **songs** for an **artist**, are stored in separate tables and "linked" via what is known as a **foreign key (FK)**.  Note that foreign key fields hold the value of its related parent's PK**.
 
 ### ❓ Database Review Questions
 
@@ -219,9 +221,9 @@ _A Band has many Musicians_ and _a Musician belongs to a Band_
 
 Whenever you have a one:many relationship, the rows in the table for the many-side must include a column that references which row in the table on the one-side it _belongs to_.
 
-This column is known as a **foreign key (FK)**.
+This column is a **foreign key (FK)** that we discussed earlier.
 
-The FK must be of the same data type is the primary key in the parent table - usually an **integer**.
+The FK must be of the same data type as the primary key in the parent table - usually an **integer**.
 
 Here's how we could define the `musicians` table:
 
@@ -236,6 +238,8 @@ CREATE TABLE musicians (
 
 \d musicians -- details for table
 ```
+
+The `REFERENCES` constraint is what makes a column a FK.
 
 Now let's attempt to add a musician with a bogus foreign key:
 
@@ -339,9 +343,9 @@ For additional practice after the lab, check out this interactive site: [PG Exer
 
 Before moving on to the lab, let's answer a few questions...
 
-1. **The database will contain a _________ for each data entity that an application has.**
+1. **A database contains a _________ for each data entity that an application has.**
 
-2. **True or False: In a relational database, the data in a given column must be of the same data type.**
+2. **True or False: In a relational database, all of the data in a given column must be of the same data type.**
 
 3. **A single instance of a data entity is represented by a ______ in a table.**
 
