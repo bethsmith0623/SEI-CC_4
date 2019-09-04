@@ -180,7 +180,7 @@ Of course, reassignment replaces the current value and that previous value would
 
 Python is very object-oriented.
 
-Every piece of data in Python is a an object that's an instance of a _class_.
+Every piece of data in Python is an object that's an instance of a _class_.
 
 #### Checking the Data Type (class) of an Object
 
@@ -429,8 +429,11 @@ Some are familiar, like `split()` but others have different names:
 "ace of spades".split(" ")
 # => ['ace', 'of', 'spades']
 
-"abcde".split("")
-# => ['a', 'b', 'c', 'd', 'e']
+# However, this won't work
+"abcd".split("")
+# Instead, use the list() function like this:
+list("abcd")
+# => ['a', 'b', 'c', 'd']
 
 "qqxzzz".index("x")    # Warning: Raises error if substring not found
 # => 2
