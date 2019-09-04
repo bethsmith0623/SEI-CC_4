@@ -45,7 +45,7 @@ However, if Python does not include functionality that you need, there is a huge
 
 Python was designed to be an easy to read programming language.
 
-Its formatting is visually uncluttered and it often uses English keywords where other languages use punctuation. For example, the equivalent to JS's `&&` operator in Python is `and`. 
+Its formatting is visually uncluttered and it often uses English keywords where other languages use punctuation or symbols. For example, the equivalent to JS's `&&` operator in Python is `and`. 
 
 Unlike many other languages, it does not use curly braces to define blocks of code, instead, it uses indentation.
 
@@ -125,7 +125,7 @@ Multiline comments are often used to document what a function or module does, th
 
 Variables in Python work in much the same way that variables work in JavaScript.
 
-Each variable holds data we need throughout our app's lifecycle.
+Variables hold the data an app needs when it runs.
 
 #### Declaring
 
@@ -149,7 +149,7 @@ NameError: name 'my_variable' is not defined
 
 Variables are case sensitive - variables named `my_number` and `My_Number` would be two different variables.
 
-When you have a variable name with multiple words, the convention is to **snake-case** the identifer:
+When you have a variable name with multiple words, the convention is to **snake_case** the identifier:
 
 ```js
 // In JavaScript we use camelCase...
@@ -174,6 +174,8 @@ print(my_number)
 
 Of course, reassignment replaces the current value and that previous value would no longer be available - just like in JS.
 
+> The `print()` function works very much like `console.log()` does in JavaScript.
+
 ### Data Types
 
 Python is very object-oriented.
@@ -197,7 +199,7 @@ Python's data types are similar to those available in JavaScript, there's just m
 
 #### Integer Numbers (`<class 'int'>`)
 
-Unlike in JavaScript, Python distinguishes between integers (whole numbers) and decimals (AKA floats).
+Unlike in JavaScript, Python distinguishes between integers (whole numbers) and floats (numbers with decimals).
 
 When we don't follow a number literal with a decimal point, an integer is assumed:
 
@@ -257,7 +259,7 @@ Similar to how JS has the `null` value to represent nothingness, Python has a si
 my_nothing = None
 ```
 
-The keyword `None` in Python, with a capital N, provides the same meaning as `null` does in JavaScript.
+The value `None` in Python, with a capital N, provides the same meaning as `null` does in JavaScript.
 
 ### Math operations
 
@@ -267,7 +269,7 @@ Python has the normal math operators that you are used to from JavaScript:
 - Subtraction `(-)`
 - Multiplcation `(*)`
 - Division `(/)`
-- Modulo `(%)`
+- Modulo (remainder) `(%)`
 - Exponentiation `(**)`
 
 All work as you would expect. However, there few other things worth mentioning...
@@ -345,7 +347,7 @@ let msg = 'There are ' + numTacos + ' tacos';
 msg => There are 25 tacos
 ```
 
-However, in Python we cannot do this - there is no implicit type conversion (coercion). With few exceptions, variables must be the same type to perform an operation on them.
+However, in Python we cannot do this - there is no type coercion. With few exceptions, variables must be the same type to perform an operation on them.
 
 Luckily, doing math operations between integers and floats is allowed, but not much else.
 

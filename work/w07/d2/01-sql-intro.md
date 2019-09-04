@@ -7,7 +7,7 @@
 |Students will be able to:|
 |---|
 |Describe the use case of databases|
-|Describe the anotomy of a relational database|
+|Describe the anatomy of a relational database|
 |Describe the use case of SQL|
 |Use the `psql` Interactive Terminal|
 |Use SQL to create a database and a table|
@@ -39,7 +39,7 @@ Relational databases are by far the most popular type of database technology. Co
 
 In SEI, we'll be using [PostgreSQL](https://www.postgresql.org/)  since it's arguably the best open-source relational database management system (RDBMS) available.
 
-### Anotomy of a Relational Database
+### Anatomy of a Relational Database
 
 #### Schema
 
@@ -118,7 +118,7 @@ Common constraints for a column include:
 
 The field (or fields) that uniquely identify each row in table are know known as that table's **primary key (PK)**.
 
-Since only one type of data entity can be held in a single table, related data, for example, the **songs** for an **artist**, are stored in separate tables and "linked" via what is known as a **foreign key (FK)**.  Note that foreign key fields hold the value of its related parent's PK**.
+Since only one type of data entity can be held in a single table, related data, for example, the **songs** for an **artist**, are stored in separate tables and "linked" via what is known as a **foreign key (FK)**.  Note that foreign key fields hold the value of its related parent's PK.
 
 ### ❓ Database Review Questions
 
@@ -215,7 +215,7 @@ Because the type of `id` is set to `serial`, the RDBMS automatically assigns it.
 
 ### Creating a Table for a Related Data Entity
 
-Let's say we have the following data relationship:  `Band ---< Musisican`
+Let's say we have the following data relationship:  `Band ---< Musician`
 
 _A Band has many Musicians_ and _a Musician belongs to a Band_
 
