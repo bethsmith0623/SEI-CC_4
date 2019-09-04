@@ -45,7 +45,7 @@ However, if Python does not include functionality that you need, there is a huge
 
 Python was designed to be an easy to read programming language.
 
-Its formatting is visually uncluttered and it often uses English keywords where other languages use punctuation. For example, the equivalent to JS's `&&` operator in Python is `and`. 
+Its formatting is visually uncluttered and it often uses English keywords where other languages use punctuation or symbols. For example, the equivalent to JS's `&&` operator in Python is `and`. 
 
 Unlike many other languages, it does not use curly braces to define blocks of code, instead, it uses indentation.
 
