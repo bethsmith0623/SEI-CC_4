@@ -79,9 +79,8 @@ Django should have been installed during installfest.
 Let's verify the installation as follows:
 
 ```
-$ python3
->>> import django
->>> print( django.get_version() )  # -> 2.1.x
+$ python3 -m django --version
+# -> 2.2.x
 ```
 
 If it's not installed, do a one-time install of the Django framework using the following command:
@@ -90,7 +89,7 @@ If it's not installed, do a one-time install of the Django framework using the f
 $ pip3 install Django
 ```
 
-By default, Django uses a lightweight database called SQLite. However, it's not supported by most hosting services (Heroku, etc.).
+By default, Django uses a lightweight database called SQLite. However, SQLLite is not appropriate for production use because it's considered not to be scalable (for example, only one user/request can access the database at a time).
 
 Therefore, from the start, we'll be following the better practice of using a more capable database by configuring each of our Django projects to work with PostgreSQL.
 
@@ -121,7 +120,7 @@ Also, depending upon how PostgreSQL was installed, you might need the database's
 
 With the database created, type `\q` to exit the psql shell.
 
-#### `cd` to Where You Should Be :)
+#### `cd` to Where You Should Be
 
 The last thing to do is to move into this lesson's folder in the class repo so that you can commit your work and push to your fork for safe keeping.
 
