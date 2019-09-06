@@ -18,19 +18,19 @@ To experiment with the code in this lesson, please use a Python-based repl in [r
 ## Review the Use Case of Functions - What & Why?
 
 <details><summary>What is a function?</summary>
-<p>
+<p><strong>
 A function is a block of statements that can be called with inputs and often return an output.
-</p>
+</strong></p>
 </details>
 
 <details><summary>Why are there functions?</summary>
-<p>
+<p><strong>
 Functions provide:
 
 - Code organization/modularization
 - Code reusability
 - Readability (when functions are appropriately named)
-</p>
+</strong></p>
 </details>
 <br>
 
@@ -64,7 +64,9 @@ def first_function():
 
 The `pass` statement is simply a "do nothing" statement and is useful here to create a function that has at least one statement in its block, which is a requirement. 
 
-**What does a JS function return by default if it doesn't a return statement?**
+<details><summary> What does a JS function return by default if it doesn't include a return statement?</summary>
+<p><code>undefined</code></p>
+</details>
 
 Let's see what a Python function returns by default:
 
@@ -85,13 +87,18 @@ Besides the obvious syntactical differences, here are a few other things to be a
 
 #### Function expressions do not exist in Python
 
-Every function in Python is defined using the `def` keyword and are never assigned to variables as in JavaScript.
+Functions in Python are defined using the `def` keyword and these functions are never assigned to variables as in JavaScript.
 
-#### Python has a different sort of anonymous functions
+#### Python has a different sort of anonymous/inline function
 
-Python does have a the concept of anonymous functions but they are called `lambda` functions.
+Python does have a the concept of anonymous and/or inline functions - called `lambda` functions.
 
-Think of a `lambda` function as a JS arrow function that implicitly returns a single expression's result.
+`lambda` functions are very much like _Arrow Functions_ in JavaScript:  
+
+- They implicitly return a single expression's result.
+- They can be assigned to a variable.
+
+However, they cannot have any code block - only a single expression that has its result implicitly returned.
 
 For example:
 
@@ -107,7 +114,7 @@ nums = [1, 3, 2, 6, 5]
 odds = list( filter(lambda num: num % 2, nums) )
 ```
 
-Relax, you more than likely won't need to use lambda functions in Django!
+Lambda functions in Django are really nifty when using Python functions such as `map()`.
 
 #### Python does not "hoist" functions
 
@@ -123,7 +130,7 @@ def add(a, b):
 
 ## Calling Functions
 
-Calling functions is done in exactly the same way in Python as in JavaScript:
+In Python, calling functions is the same as it is in JavaScript:
 
 ```python
 def add(a, b):
@@ -188,7 +195,7 @@ function sum() {
 console.log( sum(1, 5, 10) );  // -> 16
 ```
 
-Or by using ES2015's _rest parameters_:
+Or preferably by using ES2015's _rest parameters_:
 
 ```js
 function sum(...nums) {
