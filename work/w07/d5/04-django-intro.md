@@ -52,7 +52,7 @@ This diagram visualizes the relationship between the different components of a D
 
 <img src="https://i.imgur.com/1fFg7lz.png">
 
-The quirky thing about a Django is how it names its high-level components.
+The quirky thing about Django is how it names its high-level components.
 
 What we think of as a web **application**, Django calls a **project**.
 
