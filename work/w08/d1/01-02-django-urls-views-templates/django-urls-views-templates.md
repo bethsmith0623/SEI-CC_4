@@ -581,10 +581,10 @@ Now let's add the new route to **main_app/urls.py**:
 
 ```python
 urlpatterns = [
-    path('', views.home, name='home'),
-    path('about/', views.about, name='about'),
-    # route for cats index
-    path('cats/', views.cats_index, name='index'),
+  path('', views.home, name='home'),
+  path('about/', views.about, name='about'),
+  # route for cats index
+  path('cats/', views.cats_index, name='index'),
 ]
 ```
 
@@ -601,7 +601,7 @@ Let's type in the `cats_index` view inside of **views.py**:
 ```python
 # Add new view
 def cats_index(request):
-    return render(request, 'cats/index.html', { 'cats': cats })
+  return render(request, 'cats/index.html', { 'cats': cats })
 ```
 
 Two interesting things above:
