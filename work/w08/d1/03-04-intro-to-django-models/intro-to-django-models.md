@@ -23,13 +23,11 @@
 8. I am the Admin!
 9. Adding a Cat "Details" Page
 
-## Review Django Architecture
-
-Okay, one last time, I present, the overall architecture of the Django framework:
+## The Model Layer in the Django Architecture
 
 <img src="https://i.imgur.com/1fFg7lz.png">
 	
-This lesson focuses on the **Model layer** connecting the **View** to the **database**.
+This lesson focuses on the **Model layer** which provides **Views** with access to the **database**.
 
 ## Review the Starter Code
 
@@ -45,13 +43,11 @@ Remember **entities** in the Entity-Relationship-Diagrams?
 
 A Django Model represents a single entity from the ERD.
 
-Thus, a Model has a one-to-one mapping with a table in the database.
+Thus, a Model has a one-to-one mapping with a table in the database and is what allows us to perform create, read, update and delete data operations on that table.
 
-So, a Model is what allows us to write code to create, read, update and delete data from a table in the database.
+When we retrieve data from the database (using a Model of course), we will have **model objects**, each of which represents a row in a database table. Model objects are also called _instances_ of the Model.  We can work with these instances of the Model just like how we worked with Mongoose documents.
 
-When we retrieve data from the database (using a Model of course), we will have **model objects**, each of which represents a row in a database table. Model objects are also called _instances_ of the Model.
-
-> When the word "Model" is capitalized, it's referring to a Model we use to perform CRUD with.  When "model" is lower-cased, it refers to a model instance (created from a row in a table).
+> Note: Since a "model" can technically refer to the Model class or an instance of that class, we will try to use "Model" (capitalized) to refer to a Model class we use to perform CRUD with and "model" (lowercased) to refer to a model instance.
 
 ## Models in Django
 
@@ -78,14 +74,14 @@ It's important to note that the Field types for a Model don't just determine the
 	<summary>
 		In Django, what is used to perform CRUD database operations?
 	</summary>
-	<p>A Model</p>
+	<p><strong>A Model</strong></p>
 </details>
 
 <details>
 	<summary>
 		How is a Model defined in Django?
 	</summary>
-	<p>With a Python class</p>
+	<p><strong>With a Python class</strong></p>
 </details>
 
 <details>
@@ -103,7 +99,7 @@ It's important to note that the Field types for a Model don't just determine the
 
 Migrations are used to evolve a database over time - as the requirements of the application change.  However, they can be "destructive" (cause a loss of data), so be careful with migrations if you're working with an application in _production_.
 
-Migrations in Django are just Python files that are created by running a command Django in Terminal.
+Migrations in Django are Python files that are created by running a command Django in Terminal.
 
 #### Making Migration Files
 
@@ -125,9 +121,9 @@ You don't have to do anything with the migration files, but since this is the fi
 
 #### Running Migrations
 
-Simply creating migration files does not update the database. 
+Simply creating migration files does not update the database's schema.
 
-To synchronize the database's schema with the code in the migration files, we "migrate" using this command:
+To synchronize the database with the code in the migration files, we "migrate" using this command:
 
 ```bash
 $ python3 manage.py migrate
@@ -171,16 +167,16 @@ Finally, there's our `main_app_cat` table that maps to our `Cat` Model. It's emp
 
 <details>
 	<summary>
-		What are used to update a database's schema over time, as an application's functionality evolves over time?
+		What are used to update a database's schema over time as an application's functionality evolves?
 	</summary>
-	<p>Migrations</p>
+	<p><strong>Migrations</strong></p>
 </details>
 
 <details>
 	<summary>
 		When is it necessary to make and run migrations?
 	</summary>
-	<p>Whenever a Model is added or changed.</p>
+	<p><strong>Whenever a Model is added or updated in a way that impacts the database's schema.</strong></p>
 </details>
 
 ## Performing CRUD Using Django's ORM
@@ -203,7 +199,7 @@ Another benefit is that the ORM & Model layer abstracts away the differences bet
 
 The Django ORM is automatically going to generate, a plethora of methods for each Model.
 
-Django's ORM will have methods for performing:
+Django's ORM includes methods for performing:
 
 - Filtering (querying based on criteria)
 - Ordering
@@ -213,7 +209,7 @@ Django refers to the ORM functions available as its [database API](https://docs.
 
 #### Performing CRUD in a Python Interactive Shell
 
-After creating a new Model, it's a best practice to take it for a test drive using a Python shell:
+After creating a new Model, you can take it for a test drive using a Python shell that loads the Django environment:
 
 ```
 $ python3 manage.py shell
@@ -225,9 +221,9 @@ Any model you want to work with must be imported just like you will have to do i
 >>> from main_app.models import Cat
 ```
 
-> **Key Point:** Before we start CRUDing away, know that everything we're going to do can be done in your application's code!
+> **Key Point:** The code we type in the shell to perform CRUD is going to be the same or similar to the code we use in the application's views!
 
-To see all of our Cat objects, enter this command:
+To retrieve all of the Cat objects, enter this command:
 
 ```python
 >>> Cat.objects.all()
@@ -258,12 +254,17 @@ Here's how we can create an in-memory model (an instance of a Model) and then sa
 >>> c.__dict__
 {..., 'id': None, 'name': 'Biscuit', 'breed': 'Sphinx',
  'description': 'Evil looking cuddle monster. Hairless', 'age': 2}
+```
+
+As you can see, we pass the data for the model's attributes as kwargs.
+
+> Note:  The model currently has `None` as its `id` because it is not yet saved to the database.
+
+```python
 >>> c.save()
 >>> c.id
 1
 ```
-
-As you can see, we pass the data for the model's attributes as kwargs.
 
 If you call `Cat.objects.all()` again you'll see a `Cat` object exists now:
 
@@ -304,7 +305,7 @@ A single attribute value can be updated by simply assigning the new value and ca
 
 ```python
 >>> from main_app.models import Cat
->>> c = Cat.objects.all()[0]
+>>> c = Cat.objects.first()
 >>> c
 <Cat: Biscuit>
 >>> c.name = 'Rubber Biscuit'
@@ -315,7 +316,7 @@ A single attribute value can be updated by simply assigning the new value and ca
 
 #### Filtering (querying) for Records
 
-We can use [objects.filter()](https://docs.djangoproject.com/en/2.2/ref/models/querysets/#filter) to query a Model's table for data that matches a criteria.
+We can use [objects.filter()](https://docs.djangoproject.com/en/2.2/ref/models/querysets/#filter) to query a Model's table for data that matches a criteria similar to how we used the `find` Mongoose method.
 
 For example, this query would return all cats with the name "Rubber Biscuit":
 
@@ -428,11 +429,13 @@ Refresh the page and you should see something like this:
 
 <img src="https://i.imgur.com/FN26kDm.png">
 
+Nice!
+
 ## I am the Admin!
 
-But wait, there's another really REALLY neat thing - Django comes with built-in administrator functionality! Remember that `django.contrib.auth` in the `INSTALLED_APPS`? Let's use it!
+But wait, there's another really REALLY neat thing about Django - it comes with built-in administrator functionality! Remember that `django.contrib.auth` in the `INSTALLED_APPS`? Let's use it!
 
-The _super user_ (administrator) is basically the owner of the site. When you are logged in to this account, you can access the Admin app to add additional users and manipulate Model data.
+A _super user_ is an administrator for the site. When you are logged in to this account, you can access the Admin app to add additional users and manipulate Model data.
 
 Run this command in the terminal:
 
@@ -442,17 +445,17 @@ $ python3 manage.py createsuperuser
 
 Django will want you to create a password that's at least 3 characters long and complex, however, you can bypass it by typing `y` at the warning prompt.
 
-You will prompted to enter a username, email address, and a password. You are now creating a 'web master' for your site!
+You will be prompted to enter a username, email address, and a password.
 
 Now go to your webpage and head over to the `/admin` route to see an _administration_ portal!  
 
-Did you mess up your password? It's okay. No big fish. Go back to your terminal and use this handy command:
+Did you mess up your password? It's okay - no big fish. Go back to your terminal and use this handy command:
 
 ```bash
 python3 manage.py changepassword <user_name>
 ```
 
-But I don't see **Cats**!  That's because in order to manipulate Cat data, we need to **register** the `Cat` model so that the admin portal knows about.
+But I don't see **Cats**!  That's because in order to manipulate Cat data, we need to "register" the `Cat` Model so that the admin portal knows about.
 
 We register our Models in the `main_app/admin.py` file:
 
@@ -473,7 +476,7 @@ We can add, edit, and remove data objects anytime we need to by browsing to `/ad
 
 Typically, the _index_ page showing all cats would only show a "summary" of each cat's info.  For example, just their "name" perhaps.
 
-It's common to show the "details" for an object in the database using a separate page that is activated by clicking on that summary info - in this case, the cat's "card" in **index.html**.
+Then, it would be commonplace to show the "details" for a data object using a separate page that results from the user clicking on that summary info - in this case, the cat's "card" in **index.html**.
 
 #### Typical Process to Add Functionality to an App
 
@@ -481,7 +484,7 @@ Remember, nothing is going to happen unless an HTTP request leaves the browser i
 
 When adding additional functionality to a web app we need to do the following:
 
-1. Decide the appropriate _HTTP method_ and _URL_ combination of the HTTP request. Generally, this follows RESTful conventions, but with Django, we focus on the URL.
+1. With Django, decide the appropriate URL for the route.  Because Django does not follow the RESTful routing methodology, you are free to name the URLs as you see fit. 
 2. Add the UI that is going to trigger the HTTP request to be sent to the server. For example, adding a `<form>` to submit a new cat.
 3. Code the route on the server.  In the case of Django, this is done by adding an additional `path(...)` to the `urlpatterns` list within the app's `urls.py` module. **Each entry in `urlpatterns` determines what code will run when the URL matches an HTTP request**.
 4. Now you need to add the _view function_ referenced by the `path(...)` inside of the **views.py** module. The _view function_ contains the code to perform CRUD, etc. It ultimately is responsible for responding to the client's request...
@@ -509,19 +512,19 @@ We can accomplish this by wrapping the card's content with an `<a>` tag and sett
 
 ```html
 <div class="card">
-  <!-- add this line below -->
+  <!-- add this single line below -->
   <a href="/cats/{{ cat.id }}">
     <div class="card-content">
-        <span class="card-title">{{ cat.name }}</span>
-        <p>Breed: {{ cat.breed }}</p>
-        <p>Description: {{ cat.description }}</p>
-        {% if cat.age > 0 %}
-           <p>Age: {{ cat.age }}</p>
-        {% else %}
-           <p>Age: Kitten</p>
-        {% endif %}
+      <span class="card-title">{{ cat.name }}</span>
+      <p>Breed: {{ cat.breed }}</p>
+      <p>Description: {{ cat.description }}</p>
+      {% if cat.age > 0 %}
+        <p>Age: {{ cat.age }}</p>
+      {% else %}
+        <p>Age: Kitten</p>
+      {% endif %}
     </div>
-    <!-- and this one below as well -->
+  <!-- and this following one as well -->
   </a>
 </div>
 ```
@@ -566,17 +569,17 @@ def cats_detail(request, cat_id):
 
 The `cats_detail` function is using the `get` method to obtain the cat object by its `id`.
 
-> Django will pass any captured URL parameters as kwargs to the view function!
+> Django will pass any captured URL parameters as a named argument to the view function!
 
 **What determined the parameter name of cat_id in the cars_detail view function?**
 
 ##### Step 5
 
-The `cats_detail` view function is passing a dictionary of data (called the _context_) to a template called **detail.html**.
-
 So we want to render the cat data within a **detail.html** template...
 
-Create the **detail.html** template:
+The `cats_detail` view function is passing a dictionary of data (called the _context_) to a template called **detail.html**.
+
+Create that **detail.html** template:
 
 ```
 $ touch main_app/templates/cats/detail.html
@@ -654,7 +657,9 @@ With this code:
 <a href="{% url 'detail' cat.id %}">
 ```
 
-Congrats!
+The above is the Django way.
+
+**Congrats on coding the Django `Cat` Model and adding the _detail_ functionality for the Cat Collector.**
 
 ## Lab
 

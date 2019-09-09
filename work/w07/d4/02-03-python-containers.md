@@ -252,10 +252,10 @@
  	- Items can be added and removed from a _list_
 
 ---
-### Lists - Accessing Elements
+### Lists - Accessing Items
 <br>
 
-- Accessing the individual elements of a _list_ is much like accessing elements in a JS array, i.e., by using _square brackets_ with an expression that evaluates to an integer:
+- Accessing the individual items of a _list_ is much like accessing elements in a JS array, i.e., by using _square brackets_ with an expression that evaluates to an integer:
 
 	```python
 	idx = 1
@@ -264,7 +264,7 @@
 	```
 
 ---
-### Lists - Accessing Elements
+### Lists - Accessing Items
 <br>
 
 - However, unlike in JS, we can use negative integers to index from the end of a _list_:
@@ -277,10 +277,10 @@
 
 
 ---
-### Lists - Assigning Elements
+### Lists - Assigning Items
 <br>
 
-- We also use square brackets to target an element of a _list_ for assignment:
+- We also use square brackets to target an item of a _list_ for assignment:
 
 	```python
 	colors[-1] = 'brown'
@@ -289,7 +289,7 @@
 	```
 
 ---
-### Lists - Adding Elements
+### Lists - Adding Items
 <br>
 
 - The equivalent to JS's `push()` method is `append()`:
@@ -307,7 +307,7 @@
 	```
 
 ---
-### Lists - Inserting Elements
+### Lists - Inserting Item
 <br>
 
 - To add items to anywhere but the end of a _list_, use the `insert()` method:
@@ -320,10 +320,10 @@
 	```
 
 ---
-### Lists - Deleting Elements
+### Lists - Deleting Items
 <br>
 
-- Yup, there's a `pop()` method, but it's more flexible in Python because you can specify the index of the element to remove and return:
+- Yup, there's a `pop()` method, but it's more flexible in Python because you can specify the index of the item to remove and return:
 
 	```python
 	print(colors)
@@ -334,7 +334,7 @@
 	```
 
 ---
-### Lists - Deleting Elements
+### Lists - Deleting Items
 <br>
 
 - If you don't care about the value returned by `pop()`, you can also use the `del` operator to delete items:
@@ -348,7 +348,7 @@
 	```
 
 ---
-### Lists - Deleting Elements
+### Lists - Deleting Items
 <br>
 
 - Also there's a `remove()` method that removes the first item that matches what you pass in:
@@ -573,7 +573,27 @@
 	print( len(colors) )
 	> 3
 	``` 
-	Although it seems that _parentheses_ are used to create _tuples_, it's actually the _commas_!
+	Although it seems that _parentheses_ are used to create _tuples_, it's actually the _commas_...
+
+---
+### Tuples - Basic Syntax
+<br>
+
+- For more proof that the use of commas create a tuple, let's say you wanted to create a 1-tuple containing the string of "Hello".
+
+- If parens created tuples, this would work:
+
+	```python
+	hello_tuple = ('Hello')
+	```
+	
+	But it doesn't, however, this will:
+	
+	```python
+	hello_tuple = ('Hello',)
+	# or the following
+	hello_tuple = 'Hello',
+	```
 
 ---
 ### Tuples - Basic Syntax
@@ -606,12 +626,12 @@
 
 - Generally, you'll find that _tuples_ are used to contain heterogeneous (different) data types and _lists_ for homogeneous (similar) data types.
 
-- _Tuples_ are often classified based on how many elements they contain, e.g., a **2-tuple** would be used to hold a `key` and its `value`
+- _Tuples_ are often classified based on how many items they contain, e.g., a **2-tuple** would be used to hold a `key` and its `value`
 
 ---
-### Tuples - Accessing Elements
+### Tuples - Accessing Items
 
-- Although _tuples_ can't be modified like _lists_, we can retrieve their elements in exactly the same way:
+- Although _tuples_ can't be modified like _lists_, we can retrieve their items in exactly the same way:
 
 	```python
 	colors = ('red', 'green', 'blue')
