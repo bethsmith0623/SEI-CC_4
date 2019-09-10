@@ -82,9 +82,9 @@ In addition to the `ListView` used to display the index page for a Model, there 
 - `DeleteView` - used to delete an instance of a Model
 - `UpdateView` - used to update an instance of a Model
 
-In this lesson, we will be extending the above bottom three CBVs to CUD cats!  
+In this lesson, we will be extending the `CreateView`, `DeleteView` and `UpdateView` CBVs to CUD cats!  
 
-However, although we could easily replace the existing `cats_index` and `cats_detail` view functions, we won't as a reminder of how they are structured.
+We also could easily replace the existing `cats_index` and `cats_detail` view functions with CBVs, however, we won't as a reminder of how they are structured.
 
 ## 3. Why use Class-based Views?
 
@@ -100,8 +100,8 @@ For example, here's how we could have used the `template_name` attribute in the 
 
 ```python
 class BookList(ListView):
-    model = Book
-    template_name = 'books/index.html'
+  model = Book
+  template_name = 'books/index.html'
 ``` 
 
 ## 4. Creating Data Using a CBV
@@ -241,6 +241,8 @@ Use Devtools to explore the DOM. You'll see how Django's ModelForm wrote the inp
 - `{{ form.as_p }}` - Wraps a `<p>` tag around the `<label>` & `<input>` tags
 - `{{ form.as_ul }}` - Wraps an `<li>` tag around the `<label>` & `<input>` tags
 
+> Note: To ease custom styling, you can add an `id` or `class` to your `<table>` and/or `<form>` tags.  Also note how Django automatically assigns an id to each input.
+
 #### Redirecting
 
 If we submit the form to create a cat, the cat will be created, however, we'll receive an error because Django doesn't know where to redirect to.
@@ -260,17 +262,17 @@ Let's take Django's advice by updating the `Cat` model:
 
 ```python
 class Cat(models.Model):
-    name = models.CharField(max_length=100)
-    breed = models.CharField(max_length=100)
-    description = models.TextField(max_length=250)
-    age = models.IntegerField()
+  name = models.CharField(max_length=100)
+  breed = models.CharField(max_length=100)
+  description = models.TextField(max_length=250)
+  age = models.IntegerField()
 
-    def __str__(self):
-        return self.name
+  def __str__(self):
+    return self.name
     
-    # Add this method
-    def get_absolute_url(self):
-        return reverse('detail', kwargs={'cat_id': self.id})
+  # Add this method
+  def get_absolute_url(self):
+    return reverse('detail', kwargs={'cat_id': self.id})
 ```
 
 The `reverse` function builds a path string. The above will return the correct path for the `detail` named route.  However, since that route requires a `cat_id` route parameter, its value must provided as a shown above.
@@ -320,6 +322,7 @@ Let's update **templates/cats/detail.html** by adding to a cat's "card" a `<div>
     <a href="{% url 'cats_update' cat.id %}">Edit</a>
     <a href="{% url 'cats_delete' cat.id %}">Delete</a>
   </div>
+  <!-- New markup above -->
 </div>
 ```
 
@@ -357,9 +360,9 @@ Now the server should be back up and clicking on a cat should result in a page t
 
 Updating a cat is working, however, we'll need to add an extra template to implement delete functionality, which we'll do in a momemnt.
 
-First though, it would be nice to see the name of the cat we're editing...
+First though, to enhance the UX, it would be nice to see the name of the cat we're editing...
 
-#### Customize `cat_form.html`
+#### Customize the `cat_form.html` Template
 
 Since we didn't include `'name'` in the fields list in `CatUpdate`, the `name` attribute isn't listed in the form.
 
@@ -438,6 +441,27 @@ Take a minute to review the following questions:
 2. **What generic class do we extend to create our own CBV for creating model instances?**
 
 3. **Every CBV we used in this lesson had a ________ attribute defined to inform the CBV what Model its for.**
+
+## Challenge Exercise
+
+This challenge exercise is for those of you who don't need to rest and would like some additional reps in addition to the Finch Collector lab.
+
+So far in the Cat Collector, we've implemented full-CRUD for the Cat Model.  Tomorrow we will be learning how to implement a many-to-many association between cats and toys:<br>`Cat >---< Toy`
+
+The starter code for the many-to-many lesson will have full-CRUD implemented for the Toy Model.
+
+For practice, feel free to implement full-CRUD on the Toy Model yourself.  The Toy Model has the following attributes:
+
+```python
+
+class Toy(models.Model):
+  name = models.CharField(max_length=50)
+  color = models.CharField(max_length=20)
+  
+  # Other goodness such as 'def __str():' below
+```
+
+Enjoy!
 
 ## References
 

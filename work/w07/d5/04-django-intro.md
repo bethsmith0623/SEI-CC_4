@@ -62,7 +62,7 @@ A Django _project_ can have many _apps_, and a Django _app_ can belong to multip
 
 ## Django's Routing Methodology
 
-Because routing is so fundamental to developing web apps, it's worthwhile knowng in advance an important difference between Express and Django's routing methodology. 
+Because routing is so fundamental to developing web apps, it's worthwhile knowing in advance an important difference between Express and Django's routing methodology. 
 
 Web frameworks such as Express and Ruby on Rails, use both the HTTP verb & URL to define routes used to map requests to controller actions.
 
