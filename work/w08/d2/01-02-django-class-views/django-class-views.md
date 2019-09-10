@@ -458,7 +458,7 @@ class Toy(models.Model):
   name = models.CharField(max_length=50)
   color = models.CharField(max_length=20)
   
-  # Other goodness such as 'def __str():' below
+  # Other goodness such as 'def __str__():' below
 ```
 
 Enjoy!
