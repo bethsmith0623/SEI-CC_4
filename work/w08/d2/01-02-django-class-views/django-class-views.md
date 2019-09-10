@@ -442,6 +442,27 @@ Take a minute to review the following questions:
 
 3. **Every CBV we used in this lesson had a ________ attribute defined to inform the CBV what Model its for.**
 
+## Challenge Exercise
+
+This challenge exercise is for those of you who don't need to rest and would like some additional reps in addition to the Finch Collector lab.
+
+So far in the Cat Collector, we've implemented full-CRUD for the Cat Model.  Tomorrow we will be learning how to implement a many-to-many association between cats and toys:<br>`Cat >---< Toy`
+
+The starter code for the many-to-many lesson will have full-CRUD implemented for the Toy Model.
+
+For practice, feel free to implement full-CRUD on the Toy Model yourself.  The Toy Model has the following attributes:
+
+```python
+
+class Toy(models.Model):
+  name = models.CharField(max_length=50)
+  color = models.CharField(max_length=20)
+  
+  # Other goodness such as 'def __str():' below
+```
+
+Enjoy!
+
 ## References
 
 [Built-in Class-based Views](https://docs.djangoproject.com/en/2.1/topics/class-based-views/generic-display/)
