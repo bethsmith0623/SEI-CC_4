@@ -301,7 +301,7 @@ Nice and simple!
 
 ## Add the `add_photo` URL
 
-We're going to need to add a new `path()` added to the `urlpatterns` list that will match the request for when the user submits a photo.
+We need to add a new `path()` to the `urlpatterns` list that will match the request sent when the user submits a photo.
 
 In _urls.py_:
 
@@ -315,7 +315,7 @@ urlpatterns = [
 ]
 ```
 
-Pretty much exactly like the `add_feeding` route!
+Pretty much like the `add_feeding` route!
 
 Notice once again, we're going to capture the cat's `id` using a URL parameter named `cat_id`.
 
@@ -335,7 +335,7 @@ First, we need to import three more things:
 
 - the `boto3` library
 - the `Photo` Model
-- the `uuid` utility library that will help us generate random strings
+- Python's `uuid` utility that will help us generate random strings
 
 ```python
 # views.py
@@ -349,7 +349,7 @@ import boto3
 from .models import Cat, Toy, Photo
 ```
 
-Next, we're going to define a couple of constants we'll use in the _view function_.
+Next, we're going to define a couple of variables we'll use in the _view function_.
 
 First, find the **endpoint** for your the **region** you selected when you created the bucket on the following list: 
 
@@ -369,7 +369,7 @@ BUCKET = 'catcollector'
 
 **Make sure that you use YOUR S3 bucket name instead of `catcollector`.**
 
-We'll be using `S3_BASE_URL`, `BUCKET` and a randomly generated key to build a full URL used for uploading to Amazon S3 and for saving in the `url` attribute or each `Photo` instance.
+We'll be using `S3_BASE_URL`, `BUCKET` and a randomly generated key to build a unique URL used for uploading to Amazon S3 and for saving in the `url` attribute or each `Photo` instance.
 
 Finally, this is where the magic happens, we'll review the code as we type it in:
 
@@ -422,6 +422,8 @@ We're going to use Django's nifty `for...empty` template tags to iterate through
 ...
 ```
 
+> The `for...empty` template tags avoid having to wrap a `for...in` loop with an `if...else` like we did earlier to display a "No Toys" message.
+
 Let's see how it looks:
 
 <img src="https://i.imgur.com/S02DDIX.png">
@@ -440,13 +442,15 @@ This is because Django templates automatically call an attribute if it's a funct
 {% if len(cat.photo_set.all) > 0 %}
 ```
 
-Django templates provide [filters](https://docs.djangoproject.com/en/2.0/ref/templates/language/#filters) for use in both `{{ }}` (variable) and `{% %}` (tags).
+Django templates provide [filters](https://docs.djangoproject.com/en/2.2/ref/templates/builtins/#ref-templates-builtins-filters) for use in both `{{ }}` (variable) and `{% %}` (tags).
 
 For example, to check the length, you can use the `length` filter like this:
 
 ```html
 {% if cat.photo_set.all|length > 0 %}
 ```
+
+Filters can also be used to transform/format data, e.g., 
 
 #### Form for Uploading Photos
 
