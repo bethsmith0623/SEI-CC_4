@@ -61,10 +61,6 @@ After you're done, let's take a look at the `Toy`-related Django modules in `mai
 
 ## 3. Many-to-Many Relationships in RDBMs
 
-Now that we have tackled one-to-many relationships, it's time to see how many-to-many relationships work in Django.
-
-Because Django is going to perform quite a bit of magic behind the scenes, it's good to know what it takes to implement M:M relationships in any relational databases.
-
 Unlike MongoDB, which can easily implement both one and many-to-many relationships without much fuss, SQL databases need what is known as a **join table** to implement M:M relationships.
 
 Join tables provide the "glue" between two other tables in a database.  
@@ -86,7 +82,7 @@ Django will ensure that a "hidden" join table is created that links the rows of 
 
 #### Add a `ManyToManyField` on One Side of the Relationship
 
-To create a many-to-many relationship between two models, we need to add a `ManyToManyField` on one of them.
+To create a M:M relationship between two models, we need to add a `ManyToManyField` on one of them.
 
 Django will still ensure that we can traverse data from both models to the related model, but we get to pick the name for the relationship attribute on the model we choose to add `ManyToManyField` to.
 
@@ -237,6 +233,7 @@ _As a User, when viewing the detail page of a cat, I want to see a list of toys 
 Displaying a cat's toys is just a matter of updating **templates/cats/detail.html**:
 
 ```html
+<!-- This is all new markup to be added just above the <script> tag -->
 <hr>
 <div class="row">
   <div class="col s6">
@@ -256,9 +253,7 @@ Displaying a cat's toys is just a matter of updating **templates/cats/detail.htm
     {% endif %}
   </div>
   <!-- Available toys will come after this line -->
-  
 </div>
-
 ```
 
 After saving and viewing the detail page for a cat, you'll see something like this:
@@ -296,7 +291,11 @@ def cats_detail(request, cat_id):
 
 We're using the manager's `exclude` method to grab all toys that don't meed the condition passed to it.
 
-The Django Query API creates [Field Lookups](https://docs.djangoproject.com/en/2.1/ref/models/querysets/#field-lookups) for every field in the model. `id__in` is one such field lookup that checks if the model's `id` is in a list (array) and that list is being created with this code `cat.toys.all().values_list('id')`.
+The Django Query API enables [Field Lookups](https://docs.djangoproject.com/en/2.1/ref/models/querysets/#field-lookups) for every field in the model. `id__in` is one such field lookup that checks if the model's `id` is in a list and that list is being created with this code:
+
+```python
+cat.toys.all().values_list('id')
+```
 
 Finally, we are passing the toys to the template by adding it to the context dictionary.
 
@@ -331,9 +330,9 @@ Now for more markup to display the toys the cat doesn't have:
 
 Very much like what we just added previously, except for a couple of changes.
 
-An **ADD** form has been added, but the `action` attribute is currently empty because we'll implement this feature in the next section.
+An **ADD** form has been included, but the `action` attribute is currently empty because we'll implement this feature in the next section.
 
-Here's what the updated toy section of the UI looks like:
+Here's what the updated UI looks like:
 
 <img src="https://i.imgur.com/Lbhq1Ff.png">
 
@@ -355,7 +354,7 @@ As you can see, we've created two route parameters:  `cat_id` and `toy_id`.
 
 Now let's make sure the form will post to this route.
 
-Currently, the form's `action` attribute is left blank, let's change that by using the `url` template tag as usual to write out the proper URL for the named pattern (`assoc_toy`):
+Now that we know have defined the route and named it, we can use the `url` template tag to write out the proper URL in the form's `action`:
 
 ```html
 <div class="card-action">
@@ -366,7 +365,7 @@ Currently, the form's `action` attribute is left blank, let's change that by usi
 </div>
 ```
 
-Note how we need to provide both `id`s as space-separated parameters.
+Note how we need to provide both `id`s as space-separated parameters in the order that they were defined in the path (first the cat's id, then the toy's).
 
 We're done as soon as we write the `views.assoc_toy`:
 
