@@ -213,7 +213,7 @@ What's happening is that the `django.contrib.auth` app is doing its job!  It's u
 
 Now let's implement logging in...
 
-## 4. Logging In
+## 5. Logging In
 
 #### Create the **login.html** Template
 
@@ -348,7 +348,7 @@ Nice!
 
 Logging out even works, but it doesn't redirect to our _Home_ page (root route)...
 
-## 6. Logging Out
+## 7. Logging Out
 
 Thanks again to the `django.contrib.admin` app's built-in `LogOut` view, we didn't have to do a thing to implement logging out!
 
@@ -525,7 +525,7 @@ If you want to remove some or all of the password validations, you can comment t
 
 You should now be able to sign up!
 
-## 9. Displaying only the User's Cats
+## 10. Displaying Only the User's Cats
 
 If you sign up or log in with a different user, you'll notice that all of the cats in the database are still showing up on the _index_ page.
 
@@ -639,7 +639,7 @@ Wouldn't it be nice to see the username of the logged in user displayed in the n
 
 It sure would - "Make it so number one"
 
-## Further Study - Customizing the `User` Model
+## 12. Further Study - Customizing the `User` Model
 
 There are a couple of options when it comes to adding additional attributes and/or behavior to the "user" in a Django app.
 
