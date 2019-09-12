@@ -2,7 +2,7 @@
 
 | Team | Project Name | GitHub | Pitch Deck | Trello | Hosted Site |
 |---|:---:|:---:|:---:|:---:|:---:|
-| **__Cover__ Party Parrots** (ATX)<br>Ben, Caleb & Emily M |  |  |  |  |  |
+| **\_\_Cover\_\_ Party Parrots** (ATX)<br>Ben, Caleb & Emily M |  |  |  |  |  |
 | **PP Gang** (ATX)<br>Conner, David & Robin |  |  |  |  |  |
 | **GoldTeamRulez** (ATX)<br>Elco, Garett & Jeremiah |  |  |  |  |  |
 | **Team Steve "give us" Jobs** (ATX)<br>Chris M, Jack, Lily |  |  |  |  |  |
