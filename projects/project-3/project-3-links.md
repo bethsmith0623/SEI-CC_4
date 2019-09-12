@@ -17,7 +17,7 @@
 | **Team 1** (SF)<br>Greg M, Ny Ansta & Matthew | Experiences |  |  | [link](https://trello.com/b/XF41OcI0/airbnb-experiences) |  |
 | **Team 2** (SF)<br>Aly, Carol & Greg R | Cookaround |  |  | [link](https://trello.com/b/Ia4cBX5M/cookaround) |  |
 | **Team 3** (SF)<br>Chi, Jon & Sorrel | A Stardust Truce |  |  | [link](https://trello.com/b/vyfWUQB2/data-structures) |  |
-| **Team 4** (SF)<br>Anami, CJ, Preston | CapX |  |  |  | [link](https://trello.com/b/yg1hEwqj/capx) |
+| **Team 4** (SF)<br>Anami, CJ, Preston | CapX |  |  | [link](https://trello.com/b/yg1hEwqj/capx) |  |
 | **Team 5** (SF)<br>Braxton, Tyler & Wenjie | Tasty |  |  | [link](https://trello.com/b/PjRlStrU/project3) |  |
 | **Team 6** (SF)<br>Emily, Samantha & Sonnia | Briefcase |  |  | [link](https://trello.com/b/jD2WqWJw/project3-briefcase) |  |
 | **Team 7** (SF)<br>Joshua, Loquen & Michael | Band Together |  |  | [link](https://trello.com/b/WUt3ITnz/main) |  |
