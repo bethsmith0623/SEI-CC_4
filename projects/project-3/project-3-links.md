@@ -22,6 +22,6 @@
 | **Team 6** (SF)<br>Emily, Samantha & Sonnia | Briefcase |  |  | [link](https://trello.com/b/jD2WqWJw/project3-briefcase) |  |
 | **Team 7** (SF)<br>Joshua, Loquen & Michael | Band Together |  |  | [link](https://trello.com/b/WUt3ITnz/main) |  |
 | **Team 1** (LA)<br>Dave, Leo & Perice |  |  |  |  |  |
-| **Team 2** (LA)<br>Dan, Marques & Nick |  |  |  |  |  |
-| **Team 3** (LA)<br>Muhamed, Tim & Victor |  |  |  |  |  |
+| **Team 2** (LA)<br>Dan, Marques & Nick | Pick Up Games | [link](https://github.com/nbai123/PickUpGames) |  | [link](https://trello.com/b/4jZaSAc0/pick-up-games-python-django-project) |  |
+| **Team Badass** (LA)<br>Muhamed, Tim & Victor | My Car Diary | [link](https://github.com/TimeForZeros/myCarDiaryApp) |  | [link](https://trello.com/b/fvz76Kyc/my-car-diary) |  |
 
