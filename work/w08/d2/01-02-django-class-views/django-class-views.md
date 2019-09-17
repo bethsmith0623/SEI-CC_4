@@ -73,7 +73,7 @@ We extended the generic `ListView` to create a `BookList` and used
 ```
 to inform `BookList` that it is to access the `Book` Model.
 
-Notice that there's not even a call to render? By default, the CBV  will expect to render a template named **templates/<name of app>/book_list.html**. This convention can of course be overridden.
+Notice that there's not even a call to render? By default, the CBV  will expect to render a template named **templates/\<name of app\>/book_list.html**. This convention can of course be overridden.
 
 In addition to the `ListView` used to display the index page for a Model, there are also:
 
@@ -358,7 +358,7 @@ Now the server should be back up and clicking on a cat should result in a page t
 
 <img src="https://i.imgur.com/yTyYWva.png">
 
-Updating a cat is working, however, we'll need to add an extra template to implement delete functionality, which we'll do in a momemnt.
+Updating a cat is working, however, we'll need to add an extra template to implement delete functionality, which we'll do in a moment.
 
 First though, to enhance the UX, it would be nice to see the name of the cat we're editing...
 
