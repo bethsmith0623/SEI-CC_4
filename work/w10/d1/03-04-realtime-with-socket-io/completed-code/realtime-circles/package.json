@@ -1,0 +1,15 @@
+{
+  "name": "realtime-socket-io",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "^4.1.0",
+    "ejs": "~2.3.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "socket.io": "^2.1.1"
+  }
+}
