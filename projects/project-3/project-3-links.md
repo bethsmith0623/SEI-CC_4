@@ -20,8 +20,8 @@
 | **Team 4** (SF)<br>Anami, CJ, Preston | CapX |  |  | [link](https://trello.com/b/yg1hEwqj/capx) |  |
 | **Team 5** (SF)<br>Braxton, Tyler & Wenjie | Tasty |  |  | [link](https://trello.com/b/PjRlStrU/project3) |  |
 | **Team 6** (SF)<br>Emily, Samantha & Sonnia | Briefcase |  |  | [link](https://trello.com/b/jD2WqWJw/project3-briefcase) |  |
-| **Team 7** (SF)<br>Joshua, Loquen & Michael | Band Together |  |  | [link](https://trello.com/b/WUt3ITnz/main) |  |
-| **Team 1** (LA)<br>Dave, Leo & Perice |  |  |  |  |  |
+| **Taco Company SF** (SF)<br>Joshua, Loquen & Michael | Band Together | [link](https://github.com/Loquen/band-together) | [link](https://docs.google.com/presentation/d/1QtojdQ5hULlSEvOOO0AZ-4bkRSuf6MyDMpl70IFd09k/edit#slide=id.p) | [link](https://trello.com/b/WUt3ITnz/main) |  |
+| **Team 1** (LA)<br>Dave, Leo & Perice | Superhereos | [link](https://github.com/davekoncsol/superheroes) |  | [link](https://trello.com/b/emGKBwIe/superheroes) |  |
 | **Team 2** (LA)<br>Dan, Marques & Nick | Pick Up Games | [link](https://github.com/nbai123/PickUpGames) |  | [link](https://trello.com/b/4jZaSAc0/pick-up-games-python-django-project) |  |
 | **Team Badass** (LA)<br>Muhamed, Tim & Victor | My Car Diary | [link](https://github.com/TimeForZeros/myCarDiaryApp) |  | [link](https://trello.com/b/fvz76Kyc/my-car-diary) |  |
 
