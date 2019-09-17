@@ -10,7 +10,7 @@
 | **Team 6** (ATX)<br>Heather, Julia & Taylor |  |  |  |  |  |
 | **Pythonistas Unchained** (ATX)<br>Dev, Frances & Joe |  |  |  |  |  |
 | **Team 8** (ATX)<br>Beverly, Chris P & Vittoria |  |  |  |  |  |
-| **Team Alpha** (DAL)<br>Andrew, Dan & Joe |  |  |  |  |  |
+| **Team Alpha** (DAL)<br>Andrew, Dan & Joe | Level Up Your Life | [link](https://github.com/atheismann/level-up-your-life) |[link](https://prezi.com/view/oYGYcBhg8116jjREbPZE/)  |  |  |
 | **Team Bravo** (DAL)<br>Armando, Cole & Sam |  |  |  |  |  |
 | **Team Charlie** (DAL)<br>Kevinn, Michael H. &  Ryan |  |  |  |  |  |
 | **Team Delta** (DAL)<br>Beth, Michael M., & Ruben | Volun Go | [link](https://github.com/bethsmith0623/Volun_Go) | [link](https://docs.google.com/presentation/d/1Dk0PctT_g3AA0mQx8NKE249GFP4qO3Gg1lq3aBN9WB8/edit#slide=id.g35f391192_00) | [link](https://trello.com/b/2graod5Y/volun-go) |  |
