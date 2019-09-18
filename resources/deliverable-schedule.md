@@ -23,6 +23,7 @@ It is a requirement to complete at least **80%** of the following to to receive:
 |Mon 9/9|FinchCollector Lab (Implement CatCollector Features) | Mon 9/23 |
 |Tue 9/24| [React - Floor Plan Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/blob/master/work/w10/d2/04-react-floorplan-lab.md) | Tue 10/1 |
 |Wed 9/25| [React "Students" Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/blob/master/work/w10/d3/04-react-students-lab.md) | Wed 10/2 |
+|Thu 9/26| [React Styling Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/tree/master/work/w10/d4/04-styling-react-lab) | Thu 10/3 |
 
 
 
