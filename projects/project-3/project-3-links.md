@@ -9,7 +9,7 @@
 | **Code Blooded Killers** (ATX)<br>Emily L, Jared & Nova |  |  |  |  |  |
 | **Team 6** (ATX)<br>Heather, Julia & Taylor |  |  |  |  |  |
 | **Pythonistas Unchained** (ATX)<br>Dev, Frances & Joe |  |  |  |  |  |
-| **Team 8** (ATX)<br>Beverly, Chris P & Vittoria |  |  |  |  |  |
+| **Team 8** (ATX)<br>Beverly, Chris P & Vittoria | Happiest Hour | [link](https://github.com/600rrchris/happiest-hour) |  |  |  |
 | **Team Alpha** (DAL)<br>Andrew, Dan & Joe | Level Up Your Life | [link](https://github.com/atheismann/level-up-your-life) |[link](https://prezi.com/view/oYGYcBhg8116jjREbPZE/)  | [link](https://trello.com/b/bxij6mUm/p3-level-up-your-life) |  |
 | **Team Bravo** (DAL)<br>Armando, Cole & Sam | Fantasy Basketball | [link](https://github.com/41Holmes41/fantasybasketball/) |[link](https://docs.google.com/presentation/d/1NAnM5GLKJ8GUX599V-fQfVGySubPp-6krl31lqP6rYU/edit)| [link](https://trello.com/b/UGYE7yuI/project-3-team-bravo)|  |
 | **Team Charlie** (DAL)<br>Kevinn, Michael H. &  Ryan | Tap That | [link](https://github.com/RyanPGeorge/tapthat) |[link](https://docs.google.com/presentation/d/1fTyJLPLKMeMsSu6bcPHOVit5xpE_7hb_NPUdugkBEVk/edit?ts=5d790fc7#slide=id.p) | [link](https://trello.com/b/g6wZvrSL/project-3) |  |
