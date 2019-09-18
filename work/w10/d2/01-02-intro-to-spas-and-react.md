@@ -18,6 +18,7 @@
 - Intro to ReactJS
 - Tooling
 - Lab: Official React Tutorial
+- Further Study
 
 ## Intro to SPA Architecture
 
@@ -45,41 +46,21 @@ The server then responds with an HTTP response, which usually contains a JSON pa
 
 Because the request and response were all handled in the JavaScript, the browser does not reload the page!
 
-### Concept 2: Client-side vs. Server Routing
+### Concept 2: Client-side Routing
 
-In a SPA, we want to continue to use the address bar's URL to access the different views and functionality the SPA has to offer. This way you can still bookmark and email URLs that access specific functionality of the app. 
+So far, our traditional web apps in the browser have reloaded page after page as we've interacted with it by clicking navigation links and submitting forms.
 
-However, as we've seen, when the URL in the address bar is changed, the browser automatically sends an HTTP request to the host, **unless** the address bar's URL is manipulated in one of two ways: by using the browser's **History API** or **Hash URIs**.
+In a SPA, we still need a way to switch to different "pages" or functionality (see diagram above) - but without refreshing the entire HTML document that's currently loaded in the browser.
 
-Let's take a brief look at these two techniques...
+**Client-side routing** is what enables users to interact with the app without triggering a full-page refresh. 
 
-#### HTML5's History API
+We'll be defining client-side routes and the address bar's URL will continue to change in order to access the different views and functionality that the SPA has to offer.
 
-Using HTML5's [History API](https://developer.mozilla.org/en-US/docs/Web/API/History), an application in the browser is able to manipulate the browser's current URL using JS and without triggering a server request.
+> Note that we will continue to define server-side routes, however, the vast majority of those routes will be API-type routes that are accessed via AJAX calls, perform CRUD return data as JSON needed by the front-end.
 
-Client-side router software can use the History API to perform client-side routing to load different "screens"/functionality and perform other magic without a full-page refresh.
+As we've seen, when the URL in the address bar is changed, the browser automatically sends an HTTP request to the host, **unless** the address bar's URL is manipulated in one of two ways: by using the browser's **History API** or **Hash URIs**.
 
-This approach works wonderfully when the client router is in charge and is the only thing manipulating the URL in the address bar. However, what about when a user enters a URL manually, or a link external to the client app is clicked? These cases require a small bit of configuration on the server - a simple "catch all" route that handles all requests that don't match requests for static assets, API routes, etc. The catch all route will then return the **index.html** and all is well.
-
-Later in this unit you'll be introduced to the popular [React Router](https://github.com/ReactTraining/react-router), which uses the History API to perform client-side routing in React SPAs.
-
-#### Browser Hash Navigation
-
-The HTML specification includes what is known as **Hash URIs**.
-
-Hash URIs include a "hash" (`#`) in the URI, for example:<br>[https://facebook.github.io/react/docs/react-dom.html#reference](https://facebook.github.io/react/docs/react-dom.html#reference)  
-
-If we browse to the above link, we will see that it takes us directly to the "Reference" section on the page.
-
-Hovering over other titles/sub-titles on the page reveals other links that have their href's set to a value prefaced with a "#", for example:
-
-```html
-<a class="hash-link" href="#unmountcomponentatnode">#</a>
-```
-
-Notice that when we can click on these links, the address bar changes, but the browser does **not** make an HTTP request.
-
-Today's client-side routers lean toward using the History API over Hash URIs due mainly to the fact that the URL's are "prettier" without the hash.
+Feel free to check the Further Study section to learn more about the History API or Hash URIs.
 
 ### Concept 3: Client-side Rendering
 
@@ -93,7 +74,7 @@ The server would update the database and send back a response.
 
 However, to make the comment show up in the UI, it needs to be updated using JavaScript - a process we call **client-side rendering**.
 
-The undisputed champ of client-side rendering today is React...
+The undisputed champ of client-side rendering today is React!
 
 ### ❓ Review Questions
 
@@ -292,6 +273,36 @@ Note that the tutorial has two different setup options.  Please use the [starter
 After opening the starter code (a CodePen), start the tutorial [here](https://reactjs.org/tutorial/tutorial.html#inspecting-the-starter-code).
 
 This lab is not a deliverable.
+
+## Further Study
+
+#### HTML5's History API
+
+Using HTML5's [History API](https://developer.mozilla.org/en-US/docs/Web/API/History), an application in the browser is able to manipulate the browser's current URL using JS and without triggering a server request.
+
+Client-side router software can use the History API to perform client-side routing to load different "screens"/functionality and perform other magic without a full-page refresh.
+
+This approach works wonderfully when the client router is in charge and is the only thing manipulating the URL in the address bar. However, what about when a user enters a URL manually, or a link external to the client app is clicked? These cases require a small bit of configuration on the server - a simple "catch all" route that handles all requests that don't match requests for static assets, API routes, etc. The catch all route will then return the **index.html** and all is well.
+
+Later in this unit you'll be introduced to the popular [React Router](https://github.com/ReactTraining/react-router), which uses the History API to perform client-side routing in React SPAs.
+
+#### Browser Hash Navigation
+
+The HTML specification includes what is known as **Hash URIs**.
+
+Hash URIs include a "hash" (`#`) in the URI, for example:<br>[https://facebook.github.io/react/docs/react-dom.html#reference](https://facebook.github.io/react/docs/react-dom.html#reference)  
+
+If we browse to the above link, we will see that it takes us directly to the "Reference" section on the page.
+
+Hovering over other titles/sub-titles on the page reveals other links that have their href's set to a value prefaced with a "#", for example:
+
+```html
+<a class="hash-link" href="#unmountcomponentatnode">#</a>
+```
+
+Notice that when we can click on these links, the address bar changes, but the browser does **not** make an HTTP request.
+
+Today's client-side routers lean toward using the History API over Hash URIs due mainly to the fact that the URL's are "prettier" without the hash.
 
 ## References
 
