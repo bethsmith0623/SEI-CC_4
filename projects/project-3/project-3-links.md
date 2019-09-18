@@ -16,12 +16,12 @@
 | **Team Delta** (DAL)<br>Beth, Michael M., & Ruben | Volun Go | [link](https://github.com/bethsmith0623/Volun_Go) | [link](https://docs.google.com/presentation/d/1Dk0PctT_g3AA0mQx8NKE249GFP4qO3Gg1lq3aBN9WB8/edit#slide=id.g35f391192_00) | [link](https://trello.com/b/2graod5Y/volun-go) |  |
 | **Intimidator Imitator Initiator** (SF)<br>Greg M, Ny Ansta & Matthew | Experiences | [link](https://github.com/g-merrill/experiences-app) |  | [link](https://trello.com/b/XF41OcI0/airbnb-experiences) |  |
 | **Team 2** (SF)<br>Aly, Carol & Greg R | Cookaround | [link](https://github.com/franics925/cook_around) | [link](https://docs.google.com/presentation/d/1DNAjXGBXbbPf6wL9p9H0ejlKsjO_Jow6QXtbjNTSpVk/edit#slide=id.p) | [link](https://trello.com/b/Ia4cBX5M/cookaround) |  |
-| **Team 3** (SF)<br>Chi, Jon & Sorrel | A Stardust Truce |  |  | [link](https://trello.com/b/vyfWUQB2/data-structures) |  |
+| **Team 3** (SF)<br>Chi, Jon & Sorrel | A Stardust Truce | [link](https://github.com/Chi37/a-stardust-truce) | [link](https://docs.google.com/presentation/d/1Vz4RZZBMdJfMy1-LDVcohWqV8bO3dF8WlZT9SNuVkrA/edit#slide=id.p) | [link](https://trello.com/b/vyfWUQB2/data-structures) |  |
 | **Team 4** (SF)<br>Anami, CJ, Preston | CapX |  |  | [link](https://trello.com/b/yg1hEwqj/capx) |  |
 | **Team 5** (SF)<br>Braxton, Tyler & Wenjie | Tasty |  |  | [link](https://trello.com/b/PjRlStrU/project3) |  |
 | **Team 6** (SF)<br>Emily, Samantha & Sonnia | Briefcase |  |  | [link](https://trello.com/b/jD2WqWJw/project3-briefcase) |  |
 | **Taco Company SF** (SF)<br>Joshua, Loquen & Michael | Band Together | [link](https://github.com/Loquen/band-together) | [link](https://docs.google.com/presentation/d/1QtojdQ5hULlSEvOOO0AZ-4bkRSuf6MyDMpl70IFd09k/edit#slide=id.p) | [link](https://trello.com/b/WUt3ITnz/main) |  |
-| **Team 1** (LA)<br>Dave, Leo & Perice | Superhereos | [link](https://github.com/davekoncsol/superheroes) |  | [link](https://trello.com/b/emGKBwIe/superheroes) |  |
-| **Team 2** (LA)<br>Dan, Marques & Nick | Pick Up Games | [link](https://github.com/nbai123/PickUpGames) |  | [link](https://trello.com/b/4jZaSAc0/pick-up-games-python-django-project) |  |
-| **Team Badass** (LA)<br>Muhamed, Tim & Victor | My Car Diary | [link](https://github.com/TimeForZeros/myCarDiaryApp) |  | [link](https://trello.com/b/fvz76Kyc/my-car-diary) |  |
+| **Team 1** (LA)<br>Dave, Leo & Perice | Superhereos | [link](https://github.com/davekoncsol/superheroes) | [link](https://docs.google.com/presentation/d/1KtwkOS2cJRs6ORalX-9EHZPRSteWnNjZSGBqhrgOQXs/edit#slide=id.gd9c453428_0_16) | [link](https://trello.com/b/emGKBwIe/superheroes) |  |
+| **Team 2** (LA)<br>Dan, Marques & Nick | Pick Up Games | [link](https://github.com/nbai123/PickUpGames) | [link](https://docs.google.com/presentation/d/1uWzLqHEuwEoaMsfE9DB3Ieob1LWd_TW9JjK3GkK9crs/edit#slide=id.p) | [link](https://trello.com/b/4jZaSAc0/pick-up-games-python-django-project) | [link](https://pick-up-games.herokuapp.com/) |
+| **Team Badass** (LA)<br>Muhamed, Tim & Victor | My Car Diary | [link](https://github.com/TimeForZeros/myCarDiaryApp) |  | [link](https://trello.com/b/fvz76Kyc/my-car-diary) | [link](http://mycardiary.herokuapp.com/) |
 
