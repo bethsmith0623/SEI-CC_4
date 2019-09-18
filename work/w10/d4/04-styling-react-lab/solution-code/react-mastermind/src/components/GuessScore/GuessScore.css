@@ -1,0 +1,9 @@
+.GuessScore {
+  display: flex;
+  flex-direction: row; /* FYI, 'row' is the default */
+  flex-wrap: wrap;   /* FYI, 'nowrap' is the default */
+  /* below is a shortcut for the above two declarations */
+  /* flex-flow: row nowrap; */
+  align-items: center;
+  width: 24px;
+}
