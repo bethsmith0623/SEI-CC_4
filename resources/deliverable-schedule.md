@@ -21,6 +21,7 @@ It is a requirement to complete at least **80%** of the following to to receive:
 |Tue 8/20|[Produce an API Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/tree/master/work/w05/d2/04-producing-api-lab)| |
 |Wed 9/4|[Python Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/blob/master/work/w07/d3/03-control-flow-lab/control-flow-lab.md)| Wed 9/11 |
 |Mon 9/9|FinchCollector Lab (Implement CatCollector Features) | Mon 9/23 |
+|Tue 9/24| [React - Floor Plan Lab](https://git.generalassemb.ly/SEI-CC/SEI-CC-4/blob/master/work/w10/d2/04-react-floorplan-lab.md) | Tue 10/1 |
 
 
 
