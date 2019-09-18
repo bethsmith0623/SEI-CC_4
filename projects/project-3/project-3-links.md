@@ -2,7 +2,7 @@
 
 | Team | Project Name | GitHub | Pitch Deck | Trello | Hosted Site |
 |---|:---:|:---:|:---:|:---:|:---:|
-| **\_\_Cover\_\_ Party Parrots** (ATX)<br>Ben, Caleb & Emily M |  |  |  |  |  |
+| **\_\_Cover\_\_ Party Parrots** (ATX)<br>Ben, Caleb & Emily M | EventUs | [link](https://github.com/ManliestBen/EventUs) | [link](https://docs.google.com/presentation/d/1OT_RDEHj0WkTT491Q2uGVndk18ljhklRSpTLNGARV9c/edit) | [link](https://trello.com/b/7x3lbQZp/unit-3-project-sei) |  |
 | **PP Gang** (ATX)<br>Conner, David & Robin |  |  |  |  |  |
 | **GoldTeamRulez** (ATX)<br>Elco, Garett & Jeremiah |  |  |  |  |  |
 | **Team Steve "give us" Jobs** (ATX)<br>Chris M, Jack, Lily |  |  |  |  |  |
