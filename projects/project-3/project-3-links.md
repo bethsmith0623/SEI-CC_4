@@ -3,12 +3,13 @@
 | Team | Project Name | GitHub | Pitch Deck | Trello | Hosted Site |
 |---|:---:|:---:|:---:|:---:|:---:|
 | **\_\_Cover\_\_ Party Parrots** (ATX)<br>Ben, Caleb & Emily M | EventUs | [link](https://github.com/ManliestBen/EventUs) | [link](https://docs.google.com/presentation/d/1OT_RDEHj0WkTT491Q2uGVndk18ljhklRSpTLNGARV9c/edit) | [link](https://trello.com/b/7x3lbQZp/unit-3-project-sei) |  |
-| **PP Gang** (ATX)<br>Conner, David & Robin |  |  |  |  |  |
+| **PP Gang** (ATX)<br>Conner, David & Robin | PopoPipo | [link](https://github.com/robified/PopoPipo) | [link](https://docs.google.com/presentation/d/1CbD-Lmh8Juw45oZl10vWsDRVLaolzaLF2_E1RR1xqps/edit?usp=sharing) | [link](https://trello.com/b/ARZrtXpf/popopipo-board) |  |
 | **GoldTeamRulez** (ATX)<br>Elco, Garett & Jeremiah |  |  |  |  |  |
 | **Team Steve "give us" Jobs** (ATX)<br>Chris M, Jack, Lily |  |  |  |  |  |
 | **Code Blooded Killers** (ATX)<br>Emily L, Jared & Nova |  |  |  |  |  |
-| **Team 6** (ATX)<br>Heather, Julia & Taylor |  |  |  |  |  |
-| **Pythonistas Unchained** (ATX)<br>Dev, Frances & Joe |  |  |  |  |  |
+| **Team 6** (ATX)<br>Heather & Taylor | LoopedInAustin | [link](https://github.com/tlacerte/Loopedin-Austin) | [link](https://docs.google.com/presentation/d/1yvYs6ppsYkMtqd35dhv4-v68OH3iBtPjccIgoyZAOX8/edit) | [link](https://trello.com/b/weeRXQke/project-3-schedule) |  |
+| **Pythonistas Unchained** (ATX)<br>Dev, Frances & Joe | Unlibbed | [link](https://github.com/SleepyJosus/django-unlibbed) | [link](https://docs.google.com/presentation/d/1uwseGUwtcYWAlPSTb-Kys7gZiOxlntK2aqg0_D6EOhA/edit?usp=sharing)
+) | [link](https://trello.com/b/pGK9J44a) | [link](https://djangounlibbed.herokuapp.com/) |
 | **Team 8** (ATX)<br>Beverly, Chris P & Vittoria | Happiest Hour | [link](https://github.com/600rrchris/happiest-hour) |  |  |  |
 | **Team Alpha** (DAL)<br>Andrew, Dan & Joe | Level Up Your Life | [link](https://github.com/atheismann/level-up-your-life) |[link](https://prezi.com/view/oYGYcBhg8116jjREbPZE/)  | [link](https://trello.com/b/bxij6mUm/p3-level-up-your-life) |  |
 | **Team Bravo** (DAL)<br>Armando, Cole & Sam | Fantasy Basketball | [link](https://github.com/41Holmes41/fantasybasketball/) |[link](https://docs.google.com/presentation/d/1NAnM5GLKJ8GUX599V-fQfVGySubPp-6krl31lqP6rYU/edit)| [link](https://trello.com/b/UGYE7yuI/project-3-team-bravo)|  |
