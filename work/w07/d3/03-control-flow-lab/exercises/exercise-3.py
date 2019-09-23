@@ -10,3 +10,16 @@
 #      The dog's age in dog years is xx
 
 # Hint:  Use the int() function to convert the string returned from input() into an integer
+
+age = input('Input a dog\'s age in human years:')
+dog_age = int(age)
+if dog_age < 2:
+    print(f'The dog\'s age in dog years is less than 10 years')
+elif dog_age == 2:
+    print(f'The dog\'s age in dog years is 10 years')
+elif dog_age > 2:
+    accumulator = 10
+    years = dog_age - 2
+    years_left = years * 7
+    print(f'The dog\'s age in dog years is {accumulator + years_left} years')
+

@@ -12,3 +12,16 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+
+idx = 0
+a = 0
+b = 1
+while idx < 50:
+    if idx < 2:  
+        print(f'term: {idx} / number: {idx}') #prints the first 2 given nums
+    else:
+        num = a + b  #adds to create next num
+        print(f'term: {idx} / number: {num}')  #prints next num
+        a = b  #reassigns a
+        b = num  #reassigns b
+    idx += 1  #increases index by 1
