@@ -24,7 +24,7 @@
 
 ### Review - What is a Single-Page App?
 
-We've talk about them quite a bit - **what are they?**
+We've talked about them quite a bit - **what are they?**
 
 <img src="https://i.imgur.com/m01TbLF.png">
 
