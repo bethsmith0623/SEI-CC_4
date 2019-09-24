@@ -28,9 +28,9 @@ We've talked about them quite a bit - **what are they?**
 
 <img src="https://i.imgur.com/m01TbLF.png">
 
-In a traditional web app, if we click a link, submitted a form, or type in the address bar and press [enter], **what happens?**
+In a traditional web app, if we click a link, submit data via a form, or type in the address bar and press [enter], **what happens?**
 
-In a SPA, we still want to be able to access different functionality by clicking links, submitting forms, etc., however, we want the UI to update without triggering a full-page refresh.
+In a SPA, we still want to be able to access different functionality by clicking links, submitting data to the server, etc., however, we want the UI to update without triggering a full-page refresh.
 
 There are three main concepts that make this possible:
 
