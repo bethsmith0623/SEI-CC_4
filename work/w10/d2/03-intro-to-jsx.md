@@ -284,6 +284,7 @@ Many props map directly to their HTML attribute counterparts. For example, this 
 ```js
 <div id='todos-container'>
 ```
+
 Of course, it would make sense to add attributes such as `id` to React Elements only, because they are the only components that end up generating actual DOM elements in the page.
 
 Some props map to HTML attributes but have a slightly differently implementation, for example, the `style` prop is used to style a component inline, however, it must be passed an object consisting of CSS property/values, not a string like its HTML counterpart.
@@ -302,11 +303,21 @@ function App() {
 }
 ```
 
-When we logged out the component object returned by `React.createElement`, there was a `props` property that was set to an empty object. This object holds the props that we pass to a component.
+Note that we can assign a string value to a prop as shown above using single or double quotes.  Any other data type, including template literals, must be wrapped within curly braces.  For example, the following shows how an object literal could be passed:
+
+```js
+function App() {
+  return (
+    <div>
+      <Greeter earthling={{name: 'Wilma', town: 'Roswell'}}/>
+    </div>
+  );
+}
+```
 
 ## JavaScript Expressions in JSX
 
-You can embed any JavaScript **expression** in JSX by wrapping it in curly braces.
+You can embed and render the result of any JavaScript **expression** in JSX by wrapping it in curly braces.
 
 Now let's use the `earthling` prop that was passed:
 
