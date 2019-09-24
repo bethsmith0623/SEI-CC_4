@@ -289,7 +289,7 @@ def cats_detail(request, cat_id):
   })
 ```
 
-We're using the manager's `exclude` method to grab all toys that don't meed the condition passed to it.
+We're using the manager's `exclude` method to grab all toys that don't need the condition passed to it.
 
 The Django Query API enables [Field Lookups](https://docs.djangoproject.com/en/2.1/ref/models/querysets/#field-lookups) for every field in the model. `id__in` is one such field lookup that checks if the model's `id` is in a list and that list is being created with this code:
 
