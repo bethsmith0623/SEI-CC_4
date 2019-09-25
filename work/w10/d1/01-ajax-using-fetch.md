@@ -44,7 +44,7 @@
 
 - Simply put, **AJAX** is the process of a client sending an HTTP request to a server's API endpoint using JavaScript.
 
-- In case you're wondering what the [XML](https://en.wikipedia.org/wiki/XML) is about... It's the grandaddy of all markup languages, including HTML.
+- In case you're wondering what the [XML](https://en.wikipedia.org/wiki/XML) is about... It's the granddaddy of all markup languages, including HTML.
 
 - Once upon a time, XML was the de facto format for transferring data between two computers - that's why it's in the name AJAX. However, **JSON** has since become the preferred data transfer format.
 

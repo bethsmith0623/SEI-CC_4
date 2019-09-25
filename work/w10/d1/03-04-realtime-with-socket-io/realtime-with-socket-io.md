@@ -496,7 +496,7 @@ function addCircle({x, y, dia, rgba, initials}) {
 
 - Using [ES2015's Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment), we can pass in an object as an argument and that object's properties will be assigned to the listed variables.
 
-- Note also that an `initials` variable is has been added to hold the user's initials that initiated the message. 
+- Note also that an `initials` variable has been added to hold the user's initials that initiated the message. 
 
 ---
 ### Displaying Circles - Client Code (cont.)
@@ -566,7 +566,7 @@ function addCircle({x, y, dia, rgba, initials}) {
 ## More Big Fun? Track Players!
 <br>
 
-- In the realm of realtime, tracking connected users or players is know as tracking **presence**.
+- In the realm of realtime, tracking connected users or players is known as tracking **presence**.
 
 - It would be nice to know who's connected to our `realtime-circles` app, so let's do this!
 
