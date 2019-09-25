@@ -106,7 +106,7 @@ To build better UIs with components, experts like Dan Abramov within the React c
 - They hold state that pertains to the application.
 - They are concerned with how things work, not how they look.
 - Pass state and callback methods to presentational or other container components.
-- May contain both presentational and other container components, but usually have a minimal number of React Elements and styling, because these are most commonly found in presentational components...
+- May need to use lifecycle methods to fetch data from the server, etc.
 
 #### Characteristics of _Presentational_ Components
 
@@ -327,7 +327,7 @@ class ConcertCard extends React.Component {
 }
 ```
 
-Function Components cannot however have their own state and do not implement lifecycle methods (next week).
+Hooks aside, Function Components cannot however have their own state and do not implement lifecycle methods (next week).
 
 #### Write Our First Mastermind Component
 
@@ -377,7 +377,7 @@ The `<GameBoard />` component based on our wireframe is a great place to start -
 
 Looking good.  However, as you build out the rest of the components for this lesson, it would be cool to see a border surrounding each `<div>` that you render for each of the components.
 	
-Let's define a CSS class named `component` in **index.css** that will "outline" any element that contains the **component** class:
+Let's define a "temporary" CSS class named `component` in **index.css** that will "outline" any element that contains the **component** class:
 
 ```css
 .component {
@@ -417,7 +417,7 @@ Add `<ColorPicker>` to `<App>` and the display should look like this:
 
 ## Defining Components as Classes
 
-Both **presentational** and **container** components may be written as JS classes.
+Both **presentational** and **container** components _may_ be written as JS classes, however, once again, presentational components should be written as functions.
 
 However, any component that has its own state or needs to tap into the component's lifecycle methods (next week), must be defined as a class. This is because classes allow us to define and inherit methods such as `setState`, etc.
 
@@ -438,11 +438,11 @@ You'll be working with Class Components this afternoon when you start working wi
 
 1. **A UI in React is a hierarchy of ____________.**
 
-2. **Will there be more _presentational_ or _container_ type components in a React app?**
+2. **True or False: Components used to render data passed to them via props are known as "presentational" components.**
 
-3. **Can a _presentational_ component be defined using a class?**
+3. **True or False: "Container" components hold state and may need need to use lifecycle methods to fetch data, etc.?**
 
-4. **When would you have to define a component as a class instead of a function?**
+4. **True or False: Currently, the common approach is to define "container" components as classes and "presentational" components as functions?**
 
 ## Lab: Define the Remaining Components for Mastermind
 
