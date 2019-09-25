@@ -134,7 +134,7 @@ This presentation is available [here](https://presentations.generalassemb.ly/e95
 
 - _socket.io_ is all about sending and responding to **messages**.
 
-- A **message** is a simple string identifer that **we** get to define,<br>for example:<br>`'login'`, or `'move-player'`
+- A **message** is a simple string identifier that **we** get to define,<br>for example:<br>`'login'`, or `'move-player'`
 
 - Just like when naming functions, it's best to use identifiers for our messages that reflect their purpose.
 

@@ -82,7 +82,7 @@
 
 - As we saw earlier, the **A** in AJAX stands for **asynchronous**.
 
-- Indeed, making an AJAX request is an asynchronous operation. So far, we've seen two approaches that enable us to run code after an asynchronous operation has completed. **What are they?**
+- Indeed, making an AJAX request is an asynchronous operation. So far, we've seen two approaches that enable us to run code after an asynchronous operation has completed. ❓ **What are they?**
 
 ---
 #### Make an HTTP Request Using the Fetch API
@@ -147,6 +147,7 @@
 	```js
 	async function printData() {
 	  const endpoint = 'https://jsonplaceholder.typicode.com/users';
+	  let users;
 	  try {
 	    users = await fetch(endpoint).then(res => res.json());
 	    console.log( users );
@@ -158,7 +159,7 @@
 	The `catch` block would run if the `fetch` failed.
 
 ---
-#### PRACTICE (2 MIN)
+#### 💪 Practice Exercise (2 MIN)
 <br>
 
 - After the `console.log( users )`, add another `GET` request using `fetch` to JSONPlaceholder's `/posts` endpoint.
@@ -188,12 +189,12 @@
 	```
 
 ---
-#### Review Questions
+#### ❓ Review Questions
 <br>
 
-- Why is AJAX required to be able to build Single Page Applications like Gmail?
+1. Why is AJAX required to be able to build Single Page Applications like Gmail?
 
-- What is wrong with the following code?
+2. What is wrong with the following code?
 
 	```js
 	function show(req, res) {
@@ -211,7 +212,7 @@
 	```js
 	(async function() {
 	  const endpoint = 'https://jsonplaceholder.typicode.com/users';
-	  users = await fetch(endpoint).then(res => res.json());
+	  let users = await fetch(endpoint).then(res => res.json());
 	  console.log(users);
 	})();
 	```
@@ -419,9 +420,7 @@
 	function createUser(name) {
 	  fetch('https://jsonplaceholder.typicode.com/users', {
 	    method: 'POST',
-	    body: JSON.stringify({
-	      name: 'Freddie Mercury'
-	    }),
+	    body: JSON.stringify({name}),
 	    headers: {
 	      'Content-Type': 'application/json'
 	    }
@@ -430,7 +429,7 @@
 	  .then(newUser => console.log(newUser));
 	}
 	
-	createUser();
+	createUser('Freddie Mercury');
 	```
 
 ---
@@ -443,19 +442,17 @@
 	```js
 	method: 'POST',
 	// It's required send posted data as a string - JSON in this case
-	body: JSON.stringify({
-	  name: 'Freddie Mercury'
-	}),
+	body: JSON.stringify({name}),
 	// The server needs to know what type of data is in the body
 	headers: {
 	  'Content-Type': 'application/json'
-	  // Data being sent from a form would have a Content-Type
+	  // FYI, data being sent from a form would have a Content-Type
 	  // of 'application/x-www-form-urlencoded'
 	}
 	```
 
 ---
-#### Exercise (5 min)
+#### 💪 Practice Exercise (5 min)
 <br>
 
 - Write a function with the following signature that uses `fetch` to "delete" a user from JSONPlaceholder:
@@ -476,15 +473,15 @@
 #### Congrats!<br><br>Let's wrap up with a couple of<br>review questions before moving on to the lab...
 
 ---
-#### Essential Questions
+#### ❓ Essential Questions
 <br>
 
-1. **What does AJAX stand for?**
-
-2. **Which of the following scenarios can `fetch` be used for:**
+1. **Which of the following scenarios can `fetch` be used for:**
 	1. **Creating a new movie in an app's database without refreshing the page.**
 	2. **Deleting a fun fact about a student from an app's database without refreshing the page.**
 	3. **Submitting a form to create a cat and redirecting to the cats index page.**
+
+2. `async/await` provide another way to work with ________?
 
 ---
 #### References
