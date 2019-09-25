@@ -293,7 +293,7 @@ Function Components provide a simpler syntax vs. defining components using class
 
 Since most of the components you write will be presentational, Function Components will be your "go to" syntax and should be the preferred way to define components unless there's a reason to use a class instead - it has state or needs to use lifecycle methods other than `render` (future lesson).
 
-Function Components take props as an argument and return the element you want to render, for example:
+Function Components take props as an argument and return the JSX (UI) you want to render, for example:
 
 ```js
 // A function component using an ES2015 (ES6) arrow function:
