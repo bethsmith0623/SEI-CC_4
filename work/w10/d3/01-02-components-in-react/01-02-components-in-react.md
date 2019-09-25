@@ -287,7 +287,7 @@ However, as we initially learn about React and draw comparisons between Class an
 
 #### What Are They?
 
-**Function Components** were introduced in version 0.14 of React (current version is 16.8.4 - yes, they changed their versioning scheme).
+**Function Components** were introduced in version 0.14 of React (current version is 16.9 - yes, they changed their versioning scheme).
 
 Function Components provide a simpler syntax vs. defining components using classes.
 
