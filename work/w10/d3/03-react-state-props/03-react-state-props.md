@@ -246,7 +246,7 @@ Above, we are passing a function to `setState` and returning the object to be me
 
 React is passing the current state in as an argument, and we are using the current value of `state.selColorIdx` to compute the next value.
 
-We're going to be adding more state in a bit, but know let's turn our attention to **props**.
+We're going to be adding more state in a bit, but now let's turn our attention to **props**.
 
 ## What are Props?
 
