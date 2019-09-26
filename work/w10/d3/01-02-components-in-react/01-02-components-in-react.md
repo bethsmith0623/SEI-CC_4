@@ -90,7 +90,7 @@ In a React app, state might also refer to data properties used to represent the 
 
 #### Where State is Held Matters
 
-Later today, you will learn about how **state** is held in certain components and passed to its child components via what's know as **props**.
+Later today, you will learn about how **state** is held in certain components and passed to their child components via what's known as **props**.
 
 How do we know which components _should_ have state or just props? That's what we're going to discuss next...
 

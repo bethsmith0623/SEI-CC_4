@@ -219,7 +219,7 @@ First thing to note is that the object provided is **merged** with the existing 
 
 There are a couple of different ways to call `setState`...
 
-The simplest approach is like what we did above:
+The simplest approach is like what we did above, by simply providing an object as the only argument that gets merged with the current state object:
 
 ```js
 this.setState({
@@ -233,11 +233,9 @@ However, because the `setState` method is asynchronous, if new state depends upo
 Notice we are getting warnings with the way we updated `selColorIdx`?  React knows we can do better:
 
 ```js
-<button onClick={() => this.setState((state) => {
-  return {
-    selColorIdx: ++state.selColorIdx % 4
-  };
-})}>
+<button onClick={() => this.setState(state => (
+  {selColorIdx: ++state.selColorIdx % 4}
+)}>
   Next Color
 </button>
 ```
@@ -246,7 +244,15 @@ Above, we are passing a function to `setState` and returning the object to be me
 
 React is passing the current state in as an argument, and we are using the current value of `state.selColorIdx` to compute the next value.
 
-We're going to be adding more state in a bit, but know let's turn our attention to **props**.
+Lastly, regardless of which approach we use, `setState` is always an asynchronous operation (in order to provide batching of multiple calls), we are able to optionally provide a callback as a second argument that is called after all state has been updated.
+
+So in summary, `setState` has the following signature:
+
+```
+setState(<object or function>, <optional callback>);
+```
+
+We're going to be adding more state in a bit, but now let's turn our attention to **props**.
 
 ## What are Props?
 

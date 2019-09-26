@@ -44,11 +44,11 @@ For example, when learning CSS we were told that inline styling should be avoide
 
 Today, we will look at a few of the more popular ways to style the components that comprise a React UI:
 
-- **Using CSS Stylesheets**: This is the approach that `create-react-app` uses with its `<App>` component.
+1. **Using CSS Stylesheets**: This is the approach that `create-react-app` uses with its `<App>` component.
 
-- **Using CSS Modules**: Similar to above, but different in a significant way.
+2. **Using CSS Modules**: Similar to above, but different in a significant way.
 
-- **Using Inline Styling**: This approach uses the `style` prop.
+3. **Using Inline Styling**: This approach uses the `style` prop.
 
 ## The Starter Code
 
@@ -68,7 +68,7 @@ In this lesson we will begin to apply the above styling approaches to style reac
 
 If you want to use third-party CSS frameworks like Bootstrap, Materialize, etc., feel free to continue to link in the CDNs (both CSS and JS) as usual.
 
-We don't really need Bootstrap for Mastermind, but we'll use its button styles just to check out how to CDNs in a React app.
+We don't really need Bootstrap for Mastermind, but we'll use its button styles just to check out how to use CDNs in a React app.
 
 You will find the **index.html** in the **public** folder:
 
@@ -107,11 +107,11 @@ With the Bootstrap framework now loaded, all of the classes it defines are avail
 
 In React, we use the `className` prop to set class(es) on React Elements (`<div>`, `<p>`, etc.).
 
+Check out the `<header>` in **App.js** for an example of using the `className` prop to  apply a CSS class.
+
 If you inspect the elements in DevTools, you'll see that the `className` prop does indeed result in a `class` attribute being added to the DOM element.
 
 > **KEY POINT**: Note that we can only style React's built-in HTML/DOM components (lowercase-named components). This is because they are the only components that actually get rendered to the DOM.
-
-The `<header>` in **App.js** shows how to use the `className` prop to  apply a CSS class.
 
 #### 💪 Practice Exercise
 
@@ -137,7 +137,7 @@ This is a great place to put "global" or application-wide styling.
 
 You can see that it already has a couple of rules that removes margin from the `<body>`, etc.
 
-Let's prevent the "blue glow" around buttons when they have the focus by adding this rule:
+Let's add another rule to prevent the "blue glow" around buttons when they have the focus:
 
 ```css
 button:focus, .btn:focus {
@@ -163,9 +163,9 @@ That `.btn:focus` selector is for Bootstrap buttons.
 	- The file is typically named the same as the component (**App.css** for a **App.js** component).
 	- That CSS file would then be imported into the component's module.
 
-- You can also import CSS for application-wide CSS rules - they're not just for components. General purpose CSS modules can be imported by any component that wants to use its styles. Note that importing the same module multiple times does not increase the size of the built code - Webpack will only include the module once.
-
 - Importing CSS files require tooling. In a React app started with the `create-react-app` CLI, Webpack has been configured to process and import CSS stylesheets.
+
+- Importing the same module multiple times does not increase the size of the built code - Webpack will only include the module once.
 
 > **KEY POINT:** When we import a CSS stylesheet into a component as `create-react-app` did with **App.css**, those styles are actually merged into the application globally. This is just like when multiple external stylesheets are loaded in an _index.html_. So, it's important to prevent rules from conflicting and overriding each other.
 
@@ -173,9 +173,9 @@ That `.btn:focus` selector is for Bootstrap buttons.
 
 CSS class names are like global variables, so it's a good idea to namespace them with the component's name to avoid _name collisions_.
 
-Look at how `create-react-app` namespaces the classes used for the `<App>` component, for example, `App-header`. Following this practice in your own imported stylesheets is highly recommended.
+Look at how `create-react-app` namespaced the classes used for the `<App>` component, for example, `App-header`. Following this practice in your own imported stylesheets is highly recommended.
 
-As an alternative, we can use CSS Modules to avoid naming conflicts. More on CSS Modules in a bit.
+As an alternative, we can use CSS Modules to avoid conflicts when naming classes. More on CSS Modules in a bit.
 
 #### Import a Stylesheet
 
@@ -262,7 +262,7 @@ In a bit, when the `<div>`s for the individual scores are sized and styled, we w
 
 CSS Modules became available with the release of **create-react-app v2.0**, which improved the configuration of Webpack.
 
-With **CSS Modules**, a CSS file's classes can be dedicated to a single component - no more worrying about class name collisions!
+With **CSS Modules**, a CSS file's **class names** will be made unique by the tooling and will be dedicated to the component that imports the CSS Module - no more worrying about class name collisions!
 
 Using a CSS Module differs from using a CSS stylesheet in three ways:
 
@@ -297,7 +297,7 @@ To check out CSS Modules, let's use one to style `<ScoreButton>`:
 	  </button>
 	);
 	```
-	Oh yeah, copy that checkmark!
+	Oh yeah, copy and paste that checkmark!
 	
 Note that the class names become keys on the `styles` object - let's console.log it to check it out:
 
@@ -326,11 +326,13 @@ That looks better!
 
 #### ❓ Review Questions
 
-1. **In your opinion, what's the most significant difference between using CSS stylesheets vs. CSS Modules?**
+1. **What's the difference when naming the files for CSS stylesheets vs. CSS Modules?**
 
-2. **What's wrong with the following code:**
+2. **True or False: Importing CSS Modules results in an object where the keys are the names of the classes we defined in the module and the values are the unique class names generated by the tooling.**
 
-	```
+3. **What's wrong with the following code:**
+
+	```js
 	import styles from './SmallComponent.module.css';
 	
 	function SmallComponent(props) {
@@ -342,9 +344,9 @@ That looks better!
 
 #### About Inline Styling
 
-Contrary to what we've been told about avoiding styling elements inline using the `style` attribute in HTML, with React, inline styling is common!
+Contrary to what we've been told about avoiding styling elements inline using the `style` attribute in HTML, with React, inline styling is a common technique for **dynamic** styling!
 
-Inline styling in React uses the `style` prop, however, unlike the `style` attribute in an HTML element, we assign a JS object instead of a string.
+Inline styling in React uses the `style` prop, however, unlike the `style` attribute in HTML, we assign a JS object instead of a string.
 
 #### Adding Inline Styling to the `<GuessScore>` Component
 
@@ -415,7 +417,7 @@ An elegant styling solution is to define a style object for each score character
 
 ```js
 // Add below the baseStyle object
-let pegStyles = {
+const pegStyles = {
   'P': {
     borderColor: 'black',
     backgroundColor: 'black'
@@ -446,9 +448,9 @@ Then, we can _merge_ the styles into a new object using the [spread operator](ht
   );
 ```
 
-The spread operator, `...`, can be used to "spread" each property as a comma separated list.
+The spread operator, `...` is being used to "spread" each property of `baseStyle` into a new object literal, then the "selected" object within `pegStyles` is having its properties merged.
 
-> We can accomplish the same thing using the slightly less concise [`Object.assign`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) method.
+> We can accomplish the same thing using the slightly less concise [`Object.assign`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) method. However, the spread operator has become the go to approach.
 
 To test out the styling, let's use React Developer Tools to change the first guesses `score` in the state of the `<App>` component. Changing  to two Perfect and one Almost results in the following being rendered:
 
@@ -476,7 +478,7 @@ Here are some advantages of inline styling with JS objects:
 
 #### 💪 Exercise: Apply dynamic styling to `<ColorPicker>` (20 mins)
 
-Okay, now that you know that you dynamically style React elements by assigning a JS object to the `style` prop, time for some practice by updating the `<ColorPicker>` component.
+Okay, now that you know that we can dynamically style React elements by assigning a JS object to the `style` prop, it's time for some practice by updating the `<ColorPicker>` component.
 
 Currently, `<ColorPicker>`  is being rendered as grey buttons and display their hexadecimal color value as content:
 
@@ -506,9 +508,9 @@ Time to use those hexadecimal values, and the `selColorIdx` prop to dynamically 
 	}
 	```
 
-2. You're going to need to style both `backgroundColor` and `borderColor` using the `style` prop. Examining the above non-dynamic CSS shows that there's a thick 14px border which results in a smallish round background that should be set to `white` if the button is selected (its index equals `selColorIdx`), otherwise the background should be the same color as the border.
+2. You're going to need to style both the `backgroundColor` and `borderColor` using the `style` prop. Examining the above non-dynamic CSS shows that there's a thick 14px border which results in a smallish round background that should be set to `white` if the button is selected (its index equals `selColorIdx`), otherwise the background should be the same color as the border.
 
-3. You'll need to add a second `idx` parameter to `map`'s callback function so that you can compare it to the value of `props.selColorIdx`.
+3. You'll need to add a second parameter, e.g., `idx`, to `map`'s callback function so that you can compare it to the value of `props.selColorIdx`.
 
 ## Import CSS or use Inline Styling?
 
