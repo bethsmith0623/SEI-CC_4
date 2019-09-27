@@ -168,7 +168,7 @@ render() {
 }
 ```
 
-#### 💪 Exercise - Add a Random Number (5 min)
+#### 💪 Exercise - Add New Emotions to `history` (5 min)
 
 Without peeking below, write the code to refactor the `updateEmotion` method to add the clicked emotion to the `history` array.
 
