@@ -40,9 +40,9 @@ Let's add some basic state to the sandbox using _property initializer_ syntax wh
 
 ```js
 class App extends React.Component {
-  // Initialize the state property using property initializer syntax
+  // Initialize the state property using a class field
   state = {
-    emotion: "Happy"
+    emotion: 'Happy'
   };
   
   render() {
@@ -73,7 +73,7 @@ Finally, let's add the `updateEmotion` method above `render`:
   }
 ```
 
-A refresh of the sandbox's browser should display something like this:
+The sandbox's browser should display something like this:
 
 <img src="https://i.imgur.com/6kgAgZS.png">
 
@@ -101,14 +101,14 @@ Here's a review of what we've learned about updating state so far:
 	Passing a `function` as the argument...
 	
 	```js
-	this.setState(function(state, props) {
+	this.setState(function(state) {
 	  return {emotion: 'Excited'};
 	});
 	```
 	The function passed as an argument needs to return an object that is merged with state.<br><br>Use the above approach when you need to rely on the current value of state or props to determine the new state:
 	
 	```js
-	this.setState((state, props) => ({count: state.count + 5}));
+	this.setState((state) => ({count: state.count + 5}));
 	```
 
 - `setState` merges the new object into the component's current state object:
@@ -123,7 +123,15 @@ Here's a review of what we've learned about updating state so far:
 
 	```js
 	this.setState({emotion: 'Surprised'});
-	console.log(this.state.emotion) /-> Won't be 'Surprised'
+	console.log(this.state.emotion) //-> Won't be 'Surprised'
+	```
+	
+	Both signatures (passing an object or a function) accept an optional callback function as a second argument which is invoked after state has been updated.
+	
+	```js
+	this.setState({emotion: 'Surprised'}, () => {
+	  console.log(this.state.emotion) //-> Will be 'Surprised'
+	});
 	```
 
 **Any questions?**
@@ -132,95 +140,79 @@ Here's a review of what we've learned about updating state so far:
 
 #### Set Up an Array on `state`
 
-Let's update `state`'s initialization to include an empty `numbers` array:
+Let's update `state`'s initialization to include an empty `history` array:
 
 ```js
 state = {
-  emotion: "Happy",
-  numbers: []
+  emotion: 'Happy',
+  history: ['Happy']
 };
 ```
 
-Now for some additional code to render the contents of the `numbers` array along with a button to add another random number:
+Now for some additional code to render the contents of the `history`:
 
 ```js
 render() {
-    return (
-      <>
-        ...
-        <button onClick={() => this.updateEmotion("Happy")}>Happy</button>
-        {/* New JSX below */}
-        <h1>Numbers:</h1>
-        <ul>
-          {this.state.numbers.map(n => (
-            <li>{n}</li>
-          ))}
-        </ul>
-        <button onClick={this.addNumber}>Add Number</button>
-      </>
-    );
-  }
+  return (
+    <>
+      ...
+      
+      <button onClick={() => this.updateEmotion("Happy")}>Happy</button>
+      {/* New JSX below */}
+      <h1>Emotional History:</h1>
+      <ul>
+        {this.state.history.map(emotion => <li>{emotion}</li>)}
+      </ul>
+    </>
+  );
 }
-```
-	
-Finally, that `addNumber` method which will be used to add a random number. For now, we'll just stub it up:
-
-```js
-state = {
-  emotion: "Happy",
-  numbers: []
-};
-
-/* New Code Below */
-
-// property initializer syntax ensures 'this' is bound correctly
-addNumber = () => {
-
-};
 ```
 
 #### 💪 Exercise - Add a Random Number (5 min)
 
-Without peeking below, pair up and write the code to add the result of calling `Math.random()` to `state.numbers`.
-
-Don't use `Math.floor`, the decimal value returned by `Math.random()` is fine.
+Without peeking below, write the code to refactor the `updateEmotion` method to add the clicked emotion to the `history` array.
 
 #### Thou Shall Not Mutate State
 
 When we click one of the "emotion" buttons, we are **replacing** a piece of state, `state.emotion`, with a new string.
 
-However, when the state property is a reference type, such as an Object or Array, it's possible to improperly mutate (change) the very same Object/Array instead of replacing it by writing code like this:
+However, when the state property is a reference type, such as an Object or an Array, we should not mutate (change) that Object/Array:
 
 ```js
-addNumber = () => {
-  // Don't do this!
-  this.state.numbers.push(Math.random());
-  this.setState((state) => ({numbers: state.numbers}));
-};
+updateEmotion(emotion) {
+  // The following "works", but is not a good practice
+  this.state.history.push(emotion);
+  this.setState({emotion});
+}
 ```
 
-Even though we were good about passing a function to `setState` (due to the fact we're relying on existing state), we violated the rule not to mutate state directly by calling `push` on the `this.state.numbers` array.
+The above will work in non-optimized components, however, we are mutating the array, which is a no, no...
 
 #### Always Replace Top-Level Objects & Arrays With New Ones
 
-The rule is, if something inside of an Object/Array that's assigned to a **top-level** state property changes, that Object/Array must be replaced with a new version of itself.
+The rule is, if something inside of an Object/Array that's assigned to a **top-level** state property changes, that Object/Array must be replaced with a **new** Object/Array.
 
 Here's the latest and greatest way to create a new array by using the `...` [spread operator within an array literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Spread_in_array_literals):
 
 ```js
-addNumber = () => {
-  // Good times!
-  const updatedNums = [...this.state.numbers, Math.random()];
-  this.setState({numbers: updatedNums});
-};
+updateEmotion(emotion) {
+  // implicitly returning an object from the arrow function
+  this.setState((state) => ({
+    emotion,
+    // assigning a new array
+    history: [...state.history, emotion]
+  }));
+}
 ```
 
-> The spread operator works with object literals as well:
+> As we saw in the styling lesson, the spread operator works with object literals as well:
 `const objCopy = {...existingObj};`
 
-### Why Not To Mutate State
+Notice that because we needed to access the current `history` array, we converted to the function signature of `setState`. 
 
-There are two reasons to replace state instead of mutating it:
+### Why Not Mutate State?
+
+There are two reasons to replace an object/array in state instead of mutating it:
 
 1. It provides for improved performance
 2. It enables features such as undo and time travel
@@ -229,7 +221,7 @@ There are two reasons to replace state instead of mutating it:
 
 React can provide improved performance by not having to spend time looking inside of objects/arrays that are assigned to **top-level** state  properties to see if something has changed.  All it has to do is check if it's a different object/array.
 
-Even though the app worked when we mutated `this.state.numbers`, it did so because `Component` does not have any optimizations built in, allowing us to mutate the existing array instead of replacing it.
+Even though the app worked when we mutated `this.state.history`, it did so because `Component` does not have any optimizations built in, allowing us to mutate the existing array instead of replacing it.
 
 However, React comes with an optimized `PureComponent` that we can extend that performs the reference check we just discussed.
 
@@ -238,25 +230,26 @@ First, let's update `App` to inherit from `PureComponent`:
 ```js
 class App extends React.PureComponent {
 ```
-Click the **[Add Number]** button to check that it still works.
+Click on a new emotion button to verify that it still works.
 
-Now let's revert back to mutating `state.numbers`, but this time, we're still extending `PureComponent`:
+Now let's revert back to mutating `state.history`, but this time, we're still extending `PureComponent`:
 
 ```js
-addNumber = () => {
-  this.state.numbers.push(Math.random());
-  this.setState((state) => ({numbers: state.numbers}));
-  // const updatedNums = [...this.state.numbers, Math.random()];
-  // this.setState({numbers: updatedNums});
-};
+updateEmotion(emotion) {
+  this.state.history.push(emotion);
+  this.setState({emotion});
+}
 ```
-Now, the very same code that worked before doesn't work anymore because it's been optimized to render only if a property on `state` has been replaced.
+
+Now, the component is optimized to trigger a render only if some top-level state has changed.  Thus, clicking a different emotion works okay, however, try clicking the same emotion several times, then click a different emotion - yikes!
 
 #### 2. Features
 
-Replacing object/arrays **at all levels** in state instead of mutating them enables the implementation of features such as undo and time travel back to an earlier point in an application not only possible, but easier than you may think.
+Replacing object/arrays **at all levels** in state instead of mutating them enables the implementation of features such as undo and "time travel", where the app can return to a previous "state".
 
-It also can help prevent subtle bugs from appearing in complex apps.
+"Time travel" can easily be implemented by persisting the history of `the.state` upon each update.
+
+Not mutating state also helps prevent subtle bugs from appearing in complex apps.
 
 > Perhaps you've heard of an alternative approach to state management - [Redux](https://redux.js.org/). Unlike with React, you can't cheat with Redux as it demands that all state not be mutated. In fact, there's even a library that helps you implement immutable state called [Immutable.js](https://github.com/immutable-js/immutable-js).
 
