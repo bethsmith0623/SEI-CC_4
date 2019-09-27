@@ -216,7 +216,7 @@ setState()
 <details>
 	<summary>Where do we need to write the code to call that method?</summary>
 <p><strong>
-From within the component that owns the state that being updated
+From within the component that owns the state that's being updated
 </strong></p>
 </details>
 
@@ -267,9 +267,9 @@ Update **App.js** like this:
 />
 ```
 
-Now, `<ColorPicker>` will have access to the `handleColorSelection` via `props.handleColorSelection`.
+> As usual, we access methods and properties on a class component via `this`.
 
-> As usual, we access methods from other methods via `this`.
+Now, `<ColorPicker>` will have access to the `handleColorSelection` via `props.handleColorSelection`.
 
 Now, inside of `<ColorPicker>` we can replace the `onClick={() => alert('clicked!')}` with `props.handleColorSelection`:
 
@@ -307,7 +307,7 @@ handleColorSelection(colorIdx) {
 }
 ```
 
-Currently, it's alerting the React synthetic event object.
+Currently, it's alerting the React synthetic event object because that's what's being passed to the event handler (`props.handleColorSelection`) by the event system.
 
 Now back to `<ColorPicker>`...
 
@@ -345,19 +345,19 @@ However, testing it out reveals that it doesn't work and there's an error in the
 
 We know that the component has a `setState` method on it, so what gives? The problem is that `this` is not bound to the instance of the `<App>` component!
 
-Logging out `this` from within the `handleColorSelection` method in **App.js** will verify that it's actually bound to `<ColorPicker>`'s `props` object - not `<App>` where the `handleColorSelection` method lives!
+Logging out `this` from within the `handleColorSelection` method in **App.js** will verify that it's bound to `<ColorPicker>`'s `props` object instead of the component?!
 
 <details>
 <summary>Why is <code>this</code> within <code>handleColorSelection()</code> being bound to the <code>props</code> object?</summary>
 <p><strong>
-The binding of <code>this</code> is determined by how a function is called. In this case, since the <code>handleColorSelection</code> method was called like <code>props.handleColorSelection()</code>, <code>this</code> is the <code>props</code> object because it's left of the dot!
+The binding of <code>this</code> is determined by how a function is called. In this case, since the <code>handleColorSelection</code> method is being called as a method, <code>props.handleColorSelection()</code>, <code>this</code> is the <code>props</code> object because it's left of the dot!
 </strong></p>
 </details>
 
 
-<br>So, we need to have `this` bound to the `<App />` component where the `setState()` method is.  There are a couple of ways to explicitly set the binding of _regular_ functions by using their `bind`, `call` and `apply` methods.
+<br>So, we need to have `this` bound to the `<App />` component where the `setState()` method is.  There are a couple of ways to explicitly set the binding of non-arrow functions by using their `bind`, `call` and `apply` methods.
 
-In React, prior to an upcoming JS feature that I'm going to show you next, the most popular way was to use `bind` in the constructor to create a **new** function that has `this` explicitly bound to its first argument:
+In React, prior to an upcoming JS feature that I'm going to show you next, the common way was to use `bind` in the constructor to create a **new** function that has `this` explicitly bound to its first argument:
 
 ```js
 class App extends Component {
@@ -376,15 +376,15 @@ class App extends Component {
   ...
 ```
 
-That one line of code fixed the problem, however, there's a newer syntax that a lot of React devs are starting to use...
+That one line of code fixed the problem, however, there's a newer syntax that React devs are using...
 
 #### ES2017's Property Initializer Syntax
 
 Wouldn't it be nice to have the method's `this` correctly bound in the first place? 
 
-There's a better way to fix our `this` binding issue using the bleeding edge **Property Initializer Syntax** (AKA Class Fields).
+There's a better way to fix our `this` binding issue using the bleeding edge **Property Initializer Syntax** (AKA **Class Fields**).
 
-_Property Initializer Syntax_ allow properties to be written within the body of a class in a way similar to how methods are defined.
+Property Initializer Syntax allows properties to be written within the body of a class similar to how methods are defined.
 
 Here's how property initializer syntax can be used to initialize a `sweet` property and an `eat` property (assigned a function making it a "method"):
 
@@ -394,7 +394,7 @@ class Candy {
     this.name = name;
   }
   sweet = true;
-  eat = () => { console.log('Yummy!'); };
+  eat = () => { console.log(`${this.name} is yummy!`); };
 }
 ```
 
@@ -429,7 +429,7 @@ handleColorSelection = (colorIdx) => {
 }
 ```
 
-Now, **unlike the following syntax**:
+Now, **unlike** the previous method definition:
 
 ```js
 handleColorSelection(colorIdx) {
@@ -437,9 +437,9 @@ handleColorSelection(colorIdx) {
 }
 ```
 
-`this` will always be correctly bound to the component, thus, no more tears!
+`this` will always be correctly bound to the component!
 
-Property initializer syntax is already implemented natively in Chrome - and thanks to Babel and Webpack, you are free to use them without fear in your React apps today!
+**Property initializer syntax** is already implemented natively in Chrome - and thanks to Babel and Webpack, you are free to use them without fear in your React apps today!
 
 ## Summary
 
@@ -449,7 +449,7 @@ If things aren't working, be sure to verify the value of `this` and closely read
 
 Use React Developer Tools to check that methods, etc. are being passed correctly via props.
 
-Also, instead of console.logging, use the `debugger` statement to programmatically set a breakpoint in the source code so that you can use DevTools debugger to inspect the values of variables/expressions, and step through lines of code one at a time, etc.
+Also, instead of console.logging, use the `debugger` statement to programmatically set a breakpoint in the source code so that you can use the DevTools debugger to inspect the values of variables/expressions, and step through lines of code one at a time, etc.
 
 ## ❓ Essential Questions
 
@@ -462,7 +462,7 @@ Take a minute to review the following questions:
 3. **Is this code bogus or cool? Explain your answer.**
 
 	```js
-	<Square className="Square" handleClick={this.handleClick(5)} />
+	<Square handleClick={this.handleClick(5)} />
 	```
 
 ## References
