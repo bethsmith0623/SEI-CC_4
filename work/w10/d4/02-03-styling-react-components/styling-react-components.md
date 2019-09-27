@@ -354,7 +354,7 @@ Let's apply some inline styling to the `<GuessScore>` component. Here's the comp
 
 ```js
 const GuessScore = (props) => {
-  let scores = ('P'.repeat(score.perfect) + 'A'.repeat(score.almost) +
+  const scores = ('P'.repeat(score.perfect) + 'A'.repeat(score.almost) +
     'I'.repeat(4 - score.perfect - score.almost)).split('');
   return (
     <div className="GuessScore">
@@ -373,12 +373,12 @@ Reviewing the above code reveals that we are building a `scores` array of 4 char
 Inline styling requires a JS object, so let's create a JS object for the base (common) styles of the score `<div>`s:
 
 ```js
-let scores = ('P'.repeat(score.perfect) + 'A'.repeat(score.almost) + 
+const scores = ('P'.repeat(score.perfect) + 'A'.repeat(score.almost) + 
   'I'.repeat(4 - score.perfect - score.almost)).split('');
 // existing code above
 
 // object for base styling of score pegs (base styling is common to all pegs)
-let baseStyle = {
+const baseStyle = {
   width: 10,
   height: 10,
   margin: 1,
