@@ -1,0 +1,32 @@
+.Battery {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 60vmin;
+	width: 40vmin;
+	border: 1vmin solid darkslategrey;
+	border-radius: 1.5vmin;
+	margin: 5vmin;
+}
+
+.tip {
+	height: 4vmin;
+	width: 8vmin;
+	background-color: darkslategrey;
+	position: absolute;
+	top: -4vmin;
+	left: 16vmin;
+	border-top-left-radius: 1vmin;
+	border-top-right-radius: 1vmin;
+}
+
+.level {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: limegreen;
+	color: white;
+	font-size: 10vmin;
+	text-align: center;
+}
