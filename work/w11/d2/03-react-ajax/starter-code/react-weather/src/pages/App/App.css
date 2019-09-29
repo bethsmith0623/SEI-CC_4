@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2vmin;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vmin;
+  color: var(--text-color);
+  opacity: 0.85;
+}
