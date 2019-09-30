@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App section {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.App section a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategrey;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 60px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
