@@ -66,27 +66,25 @@ Capabilities such as the ability to:
 - Remember and update state.
 - Run code in a way similar to using lifecycle methods.
 
-> IMPORTANT:  Hooks are backward-compatible and can be used side-by-side with classes and existing code so you can use start using them gradually when you feel the urge to do so.
+> IMPORTANT:  Hooks are backward-compatible and can be used side-by-side with classes and existing code so you can start using them gradually when you feel the urge to do so.
 
 ### So, what's wrong with class components?
 
-There's nothing "wrong" with class components. It's just that most developers find class components more complex to write and grasp than function components.
+There's nothing "wrong" with class components. However, consider that:
 
-For example, within a function component, there's no need to be concerned about the proper binding of `this` in event handlers, etc.
-
-Equivalent function components are more concise.
-
-Functions aren't just easier on human developers, they're also easier for tooling and testing.
+- Most developers find class components more complex to write and grasp than function components.
+- With function components, there's no need to be concerned about the proper binding of `this` in event handlers, etc.
+- Equivalent function components are more concise than their class counterparts.
+- Functions aren't just easier on human developers, they're also easier for tooling and testing.
 
 ### Additional benefits of hooks
 
-Just a few of the additional benefits hooks include...
+Just a few of the additional benefits hooks include:
 
-Hooks allow complex components to be split into smaller functions.
-
-Hooks allow related, stateful behavior to be kept together instead of being spread across multiple class methods such as `componentDidMount`, `componentDidUpdate` & `componentWillUnmount`.
-
-Custom hooks can be written and shared across projects and with the community.
+- Hooks allow complex components to be split into smaller functions.
+- The functionality in hooks are reusable across multiple components.
+- Hooks allow related, stateful behavior to be kept together instead of being spread across multiple class methods such as `componentDidMount`, `componentDidUpdate` & `componentWillUnmount`.
+- Custom hooks can be written and shared across projects and with the community.
 
 ## What are Hooks?
 
@@ -94,21 +92,21 @@ Specifically, a hook:
 
 - Is a JavaScript function.
 - Can only be used within function components.
-- In essence, allows function components to "remember" state between renders.
+- Allows function components to "remember" state and stateful behavior between renders.
 
 ### Built-in Hooks and their use cases:
 
 | Hook | Use Case |
 |---|---|
 |[`useState()`](https://reactjs.org/docs/hooks-reference.html#usestate)|Used to implement class components' `this.state` and `setState()`.|
-|[`useEffect()`](https://reactjs.org/docs/hooks-reference.html#useeffect)|Used to implement "side effects", e.g., fetching data, using timers, subscriptions, etc. `useEffect()` implements the functionality of `componentDidMount`, `componentDidUpdate` & `componentWillUnmount` with a single hook!|
-|[`useRef()`](https://reactjs.org/docs/hooks-reference.html#useref)|In addition to how refs are used to access DOM elements in class components, `useRef()` can be used more generally to "remember" any non-state data that needs to be persisted between renders, e.g., the id of a timer.  |
-|[`useReducer()`](https://reactjs.org/docs/hooks-reference.html#usereducer)|An alternative to `useState()` for when the state is more complex.  It uses a reducer function and "actions" to update state - similar to how Redux does.|
+|[`useEffect()`](https://reactjs.org/docs/hooks-reference.html#useeffect)|Used to implement "side effects", e.g., fetching data, using timers, subscriptions, etc.<br>`useEffect()` implements the functionality of `componentDidMount`, `componentDidUpdate` & `componentWillUnmount` with a single hook!|
+|[`useRef()`](https://reactjs.org/docs/hooks-reference.html#useref)|In addition to how refs are used to access DOM elements in class components, `useRef()` can be used more generally to "remember" any non-state data that needs to be persisted between renders similar to how we use instance properties in class components. |
+|[`useReducer()`](https://reactjs.org/docs/hooks-reference.html#usereducer)|An alternative to `useState()` for when the state is more complex.  It uses a reducer function and "actions" to update state - similar to how Redux does (but not as comprehensive).|
 | Other built-in hooks|[`useContext()`](https://reactjs.org/docs/hooks-reference.html#usecontext)<br>[`useMemo()`](https://reactjs.org/docs/hooks-reference.html#usememo)<br>[and other less common hooks here...](https://reactjs.org/docs/hooks-reference.html#useimperativehandle)|
 
 ## Using Hooks
 
-We're going to use hooks in our starter app by building another component that implements the same behavior as the existing `<BatteryContainer>` component.
+We're going to use hooks in our starter app to build another component that implements the same behavior as the existing `<BatteryContainer>` component.
 
 ### 💪 Practice Exercise (5 mins)
 
@@ -130,7 +128,7 @@ We invoke `useState()` and provide the initial value for the piece of state as a
 
 `useState()` returns an array with two elements, the value and a setter function used to update the value.
 
-Let's baby step this - we know we will want to track the battery's `level`:
+We know we will want to track the battery's `level`, so let's start with that:
 
 ```js
 // Update the import to include the useState hook
@@ -169,9 +167,9 @@ Now let's add a `<button>` to test out the setter function (don't forget to add 
   );
 ```
 
-Cool it works!  Also note how easily we can use the current value of `level` in the `level + .01` expression. No need to worry about providing a function when using `setState()` in class components.
+Cool it works!  Also note how easily we can use the current value of `level` in the `level + .01` expression - no need to worry about providing a function to `setState()` in class components.
 
-> IMPORTANT: Unlike using `setState()` in class components which merges two objects, calling the setter function returned by `useState()` **replaces** the current state value with the argument provided.
+> IMPORTANT: Unlike using `setState()` in class components which merges two objects, calling the setter function **replaces** the current state value with the argument provided.
 
 ### 💪 Practice Exercise (1 min)
 
@@ -193,7 +191,7 @@ While we're at it, let's get rid of the `<button>` and React Fragment.
 
 `useState()` can be called as many times as necessary to create more state.
 
-For example, we _could_ add another `useState()` call to create the `charging` state like this:
+For example, we _could_ add another `useState()` call to create the `charging` state like this (don't type the following):
 
 ```js
   const [level, setLevel] = useState(.55);
@@ -221,11 +219,11 @@ function BatteryHookContainer() {
 }
 ```
 
-We'll be using the `setBatteryData()` setter function to update the battery's status in the next section where we will learn about the `useEffect()` hook!
+We'll be using the `setBatteryData()` setter function to update the battery's status in the next section where we start using the `useEffect()` hook...
 
 ### Performing Side Effects Using `useEffect()`
 
-Side effects include performing such tasks as:
+Side effects include performing tasks such as:
 
 - Fetching data
 - Using timers
@@ -256,13 +254,13 @@ function BatteryHookContainer() {
 }
 ```
 
-`useEffect()` takes a callback function as its first and only required argument.
+`useEffect()` takes a callback function as its first and only _required_ argument.
 
 **By default, the effect's callback function is going be invoked after every render of the component.**
 
-> Note: In class components, we have to implement the `componentDidUpdate()` lifecycle method in order to run a side effect after the initial render.
+> Note: In class components, we would have to implement the `componentDidUpdate()` lifecycle method to run a side effect every render after the initial render.
 
-Let's observe this by adding back a button that calls the `setBatteryData()` setter function - go ahead and copy/paste it:
+Let's observe this by adding back that button that calls the `setBatteryData()` setter function - go ahead and copy/paste it:
 
 ```js
   return (
@@ -282,7 +280,7 @@ Clicking the button will result in the effect running after each render (when th
 In many cases, you will want to optimize the component so that side effects only run if:
 
 - Certain data changes (typically a prop or state variable).
-- After the initial render, but not after subsequent renders. 
+- After the initial render, but not after subsequent renders (as with `componentDidMount` in class components). 
 
 The `useEffect()` hook provides for these scenarios by accepting an array as a second argument.
 
@@ -323,7 +321,7 @@ We already have a `useEffect()` hook written that runs only once - just what we 
   }, []);
 ```
 
-The `register` function accepts a callback function that it will call whenever the battery's status changes; and when it does, it will pass into the callback a data object with this shape:
+The `register` function accepts a callback function that the **battery.js** module will call whenever the battery's status changes; and when it does, it will pass as an arg to the callback a data object with this shape:
 
 ```js
 {
@@ -348,7 +346,7 @@ When completed, the `<BatteryHookContainer>` function component will be working 
 
 <img src="https://i.imgur.com/BByHC43.png">
 
-Well, almost, we still need to be good developers and unregister with the `battery.js` module whenever `<BatteryHookContainer>` is going to be removed from the DOM...
+Well, almost - we still need to be good developers and unregister with the `battery.js` module whenever `<BatteryHookContainer>` is going to be removed from the DOM...
 
 #### Cleaning Up Side Effects
 
@@ -356,11 +354,11 @@ Certain side effects need to "clean up" after themselves and others don't.
 
 For example, a side effect that fetches data, has nothing to clean up - it fetches data, updates state with it, and that's it.
 
-However, in the case of say, creating interval timers, you'll want to clear that timer when the component that created it no longer exists.
+However, in the case of say, creating a timer, or using subscriptions, you'll want to clear that timer or unsubscribe when the component that created it no longer exists.
 
 Cleaning up is a good development practice because it prevents memory leaks.
 
-In our Battery app, we registered a callback function with the `battery.js` module.  Because a reference to that function is being held in the `observerCallsbacks` array, the callback function will not be marked for garbage collection even after the `<BatteryHookContainer>` component ceases to exist.
+In our Battery app, we registered a callback function with the `battery.js` module.  Because a reference to that function is being held in the `observerCallsbacks` array, the callback function will not be marked for garbage collection even after the `<BatteryHookContainer>` component ceases to exist causing a _memory leak_.
 
 In a class component, we use the `componentWillUnmount()` lifecycle method to clean up side effects.
 
@@ -399,7 +397,7 @@ Using hooks requires that we always follow these two rules:
 - Only call hooks at the top-level of a function component. Calling hooks inside loops, conditions, or nested functions is not allowed.
 
 - Only call hooks from within:
-	- React function components
+	- React function components (they don't work with class components)
 	- Or, your own custom Hooks
 
 ## ❓ Essential Questions

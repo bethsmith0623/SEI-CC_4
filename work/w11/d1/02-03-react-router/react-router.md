@@ -596,7 +596,7 @@ Take a moment to review the following questions:
 	
 3. **What prop provided by the `<Route>` component is used to access URL parameter values?**
 
-4. **What prop provided by the `<Route>` component is used to access perform programmatic routing?**
+4. **What prop provided by the `<Route>` component is used to perform programmatic routing?**
 
 ## References
 
