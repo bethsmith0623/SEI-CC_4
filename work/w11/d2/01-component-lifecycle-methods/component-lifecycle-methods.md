@@ -258,7 +258,7 @@ componentWillUnmount() {
 }
 ```
 
-Now create the `handleClick` method and add some some code to let `<App>` know to increment `elapsedTime`:
+Now create the `handleTick` method and add some some code to let `<App>` know to increment `elapsedTime`:
 
 ```js
 handleTick = () => {
