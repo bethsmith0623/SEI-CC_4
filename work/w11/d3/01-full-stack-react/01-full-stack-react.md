@@ -64,12 +64,12 @@ If we're going to develop a MERN-stack app, we have to figure out how we're goin
 
 <details>
 <summary>There's a conflict between React's development server and Express development - what is it?</summary>
-<p>They both run on port 3000 by default.</p>
+<p><strong>They both run on port 3000 by default.</strong></p>
 </details>
 
 <br>
 
-> Key Point: When developing a MERN-stack app, you will need to launch **both** React's development server (`$ npm start`) **and** the Express app (`$ nodemon server`).
+> Key Point: When developing a MERN-stack app, you will need to launch **both** React's development server (`$ npm start`) **and** the Express app (`$ nodemon server`) in separate terminal sessions.
 
 #### Production Environment Complications
 
@@ -103,7 +103,7 @@ Again, two options:
 1. Start with an Express app, then generate the React app within it (naming it `client` or something similar). This approach will result in nested **package.json** files and **node_modules** folders requiring you to "know where you are" when installing additional Node modules.
 1. Start with a React app, then add an Express **server.js** and other server related folders/files as necessary. This approach results in a single **package.json** file and **node_modules** folder.
 
-The second option is "cleaner" and since we're going to take an existing React app (Mastermind) full-stack, we'll opt for that approach...
+The second option is "cleaner". Plus, we already have react-mastermind eager to be made full-stack, so we'll opt for that approach...
 
 ## Building the React App's Production Code
 
@@ -114,7 +114,7 @@ If we want to be able to test locally how our full-stack application is going to
 
 So, how do we make the `index.html` & React's JavaScript production-ready? 
 
-Thankfully, the `create-react-app` CLI includes tooling and a **build** script in **package.json** that, when ran, converts the the code in the `src` and `public` folders of the React project into production code.
+Thankfully, the `create-react-app` CLI includes tooling and a **build** script in **package.json** that, when run, converts the the code in the `src` and `public` folders of the React project into production code.
 
 Let's run it:
 
@@ -128,7 +128,7 @@ This **build** folder of production-ready goodness is ready to be served up by a
 
 ## Code the Express App
 
-We're going to code our own Express app from scratch. This will be easier than using `express-generator` since we're starting with a fully-built React app and want to build a server app "around" it within the same project.
+We're going to code our own Express app from scratch since we want our Express app to be within the existing React project & repo. Using `express-generator` would have created a nested folder containing another **package.json** - which we're trying to avoid.
 
 In a MERN-stack app, the backend Express app only does two things:
 
