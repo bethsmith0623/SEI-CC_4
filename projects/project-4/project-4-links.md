@@ -25,17 +25,17 @@
 | ATX | Robin |  |  |  |  |
 | ATX | Taylor |  | [link](https://github.com/tlacerte/Restaurant-Website) | [link](https://trello.com/b/IT5wCv90/project-4) |  |
 | DAL | Andrew | Cookbook React - Herbaldashery | [link](https://trello.com/b/JRagqZE3/p4-cookbook-react)| [link](https://github.com/atheismann/herbaldashery-cookbook)| [link](https://herbaldashery-cookbook.herokuapp.com/)|
-| DAL | Armando |  |  |  |  |
-| DAL | Dan |  |  |  |  |
+| DAL | Armando | Poki'Battle |[link](https://github.com/Drag49487Jr/Poki-Battle)|[link](https://trello.com/b/nbFwi2ll/project-4mern-stack)|[link](https://pokibattle.herokuapp.com/)|
+| DAL | Dan | Venues |[link](https://github.com/dc3430/Venues)|[link](https://trello.com/b/foPvTfB7/venues)| [link](https://venues29.herokuapp.com/)|
 | DAL | Beth | My Developer Experience | [link](https://github.com/bethsmith0623/MyDeveloperExperience)| [link](https://trello.com/b/OLuLa5rg/my-developer-experience) | [link](http://my-developer-experience.herokuapp.com/)|
-| DAL | Joe |  |  |  |  |
-| DAL | Kevinn |  |  |  |  |
-| DAL | Michael H. |  |  |  |  |
-| DAL | Michael M. |  |  |  |  |
+| DAL | Joe | AnimeApp |[link](https://github.com/Jhunted/my-project-4.git)|[link](https://trello.com/b/C1wgVQz9/animapp)| [link](https://react-animapp.herokuapp.com/)|
+| DAL | Kevinn | Rant |[link](https://github.com/kevinnarbas/rant-react) |[link](https://trello.com/b/kc8TpBdV/rant)|  |
+| DAL | Michael H. | DND Character Creator | [link](https://github.com/mhinte91/dnd-char-creator)| [link](https://trello.com/b/9Rt7Q04S/dd-character-creator)|  |
+| DAL | Michael M. |  |  |[link](https://trello.com/b/wuNMyZfi/project-4)|  |
 | DAL | Cole |  |  |  |  |
-| DAL | Ruben |  |  |  |  |
+| DAL | Ruben |Khas |[link](https://github.com/rcaceres1/khas)|[link](https://trello.com/b/FXHeJjML/khas)|[link](https://khas-app.herokuapp.com/)|
 | DAL | Ryan |  |  |  |  |
-| DAL | Sam |  |  |  |  |
+| DAL | Sam | Mustang Rentals | [link](https://github.com/samiduara/Mustangs-Rentals)|[link](https://trello.com/b/QhedZESk/mustang-rentals)| [link](https://mustang-rentals.herokuapp.com/)|
 | LA | Dan |  |  |  |  |
 | LA | Dave |  |  |  |  |
 | LA | Leo |  |  |  |  |
