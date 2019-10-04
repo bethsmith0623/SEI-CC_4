@@ -3,11 +3,11 @@
 | Campus | Student | Project | GitHub | Trello | Deployed Site |
 |:----:|:---:|:---:|:---:|:---:|:---:|
 | ATX | Ben |  |  |  |  |
-| ATX | Beverly |  |  |  |  |
+| ATX | Beverly | Deafinitely Friendly | [link](https://github.com/beverlyosoria/deafinitely-friendly) | [link](https://trello.com/b/be5LAg1u/deafinitely-friendly) |  |
 | ATX | Caleb |  |  |  |  |
 | ATX | Chris M. |  |  |  |  |
 | ATX | Chris P. |  |  |  |  |
-| ATX | Conner |  |  |  |  |
+| ATX | Conner | Bargain Action Down |  | [link](https://trello.com/b/QF0ggHbG/bargain-action-down) |  |
 | ATX | David |  |  |  |  |
 | ATX | Dev |  |  |  |  |
 | ATX | Elco |  |  |  |  |
@@ -20,11 +20,10 @@
 | ATX | Jared |  |  |  |  |
 | ATX | Jeremia |  |  |  |  |
 | ATX | Joe |  |  |  |  |
-| ATX | Lily |  |  |  |  |
+| ATX | Lily, Vittoria | Mood Mountain | [link](https://github.com/lilymbest/MoodMountain) | [link](https://trello.com/b/MtRJppKw/moodtracker) |  |
 | ATX | Nova |  |  |  |  |
 | ATX | Robin |  |  |  |  |
-| ATX | Taylor |  |  |  |  |
-| ATX | Vittoria |  |  |  |  |
+| ATX | Taylor |  | [link](https://github.com/tlacerte/Restaurant-Website) | [link](https://trello.com/b/IT5wCv90/project-4) |  |
 | DAL | Andrew |  |  |  |  |
 | DAL | Armando |  |  |  |  |
 | DAL | Dan |  |  |  |  |
