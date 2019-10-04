@@ -12,7 +12,7 @@
 | ATX | Dev | mySchedule | [link](https://github.com/Dev-94/mySchedule) | [link](https://trello.com/b/XU623uZo/myschedule) |  |
 | ATX | Elco | Leveler | [link](https://github.com/eag58914/leveler-app) | [link](https://trello.com/b/UyY44mPq/leveler) |  |
 | ATX | Emily L. |  |  |  |  |
-| ATX | Emily M. |  |  |  |  |
+| ATX | Emily M. |  |  | [link](https://trello.com/b/rPAKVynp/unit-4-project) |  |
 | ATX | Frances |  |  |  |  |
 | ATX | Garrett |  |  |  |  |
 | ATX | Heather | Planni | [link](https://github.com/MetaHeather/planni) | [link](https://trello.com/b/sv52IfVC/project-4) |  |
