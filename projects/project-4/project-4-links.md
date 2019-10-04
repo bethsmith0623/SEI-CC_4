@@ -15,7 +15,7 @@
 | ATX | Emily M. |  |  |  |  |
 | ATX | Frances |  |  |  |  |
 | ATX | Garrett |  |  |  |  |
-| ATX | Heather |  |  |  |  |
+| ATX | Heather | Planni | [link](https://github.com/MetaHeather/planni) | [link](https://trello.com/b/sv52IfVC/project-4) |  |
 | ATX | Jack |  |  |  |  |
 | ATX | Jared |  |  |  |  |
 | ATX | Jeremia |  |  |  |  |
