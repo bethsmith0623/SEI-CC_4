@@ -1,0 +1,6 @@
+.PuppyListPage-grid {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  grid-gap: 20px;
+}
