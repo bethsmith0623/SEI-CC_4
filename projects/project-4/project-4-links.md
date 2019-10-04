@@ -24,10 +24,10 @@
 | ATX | Nova |  |  |  |  |
 | ATX | Robin |  |  |  |  |
 | ATX | Taylor |  | [link](https://github.com/tlacerte/Restaurant-Website) | [link](https://trello.com/b/IT5wCv90/project-4) |  |
-| DAL | Andrew |  |  |  |  |
+| DAL | Andrew | Cookbook React - Herbaldashery | [link](https://trello.com/b/JRagqZE3/p4-cookbook-react)| [link](https://github.com/atheismann/herbaldashery-cookbook)| [link](https://herbaldashery-cookbook.herokuapp.com/)|
 | DAL | Armando |  |  |  |  |
 | DAL | Dan |  |  |  |  |
-| DAL | Beth |  |  |  |  |
+| DAL | Beth | My Developer Experience | [link](https://github.com/bethsmith0623/MyDeveloperExperience)| [link](https://trello.com/b/OLuLa5rg/my-developer-experience) | [link](http://my-developer-experience.herokuapp.com/)|
 | DAL | Joe |  |  |  |  |
 | DAL | Kevinn |  |  |  |  |
 | DAL | Michael H. |  |  |  |  |
