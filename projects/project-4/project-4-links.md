@@ -9,8 +9,8 @@
 | ATX | Chris P. |  |  |  |  |
 | ATX | Conner | Bargain Action Down |  | [link](https://trello.com/b/QF0ggHbG/bargain-action-down) |  |
 | ATX | David |  |  |  |  |
-| ATX | Dev |  |  |  |  |
-| ATX | Elco |  |  |  |  |
+| ATX | Dev | mySchedule | [link](https://github.com/Dev-94/mySchedule) | [link](https://trello.com/b/XU623uZo/myschedule) |  |
+| ATX | Elco | Leveler | [link](https://github.com/eag58914/leveler-app) | [link](https://trello.com/b/UyY44mPq/leveler) |  |
 | ATX | Emily L. |  |  |  |  |
 | ATX | Emily M. |  |  |  |  |
 | ATX | Frances |  |  |  |  |
