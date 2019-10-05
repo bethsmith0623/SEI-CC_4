@@ -95,6 +95,18 @@ You're almost done, but you need to update the connection string as follows:
 
 You're good to go!
 
+## Connecting with Mongoose
+
+Here's the latest options to include to get rid of the deprecation warnings:
+
+```js
+mongoose.connect(process.env.DATABASE_URL, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true
+});
+```
+
 ## Viewing & Editing Data
 
 FYI, you can use the Atlas app to view and edit data by clicking on the `COLLECTIONS` button.
