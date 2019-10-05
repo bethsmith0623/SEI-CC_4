@@ -13,7 +13,7 @@
 | ATX | Elco | Leveler | [link](https://github.com/eag58914/leveler-app) | [link](https://trello.com/b/UyY44mPq/leveler) |  |
 | ATX | Emily L. | Family Reminders | [link](https://github.com/emgrebe/Family-Reminders-App) | [link](https://trello.com/b/qERbcW9p/project-4) |  |
 | ATX | Emily M. | My Kitchen | [link](https://github.com/efm0004/mykitchen) | [link](https://trello.com/b/rPAKVynp/unit-4-project) |  |
-| ATX | Frances | Visualist | [link](https://github.com/fcancio/Visualist-REACT-App) | [link](https://trello.com/b/NwinFdpS/visualist) |  |
+| ATX | Frances | Visualist | [link](https://github.com/fcancio/Visualist-MERN) | [link](https://trello.com/b/NwinFdpS/visualist) |  |
 | ATX | Garrett |  |  |  |  |
 | ATX | Heather | Planni | [link](https://github.com/MetaHeather/planni) | [link](https://trello.com/b/sv52IfVC/project-4) |  |
 | ATX | Jack |  |  |  |  |
