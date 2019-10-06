@@ -43,7 +43,7 @@
 | LA | Nick | ur car remote | [link](https://github.com/nbai123/ur-car-remote) | [link](https://trello.com/b/cH8RnkU2/project-4) |  |
 | LA | Muhammed | News | [link](https://github.com/qadanm/news) | [link](https://trello.com/b/zFotVVBA/news) |  |
 | LA | Perice | Band Sandbox / DRUM | [link](https://github.com/perice-pope/band-sandbox) | [link](https://trello.com/b/dKWghBAz/band-sandbox-drum) |  |
-| LA | Tim |  |  |  |  |
+| LA | Tim |  |  | [link](https://trello.com/b/rJ98DDss/actors-acting) |  |
 | LA | Victor | HMU | [link](https://github.com/TimeForZeros/hmu-react-app) | [link](https://trello.com/b/r5Z7HiCh/hmu-react-project) |  [link](http://hitmeupfam.herokuapp.com/)|
 | SF | Aly |  |  |  |  |
 | SF | Anami |  |  |  |  |
@@ -57,10 +57,10 @@
 | SF | Jon |  |  |  |  |
 | SF | Joshua |  |  |  |  |
 | SF | Loquen |  |  |  |  |
-| SF | Matthew |  |  |  |  |
+| SF | Matthew |  | [link](https://github.com/mrobin88/mtg-pile) |  |  |
 | SF | Michael |  |  |  |  |
 | SF | Ny Antsa |  |  |  |  |
-| SF | Preston |  |  |  |  |
+| SF | Preston | CritEats | [link](https://github.com/prestonhom/CritEats) |  |  |
 | SF | Samantha |  |  |  |  |
 | SF | Sonnia |  |  |  |  |
 | SF | Sorrel |  |  |  |  |
