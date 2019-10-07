@@ -24,7 +24,7 @@
 | ATX | Nova |  | [link](https://github.com/nhasley/Stay-React-NodeJS) | [link](https://trello.com/b/89OHVs6a/project-4) |  |
 | ATX | Robin | Triage Me | [link](https://github.com/robified/triage-me) | [link](https://trello.com/b/7Zi0Jx0e/unit-4-project-triageme) |  |
 | ATX | Taylor |  | [link](https://github.com/tlacerte/Restaurant-Website) | [link](https://trello.com/b/IT5wCv90/project-4) |  |
-| DAL | Andrew | Cookbook React - Herbaldashery |(https://herbaldashery-cookbook.herokuapp.com/)| [link](https://github.com/atheismann/herbaldashery-cookbook)| [link][link](https://trello.com/b/JRagqZE3/p4-cookbook-react)|
+| DAL | Andrew | Cookbook React - Herbaldashery |[link](https://github.com/atheismann/herbaldashery-cookbook)| [link](https://trello.com/b/JRagqZE3/p4-cookbook-react)| [link](https://herbaldashery-cookbook.herokuapp.com/)|
 | DAL | Armando | Poki'Battle |[link](https://github.com/Drag49487Jr/Poki-Battle)|[link](https://trello.com/b/nbFwi2ll/project-4mern-stack)|[link](https://pokibattle.herokuapp.com/)|
 | DAL | Dan | Venues |[link](https://github.com/dc3430/Venues)|[link](https://trello.com/b/foPvTfB7/venues)| [link](https://venues29.herokuapp.com/)|
 | DAL | Beth | My Developer Experience | [link](https://github.com/bethsmith0623/MyDeveloperExperience)| [link](https://trello.com/b/OLuLa5rg/my-developer-experience) | [link](http://my-developer-experience.herokuapp.com/)|
