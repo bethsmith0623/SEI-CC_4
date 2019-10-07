@@ -30,7 +30,7 @@
 | DAL | Beth | My Developer Experience | [link](https://github.com/bethsmith0623/MyDeveloperExperience)| [link](https://trello.com/b/OLuLa5rg/my-developer-experience) | [link](http://my-developer-experience.herokuapp.com/)|
 | DAL | Joe | AnimeApp |[link](https://github.com/Jhunted/my-project-4.git)|[link](https://trello.com/b/C1wgVQz9/animapp)| [link](https://react-animapp.herokuapp.com/)|
 | DAL | Kevinn | Rant |[link](https://github.com/kevinnarbas/rant-react) |[link](https://trello.com/b/kc8TpBdV/rant)|[link](https://rant-react.herokuapp.com/)|
-| DAL | Michael H. | DND Character Creator | [link](https://github.com/mhinte91/dnd-char-creator)| [link](https://trello.com/b/9Rt7Q04S/dd-character-creator)|  |
+| DAL | Michael H. | DND Character Creator | [link](https://github.com/mhinte91/DnD-Character-Creator)| [link](https://trello.com/b/9Rt7Q04S/dd-character-creator)|  |
 | DAL | Michael M. | Video Game Reviewer | [link](https://github.com/Mad-Hatter-1865/Project-4)|[link](https://trello.com/b/wuNMyZfi/project-4)|  |
 | DAL | Cole |  |  |  |  |
 | DAL | Ruben |Khas |[link](https://github.com/rcaceres1/khas)|[link](https://trello.com/b/FXHeJjML/khas)|[link](https://khas-app.herokuapp.com/)|
