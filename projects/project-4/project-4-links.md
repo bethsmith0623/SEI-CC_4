@@ -24,7 +24,7 @@
 | ATX | Nova |  | [link](https://github.com/nhasley/Stay-React-NodeJS) | [link](https://trello.com/b/89OHVs6a/project-4) |  |
 | ATX | Robin | Triage Me | [link](https://github.com/robified/triage-me) | [link](https://trello.com/b/7Zi0Jx0e/unit-4-project-triageme) |  |
 | ATX | Taylor |  | [link](https://github.com/tlacerte/Restaurant-Website) | [link](https://trello.com/b/IT5wCv90/project-4) |  |
-| DAL | Andrew | Cookbook React - Herbaldashery | [link](https://trello.com/b/JRagqZE3/p4-cookbook-react)| [link](https://github.com/atheismann/herbaldashery-cookbook)| [link](https://herbaldashery-cookbook.herokuapp.com/)|
+| DAL | Andrew | Cookbook React - Herbaldashery |(https://herbaldashery-cookbook.herokuapp.com/)| [link](https://github.com/atheismann/herbaldashery-cookbook)| [link][link](https://trello.com/b/JRagqZE3/p4-cookbook-react)|
 | DAL | Armando | Poki'Battle |[link](https://github.com/Drag49487Jr/Poki-Battle)|[link](https://trello.com/b/nbFwi2ll/project-4mern-stack)|[link](https://pokibattle.herokuapp.com/)|
 | DAL | Dan | Venues |[link](https://github.com/dc3430/Venues)|[link](https://trello.com/b/foPvTfB7/venues)| [link](https://venues29.herokuapp.com/)|
 | DAL | Beth | My Developer Experience | [link](https://github.com/bethsmith0623/MyDeveloperExperience)| [link](https://trello.com/b/OLuLa5rg/my-developer-experience) | [link](http://my-developer-experience.herokuapp.com/)|
@@ -32,7 +32,7 @@
 | DAL | Kevinn | Rant |[link](https://github.com/kevinnarbas/rant-react) |[link](https://trello.com/b/kc8TpBdV/rant)|[link](https://rant-react.herokuapp.com/)|
 | DAL | Michael H. | DND Character Creator | [link](https://github.com/mhinte91/DnD-Character-Creator)| [link](https://trello.com/b/9Rt7Q04S/dd-character-creator)|  |
 | DAL | Michael M. | Video Game Reviewer | [link](https://github.com/Mad-Hatter-1865/Project-4)|[link](https://trello.com/b/wuNMyZfi/project-4)|  |
-| DAL | Cole |  |  |  |  |
+| DAL | Cole | Tast Master 6000 | [link](https://github.com/41Holmes41/taskmaster6000)|[link](https://trello.com/b/UTOmquNt/project-4)|  |
 | DAL | Ruben |Khas |[link](https://github.com/rcaceres1/khas)|[link](https://trello.com/b/FXHeJjML/khas)|[link](https://khas-app.herokuapp.com/)|
 | DAL | Ryan | Chirper | [link](https://github.com/RyanPGeorge/chirper)|[link](https://trello.com/b/iQjnl53i/project-4)|  |
 | DAL | Sam | Mustang Rentals | [link](https://github.com/samiduara/Mustangs-Rentals)|[link](https://trello.com/b/QhedZESk/mustang-rentals)| [link](https://mustang-rentals.herokuapp.com/)|
