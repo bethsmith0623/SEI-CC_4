@@ -7,8 +7,8 @@
 | ATX | Caleb |  | [link](https://github.com/snsaleh1/my-portfolio) | [link](https://trello.com/b/FmkGXhgK/react-portfolio-unit-4) |  |
 | ATX | Chris M. | deedee | [link](https://github.com/mayfielc/deedee-react-project) | [link](https://trello.com/b/Y17u3w1E/unit-4-project) |  |
 | ATX | Chris P. | Stop Loss | [link](https://github.com/600rrchris/stoploss) | [link](https://trello.com/b/AiWMNT88/stoploss) |  |
-| ATX | Conner | Bargain Action Down |  | [link](https://trello.com/b/QF0ggHbG/bargain-action-down) |  |
-| ATX | David |  | [link](https://github.com/baeddavid/G2G)<br>[link](https://github.com/baeddavid/G2G-API) | [link](https://trello.com/b/mncwglez/project-devutantes) |  |
+| ATX | Conner & Garrett | Bargain Action Down |  | [link](https://trello.com/b/QF0ggHbG/bargain-action-down) |  |
+| ATX | David & Jack & Joe |  | [link](https://github.com/baeddavid/G2G)<br>[link](https://github.com/baeddavid/G2G-API) | [link](https://trello.com/b/mncwglez/project-devutantes) |  |
 | ATX | Dev | mySchedule | [link](https://github.com/Dev-94/mySchedule) | [link](https://trello.com/b/XU623uZo/myschedule) |  |
 | ATX | Elco | Leveler | [link](https://github.com/eag58914/leveler-app) | [link](https://trello.com/b/UyY44mPq/leveler) |  |
 | ATX | Emily L. | Family Reminders | [link](https://github.com/emgrebe/Family-Reminders-App) | [link](https://trello.com/b/qERbcW9p/project-4) |  |
@@ -16,10 +16,8 @@
 | ATX | Frances | Visualist | [link](https://github.com/fcancio/Visualist-MERN) | [link](https://trello.com/b/NwinFdpS/visualist) |  |
 | ATX | Garrett | Bargain Action Native |  | [link](https://trello.com/b/QF0ggHbG/bargain-action-down) |  |
 | ATX | Heather | Planni | [link](https://github.com/MetaHeather/planni) | [link](https://trello.com/b/sv52IfVC/project-4) |  |
-| ATX | Jack |  |  |  |  |
 | ATX | Jared | Notion | [link](https://github.com/jrodriguez082046/notion-react) | [link](https://trello.com/b/u2iOmXUR/unit-4-project-notion) |  |
 | ATX | Jeremiah | Quiet Time | [link](https://github.com/JMHGZ/quiet-time) | [link](https://trello.com/b/i7CFQ1BD/project-4) |  |
-| ATX | Joe |  |  |  |  |
 | ATX | Lily, Vittoria | Mood Mountain | [link](https://github.com/lilymbest/MoodMountain) | [link](https://trello.com/b/MtRJppKw/moodtracker) |  |
 | ATX | Nova |  | [link](https://github.com/nhasley/Stay-React-NodeJS) | [link](https://trello.com/b/89OHVs6a/project-4) |  |
 | ATX | Robin | Triage Me | [link](https://github.com/robified/triage-me) | [link](https://trello.com/b/7Zi0Jx0e/unit-4-project-triageme) |  |
