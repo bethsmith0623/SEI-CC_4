@@ -14,7 +14,7 @@
 | ATX | Emily L. | Family Reminders | [link](https://github.com/emgrebe/Family-Reminders-App) | [link](https://trello.com/b/qERbcW9p/project-4) |  |
 | ATX | Emily M. | My Kitchen | [link](https://github.com/efm0004/mykitchen) | [link](https://trello.com/b/rPAKVynp/unit-4-project) |  |
 | ATX | Frances | Visualist | [link](https://github.com/fcancio/Visualist-MERN) | [link](https://trello.com/b/NwinFdpS/visualist) |  |
-| ATX | Garrett |  |  |  |  |
+| ATX | Garrett | Bargain Action Native |  | [link](https://trello.com/b/QF0ggHbG/bargain-action-down) |  |
 | ATX | Heather | Planni | [link](https://github.com/MetaHeather/planni) | [link](https://trello.com/b/sv52IfVC/project-4) |  |
 | ATX | Jack |  |  |  |  |
 | ATX | Jared | Notion | [link](https://github.com/jrodriguez082046/notion-react) | [link](https://trello.com/b/u2iOmXUR/unit-4-project-notion) |  |
