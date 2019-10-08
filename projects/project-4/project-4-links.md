@@ -60,6 +60,6 @@
 | SF | Preston | CritEats | [link](https://github.com/prestonhom/CritEats) |  |  |
 | SF | Samantha |  |  |  |  |
 | SF | Sonnia |  |  |  |  |
-| SF | Sorrel |  |  |  |  |
+| SF | Sorrel | Browser Go Redux | [Server link](https://github.com/sorrelbri/browser-go-api)<br>[Client link](https://github.com/sorrelbri/browser-go-react) | [link](https://trello.com/b/1AeJJ5PK/browser-go-redux) |  |
 | SF | Tyler |  |  |  |  |
 | SF | Wenjie |  |  |  |  |
