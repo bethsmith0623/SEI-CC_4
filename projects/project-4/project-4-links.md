@@ -47,7 +47,7 @@
 | SF | Braxton |  |  |  |  |
 | SF | Carol | Dream Job Journey | [link](https://github.com/carolsand/dreamjobjourney) | [link](https://trello.com/b/MFY1yOJn/dreamjobjourney) |  |
 | SF | CJ |  |  |  |  |
-| SF | Chi |  |  |  |  |
+| SF | Chi | DTR | [link](https://github.com/Chi37/dtr) | [link](https://trello.com/b/bDsqurUy/dtr) |  |
 | SF | Emily |  |  |  |  |
 | SF | Greg M. | protestNOW | [link](https://github.com/g-merrill/protestNOW) | [link](https://trello.com/b/dqiD1ZvO/protestnow) | [link](https://protest-now.herokuapp.com/) |
 | SF | Greg R. |  |  |  |  |
