@@ -33,10 +33,10 @@
 | DAL | Ruben |Khas |[link](https://github.com/rcaceres1/khas)|[link](https://trello.com/b/FXHeJjML/khas)|[link](https://khas-app.herokuapp.com/)|
 | DAL | Ryan | Chirper | [link](https://github.com/RyanPGeorge/chirper)|[link](https://trello.com/b/iQjnl53i/project-4)|[link](https://warm-cove-62385.herokuapp.com/)|
 | DAL | Sam | Mustang Rentals | [link](https://github.com/samiduara/Mustangs-Rentals)|[link](https://trello.com/b/QhedZESk/mustang-rentals)| [link](https://mustang-rentals.herokuapp.com/)|
-| LA | Dan | S S Farms | [link](https://github.com/seagrendaniel/S-S-Farms) |  |  |
+| LA | Dan | S & S Farms | [link](https://github.com/seagrendaniel/S-S-Farms) |  |  |
 | LA | Dave | Dating App | [link](https://github.com/davekoncsol/dating-app) |  |  |
 | LA | Leo | Expense Tracker | [link](https://github.com/leonelRos/react-expenses-tracker) | [link](https://trello.com/b/HXFTLouQ/expenses-tracker) |  |
-| LA | Marques |  |  |  |  |
+| LA | Marques | PLAYYOURROLE | [link](https://github.com/Mjsmith30/PLAYYOURROLE) |  |  |
 | LA | Nick | ur car remote | [link](https://github.com/nbai123/ur-car-remote) | [link](https://trello.com/b/cH8RnkU2/project-4) |  |
 | LA | Muhammed | News | [link](https://github.com/qadanm/news) | [link](https://trello.com/b/zFotVVBA/news) |  |
 | LA | Perice | Band Sandbox / DRUM | [link](https://github.com/perice-pope/band-sandbox) | [link](https://trello.com/b/dKWghBAz/band-sandbox-drum) |  |
