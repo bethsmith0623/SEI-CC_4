@@ -45,18 +45,18 @@
 | SF | Aly |  |  |  |  |
 | SF | Anami |  |  |  |  |
 | SF | Braxton |  |  |  |  |
-| SF | Carol |  |  |  |  |
+| SF | Carol | Dream Job Journey | [link](https://github.com/carolsand/dreamjobjourney) | [link](https://trello.com/b/MFY1yOJn/dreamjobjourney) |  |
 | SF | CJ |  |  |  |  |
 | SF | Chi |  |  |  |  |
 | SF | Emily |  |  |  |  |
-| SF | Greg M. |  |  |  |  |
+| SF | Greg M. | protestNOW | [link](https://github.com/g-merrill/protestNOW) | [link](https://trello.com/b/dqiD1ZvO/protestnow) | [link](https://protest-now.herokuapp.com/) |
 | SF | Greg R. |  |  |  |  |
 | SF | Jon |  |  |  |  |
 | SF | Joshua |  |  |  |  |
-| SF | Loquen |  |  |  |  |
+| SF | Loquen | Sit | [link](https://github.com/Loquen/sit) | [link](https://trello.com/b/ewloRYfv/sit-capstone-project) |  |
 | SF | Matthew |  | [link](https://github.com/mrobin88/mtg-pile) |  |  |
 | SF | Michael |  |  |  |  |
-| SF | Ny Antsa |  |  |  |  |
+| SF | Ny Antsa | BookStore | [link](https://github.com/NyAntsaR/BookStore) | [link](https://trello.com/b/M8N2tnfa/bookstore) |  |
 | SF | Preston | CritEats | [link](https://github.com/prestonhom/CritEats) |  |  |
 | SF | Samantha |  |  |  |  |
 | SF | Sonnia |  |  |  |  |
