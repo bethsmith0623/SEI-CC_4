@@ -9,7 +9,7 @@
 | ATX | Chris P. | Stop Loss | [link](https://github.com/600rrchris/stoploss) | [link](https://trello.com/b/AiWMNT88/stoploss) |  |
 | ATX | Conner & Garrett | Bargain Action Down |  | [link](https://trello.com/b/QF0ggHbG/bargain-action-down) |  |
 | ATX | David & Jack & Joe |  | [link](https://github.com/baeddavid/G2G)<br>[link](https://github.com/baeddavid/G2G-API) | [link](https://trello.com/b/mncwglez/project-devutantes) |  |
-| ATX | Dev | mySchedule | [link](https://github.com/Dev-94/mySchedule) | [link](https://trello.com/b/XU623uZo/myschedule) |  |
+| ATX | Dev | mySchedule | [link](https://github.com/Dev-94/mySchedule_React_Node) | [link](https://trello.com/b/XU623uZo/myschedule) |  |
 | ATX | Elco | Leveler | [link](https://github.com/eag58914/leveler-app) | [link](https://trello.com/b/UyY44mPq/leveler) |  |
 | ATX | Emily L. | Family Reminders | [link](https://github.com/emgrebe/Family-Reminders-App) | [link](https://trello.com/b/qERbcW9p/project-4) |  |
 | ATX | Emily M. | My Kitchen | [link](https://github.com/efm0004/mykitchen) | [link](https://trello.com/b/rPAKVynp/unit-4-project) |  |
