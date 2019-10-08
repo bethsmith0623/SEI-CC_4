@@ -1,4 +1,4 @@
-## SEI-CC-4 Project 4 Links
+## SEI-CC-4 Project 4 Links 
 
 | Campus | Student | Project | GitHub | Trello | Deployed Site |
 |:----:|:---:|:---:|:---:|:---:|:---:|
