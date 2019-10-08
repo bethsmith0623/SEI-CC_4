@@ -12,6 +12,8 @@
 
 1. Go full-stack by following all the steps in the Full-stack React lesson (creating a `server.js`, etc.).  Time for another commit.
 
+	> Note that you will need to run `npm run build` one time before the server will start up.
+
 1. Create a database for your project on MongoDB Atlas and get your app connected to it by installing `mongoose` & `dotenv` and writing your `database.js` module.  Yup, another commit.
 
 1. Create a `.env` file to hold the `DATABASE_URL` with a MongoDB connection string to be used in `database.js`.  You can start by connecting to MongoDB locally but should move to an Atlas hosted DB as early as possible.
