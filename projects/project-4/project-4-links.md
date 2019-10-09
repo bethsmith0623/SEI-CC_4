@@ -14,7 +14,7 @@
 | ATX | Emily L. | Family Reminders | [link](https://github.com/emgrebe/Family-Reminders-App) | [link](https://trello.com/b/qERbcW9p/project-4) |  |
 | ATX | Emily M. | My Kitchen | [link](https://github.com/efm0004/mykitchen) | [link](https://trello.com/b/rPAKVynp/unit-4-project) |  |
 | ATX | Frances | Visualist | [link](https://github.com/fcancio/Visualist-MERN) | [link](https://trello.com/b/NwinFdpS/visualist) |  |
-| ATX | Heather | Planni | [link](https://github.com/MetaHeather/planni) | [link](https://trello.com/b/sv52IfVC/project-4) |  |
+| ATX | Heather | Planni | [link](https://github.com/MetaHeather/planni) | [link](https://trello.com/b/sv52IfVC/project-4) | [link](https://planni-hne.herokuapp.com/) |
 | ATX | Jared | Notion | [link](https://github.com/jrodriguez082046/notion-react) | [link](https://trello.com/b/u2iOmXUR/unit-4-project-notion) |  |
 | ATX | Jeremiah | Quiet Time | [link](https://github.com/JMHGZ/quiet-time) | [link](https://trello.com/b/i7CFQ1BD/project-4) |  |
 | ATX | Lily, Vittoria | Mood Mountain | [link](https://github.com/lilymbest/MoodMountain) | [link](https://trello.com/b/MtRJppKw/moodtracker) | [link](https://moodmountain.herokuapp.com/) |
