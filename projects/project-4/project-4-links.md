@@ -39,7 +39,7 @@
 | LA | Marques | PLAYYOURROLE | [link](https://github.com/Mjsmith30/PLAYYOURROLE) |  |  |
 | LA | Nick | ur car remote | [link](https://github.com/nbai123/ur-car-remote) | [link](https://trello.com/b/cH8RnkU2/project-4) |  |
 | LA | Muhammed | News | [link](https://github.com/qadanm/news) | [link](https://trello.com/b/zFotVVBA/news) |  |
-| LA | Perice | Band Sandbox / DRUM | [link](https://github.com/perice-pope/band-sandbox) | [link](https://trello.com/b/dKWghBAz/band-sandbox-drum) |  |
+| LA | Perice | Band Sandbox / DRUM | [link](https://github.com/perice-pope/band-sandbox) | [link](https://trello.com/b/dKWghBAz/band-sandbox-drum) | [link](https://band-sandbox.herokuapp.com/) |
 | LA | Tim |  |  | [link](https://trello.com/b/rJ98DDss/actors-acting) |  |
 | LA | Victor | HMU | [link](https://github.com/TimeForZeros/hmu-react-app) | [link](https://trello.com/b/r5Z7HiCh/hmu-react-project) |  [link](http://hitmeupfam.herokuapp.com/)|
 | SF | Aly |  |  |  |  |
