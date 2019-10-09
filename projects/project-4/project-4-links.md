@@ -2,23 +2,23 @@
 
 | Campus | Student | Project | GitHub | Trello | Deployed Site |
 |:----:|:---:|:---:|:---:|:---:|:---:|
-| ATX | Ben | Meal Planner | [link](https://github.com/ManliestBen/meal-planner) | [link](https://trello.com/b/b1bb26Lr/meal-planner-app) |  |
+| ATX | Ben | Meal Planner | [link](https://github.com/ManliestBen/meal-planner) | [link](https://trello.com/b/b1bb26Lr/meal-planner-app) | [link](https://manliest-meal-planner.herokuapp.com/) |
 | ATX | Beverly | Deafinitely Friendly | [link](https://github.com/beverlyosoria/deafinitely-friendly) | [link](https://trello.com/b/be5LAg1u/deafinitely-friendly) |  |
 | ATX | Caleb |  | [link](https://github.com/snsaleh1/my-portfolio) | [link](https://trello.com/b/FmkGXhgK/react-portfolio-unit-4) |  |
 | ATX | Chris M. | deedee | [link](https://github.com/mayfielc/deedee-react-project) | [link](https://trello.com/b/Y17u3w1E/unit-4-project) |  |
-| ATX | Chris P. | Stop Loss | [link](https://github.com/600rrchris/stoploss) | [link](https://trello.com/b/AiWMNT88/stoploss) |  |
-| ATX | Conner & Garrett | Bargain Action Down |  | [link](https://trello.com/b/QF0ggHbG/bargain-action-down) |  |
-| ATX | David & Jack & Joe |  | [link](https://github.com/baeddavid/G2G)<br>[link](https://github.com/baeddavid/G2G-API) | [link](https://trello.com/b/mncwglez/project-devutantes) |  |
-| ATX | Dev | mySchedule | [link](https://github.com/Dev-94/mySchedule_React_Node) | [link](https://trello.com/b/XU623uZo/myschedule) |  |
+| ATX | Chris P. | Stop Loss | [link](https://github.com/600rrchris/stoploss) | [link](https://trello.com/b/AiWMNT88/stoploss) | [link](https://stoploss2.herokuapp.com/) |
+| ATX | Conner & Garrett | Bargain Action Down |  | [link](https://trello.com/b/QF0ggHbG/bargain-action-down) | [link](https://bargain-action-down.herokuapp.com/) |
+| ATX | David & Jack & Joe | G2G | [link](https://github.com/baeddavid/G2G)<br>[link](https://github.com/baeddavid/G2G-API) | [link](https://trello.com/b/mncwglez/project-devutantes) | [link](https://g2g-gottago.herokuapp.com/welcome) |
+| ATX | Dev | mySchedule | [link](https://github.com/Dev-94/mySchedule_React_Node) | [link](https://trello.com/b/XU623uZo/myschedule) | [link](https://my-sched.herokuapp.com/) |
 | ATX | Elco | Leveler | [link](https://github.com/eag58914/leveler-app) | [link](https://trello.com/b/UyY44mPq/leveler) |  |
 | ATX | Emily L. | Family Reminders | [link](https://github.com/emgrebe/Family-Reminders-App) | [link](https://trello.com/b/qERbcW9p/project-4) |  |
-| ATX | Emily M. | My Kitchen | [link](https://github.com/efm0004/mykitchen) | [link](https://trello.com/b/rPAKVynp/unit-4-project) |  |
-| ATX | Frances | Visualist | [link](https://github.com/fcancio/Visualist-MERN) | [link](https://trello.com/b/NwinFdpS/visualist) |  |
+| ATX | Emily M. | My Kitchen | [link](https://github.com/efm0004/mykitchen) | [link](https://trello.com/b/rPAKVynp/unit-4-project) | [link](https://myreactkitchen.herokuapp.com/) |
+| ATX | Frances | Visualist | [link](https://github.com/fcancio/Visualist-MERN) | [link](https://trello.com/b/NwinFdpS/visualist) | [list](https://visua-list.herokuapp.com/) |
 | ATX | Heather | Planni | [link](https://github.com/MetaHeather/planni) | [link](https://trello.com/b/sv52IfVC/project-4) | [link](https://planni-hne.herokuapp.com/) |
 | ATX | Jared | Notion | [link](https://github.com/jrodriguez082046/notion-react) | [link](https://trello.com/b/u2iOmXUR/unit-4-project-notion) |  |
 | ATX | Jeremiah | Quiet Time | [link](https://github.com/JMHGZ/quiet-time) | [link](https://trello.com/b/i7CFQ1BD/project-4) |  |
 | ATX | Lily, Vittoria | Mood Mountain | [link](https://github.com/lilymbest/MoodMountain) | [link](https://trello.com/b/MtRJppKw/moodtracker) | [link](https://moodmountain.herokuapp.com/) |
-| ATX | Nova | Stay | [link](https://github.com/nhasley/Stay-React-NodeJS) | [link](https://trello.com/b/89OHVs6a/project-4) |  |
+| ATX | Nova | Stay | [link](https://github.com/nhasley/Stay-React-NodeJS) | [link](https://trello.com/b/89OHVs6a/project-4) | [link](https://stayreact.herokuapp.com/login) |
 | ATX | Robin | Triage Me | [link](https://github.com/robified/triage-me) | [link](https://trello.com/b/7Zi0Jx0e/unit-4-project-triageme) |  |
 | ATX | Taylor |  | [link](https://github.com/tlacerte/Restaurant-Website) | [link](https://trello.com/b/IT5wCv90/project-4) |  |
 | DAL | Andrew | Cookbook React - Herbaldashery |[link](https://github.com/atheismann/herbaldashery-cookbook)| [link](https://trello.com/b/JRagqZE3/p4-cookbook-react)| [link](https://herbaldashery-cookbook.herokuapp.com/)|
