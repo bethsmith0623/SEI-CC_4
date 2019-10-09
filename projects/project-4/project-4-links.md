@@ -19,7 +19,7 @@
 | ATX | Jeremiah | Quiet Time | [link](https://github.com/JMHGZ/quiet-time) | [link](https://trello.com/b/i7CFQ1BD/project-4) |  |
 | ATX | Lily, Vittoria | Mood Mountain | [link](https://github.com/lilymbest/MoodMountain) | [link](https://trello.com/b/MtRJppKw/moodtracker) | [link](https://moodmountain.herokuapp.com/) |
 | ATX | Nova | Stay | [link](https://github.com/nhasley/Stay-React-NodeJS) | [link](https://trello.com/b/89OHVs6a/project-4) | [link](https://stayreact.herokuapp.com/login) |
-| ATX | Taylor |  | [link](https://github.com/tlacerte/Restaurant-Website) | [link](https://trello.com/b/IT5wCv90/project-4) |  |
+| ATX | Taylor |  | [link](https://github.com/tlacerte/Restaurant-Website) | [link](https://trello.com/b/IT5wCv90/project-4) | [link](https://day-old-pizza.herokuapp.com/) |
 | DAL | Andrew | Cookbook React - Herbaldashery |[link](https://github.com/atheismann/herbaldashery-cookbook)| [link](https://trello.com/b/JRagqZE3/p4-cookbook-react)| [link](https://herbaldashery-cookbook.herokuapp.com/)|
 | DAL | Armando | Poki'Battle |[link](https://github.com/Drag49487Jr/Poki-Battle)|[link](https://trello.com/b/nbFwi2ll/project-4mern-stack)|[link](https://pokibattle.herokuapp.com/)|
 | DAL | Dan | Venues |[link](https://github.com/dc3430/Venues)|[link](https://trello.com/b/foPvTfB7/venues)| [link](https://venues29.herokuapp.com/)|
