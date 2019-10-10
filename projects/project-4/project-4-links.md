@@ -58,7 +58,7 @@
 | SF | Ny Antsa | BookStore | [link](https://github.com/NyAntsaR/BookStore) | [link](https://trello.com/b/M8N2tnfa/bookstore) |  |
 | SF | Preston | CritEats | [link](https://github.com/prestonhom/CritEats) |  |  |
 | SF | Samantha |  |  |  |  |
-| SF | Sonnia | Big Spendah | [link]() | [link](https://trello.com/b/IYsEtoVl/project4-capstone-hey-big-spendah) | [link](https://github.com/brownbugz/p4-big-spendah) |
+| SF | Sonnia | Big Spendah | [link](https://github.com/brownbugz/p4-big-spendah) | [link](https://trello.com/b/IYsEtoVl/project4-capstone-hey-big-spendah) |  |
 | SF | Sorrel | Browser Go Redux | [Server link](https://github.com/sorrelbri/browser-go-api)<br>[Client link](https://github.com/sorrelbri/browser-go-react) | [link](https://trello.com/b/1AeJJ5PK/browser-go-redux) |  |
 | SF | Tyler |  |  |  |  |
 | SF | Wenjie |  |  |  |  |
