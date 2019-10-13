@@ -52,7 +52,7 @@
 | SF | Greg R. |  |  |  |  |
 | SF | Jon |  |  |  |  |
 | SF | Joshua |  |  |  |  |
-| SF | Loquen | Sit | [link](https://github.com/Loquen/sit) | [link](https://trello.com/b/ewloRYfv/sit-capstone-project) |  |
+| SF | Loquen | Sit | [link](https://github.com/Loquen/sit) | [link](https://trello.com/b/ewloRYfv/sit-capstone-project) | [link](http://sit-lrj.herokuapp.com/) |
 | SF | Matthew |  | [link](https://github.com/mrobin88/mtg-pile) |  |  |
 | SF | Michael |  |  |  |  |
 | SF | Ny Antsa | BookStore | [link](https://github.com/NyAntsaR/BookStore) | [link](https://trello.com/b/M8N2tnfa/bookstore) |  |
