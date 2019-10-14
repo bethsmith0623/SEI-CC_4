@@ -32,7 +32,7 @@
 | DAL | Ruben |Khas |[link](https://github.com/rcaceres1/khas)|[link](https://trello.com/b/FXHeJjML/khas)|[link](https://khas-app.herokuapp.com/)|
 | DAL | Ryan | Chirper | [link](https://github.com/RyanPGeorge/chirper)|[link](https://trello.com/b/iQjnl53i/project-4)|[link](https://warm-cove-62385.herokuapp.com/)|
 | DAL | Sam | Mustang Rentals | [link](https://github.com/samiduara/Mustangs-Rentals)|[link](https://trello.com/b/QhedZESk/mustang-rentals)| [link](https://mustang-rentals.herokuapp.com/)|
-| LA | Dan | S & S Farms | [link](https://github.com/seagrendaniel/S-S-Farms) | [link](https://trello.com/b/RrrIsnCn/ss-farms-full-mern-stack-website) |  |
+| LA | Dan | S & S Farms | [link](https://github.com/seagrendaniel/S-S-Farms) | [link](https://trello.com/b/RrrIsnCn/ss-farms-full-mern-stack-website) | [link](https://s-s-farms.herokuapp.com) |
 | LA | Dave | Dating App | [link](https://github.com/davekoncsol/dating-app) | [link](https://trello.com/b/qkGe1Y1a/dating-app) | [link](https://react-dating-app.herokuapp.com/) |
 | LA | Leo | Expense Tracker | [link](https://github.com/leonelRos/react-expenses-tracker) | [link](https://trello.com/b/HXFTLouQ/expenses-tracker) |  |
 | LA | Marques | PLAYYOURROLE | [link](https://github.com/Mjsmith30/PLAYYOURROLE) |  |  |
