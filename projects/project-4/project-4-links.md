@@ -39,12 +39,12 @@
 | LA | Nick | ur car remote | [link](https://github.com/nbai123/ur-car-remote) | [link](https://trello.com/b/cH8RnkU2/project-4) |  |
 | LA | Muhammed | News | [link](https://github.com/qadanm/news) | [link](https://trello.com/b/zFotVVBA/news) |  |
 | LA | Perice | Band Sandbox / DRUM | [link](https://github.com/perice-pope/band-sandbox) | [link](https://trello.com/b/dKWghBAz/band-sandbox-drum) | [link](https://band-sandbox.herokuapp.com/) |
-| LA | Tim |  |  | [link](https://trello.com/b/rJ98DDss/actors-acting) |  |
+| LA | Tim | Line Memory | [link](https://github.com/TimCross1994/Line-Memory) | [link](https://trello.com/b/rJ98DDss/actors-acting) | [link](https://line-memory.herokuapp.com/) |
 | LA | Victor | HMU | [link](https://github.com/TimeForZeros/hmu-react-app) | [link](https://trello.com/b/r5Z7HiCh/hmu-react-project) |  [link](http://hitmeupfam.herokuapp.com/)|
 | SF | Aly |  |  |  |  |
-| SF | Anami |  |  |  |  |
+| SF | Anami | Smart Face |  |  | [link](https://smart-face-id-frontend.herokuapp.com/) |
 | SF | Braxton |  |  |  |  |
-| SF | Carol | Dream Job Journey | [link](https://github.com/carolsand/dreamjobjourney) | [link](https://trello.com/b/MFY1yOJn/dreamjobjourney) |  |
+| SF | Carol | Dream Job Journey | [link](https://github.com/carolsand/dreamjobjourney) | [link](https://trello.com/b/MFY1yOJn/dreamjobjourney) | [link](https://dreamjobjourney.herokuapp.com/) |
 | SF | CJ |  |  |  |  |
 | SF | Chi | DTR | [link](https://github.com/Chi37/dtr) | [link](https://trello.com/b/bDsqurUy/dtr) |  |
 | SF | Emily |  |  |  |  |
