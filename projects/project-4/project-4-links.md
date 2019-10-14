@@ -34,7 +34,7 @@
 | DAL | Sam | Mustang Rentals | [link](https://github.com/samiduara/Mustangs-Rentals)|[link](https://trello.com/b/QhedZESk/mustang-rentals)| [link](https://mustang-rentals.herokuapp.com/)|
 | LA | Dan | S & S Farms | [link](https://github.com/seagrendaniel/S-S-Farms) | [link](https://trello.com/b/RrrIsnCn/ss-farms-full-mern-stack-website) | [link](https://s-s-farms.herokuapp.com) |
 | LA | Dave | Dating App | [link](https://github.com/davekoncsol/dating-app) | [link](https://trello.com/b/qkGe1Y1a/dating-app) | [link](https://react-dating-app.herokuapp.com/) |
-| LA | Leo | Expense Tracker | [link](https://github.com/leonelRos/react-expenses-tracker) | [link](https://trello.com/b/HXFTLouQ/expenses-tracker) |  |
+| LA | Leo | Expense Tracker | [link](https://github.com/leonelRos/react-expenses-tracker) | [link](https://trello.com/b/HXFTLouQ/expenses-tracker) | [link](https://single-expense-tracker.herokuapp.com/) |
 | LA | Marques | PLAYYOURROLE | [link](https://github.com/Mjsmith30/PLAYYOURROLE) | [link](https://trello.com/b/IJJxKOvn/project-4) | [link](https://playyourrole.herokuapp.com/) |
 | LA | Nick | ur car remote | [link](https://github.com/nbai123/ur-car-remote) | [link](https://trello.com/b/cH8RnkU2/project-4) |  |
 | LA | Muhammed | News | [link](https://github.com/qadanm/news) | [link](https://trello.com/b/zFotVVBA/news) |  |
