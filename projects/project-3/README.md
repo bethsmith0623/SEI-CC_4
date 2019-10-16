@@ -196,6 +196,8 @@ You will have approximately 15 minutes to present your project following these g
 
 After all presentations are complete, you will be assigned a Project 3 Assessment.
 
+Passing the project assessment is a requirement of the project itself.
+
 The goal of this project's assessment will be to gauge your ability to develop a minimal full-stack Django application that:
 
 - Renders a list of items.
@@ -206,6 +208,5 @@ You will work on the assessment individually, however, the assessment is "open b
 
 The Project 3 Assessment will begin shortly after project presentations.  It is anticipated that it will take 60 minutes to complete. However, you will have up to 3 hours to complete the assessment.
 
-You will be required to pass 3 of the 4 Project Assessments administered during the course in order to graduate.
 
 

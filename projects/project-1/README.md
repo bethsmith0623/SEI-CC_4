@@ -156,6 +156,8 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 After all presentations are complete, you will be assigned a Project 1 Assessment.
 
+Passing the project assessment is a requirement of the project itself.
+
 The goal of the assessment is to gauge your ability to develop a **minimal** front-end web application using HTML, CSS & JavaScript, including your ability to:
 
 - Write HTML that provides the app's overall structure and content. 
@@ -170,5 +172,4 @@ You will work on the assessment individually, however, the challenge is "open bo
 
 It is anticipated that it will take 30 - 60 minutes to complete. However, you will have up to 3 hours to complete the assessment.
 
-You will be required to pass 3 of the 4 Project Assessments administered during the course in order to graduate.
 

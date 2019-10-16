@@ -138,6 +138,10 @@ Following your presentation, there will be a brief Q & A period and optional ins
 
 ## Project 4 Assessment
 
+After all presentations are complete, you will be assigned a Project 4 Assessment.
+
+Passing the project assessment is a requirement of the project itself.
+
 The goal of Project 4's assessment will be to gauge your ability to develop a minimal React application that renders user-defined components and reacts to some basic user interaction.
 
 The assessment will not require using a database or routing.
