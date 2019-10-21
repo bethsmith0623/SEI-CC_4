@@ -195,6 +195,8 @@ Another piece of advice:  If you choose to develop an app that has the concept o
 
 After all presentations are complete, you will be assigned a Project 2 Assessment.
 
+Passing the project assessment is a requirement of the project itself.
+
 The goal of the project assessment is to gauge your ability to develop a **minimal** full-stack web application using the Express framework, including your ability to:
 
 - Define a model
@@ -205,8 +207,6 @@ The goal of the project assessment is to gauge your ability to develop a **minim
 You will work on the assessment individually, however, the assessment is "open book", so you will have access to all notes, code, lessons, google, etc.
 
 The Project 2 Assessment will begin shortly after project presentations.  It is anticipated that it will take 30 - 60 minutes to complete. However, you will have up to 3 hours to complete the assessment.
-
-You will be required to pass 3 of the 4 Project Assessments administered during the course in order to graduate.
 
 ---
 
